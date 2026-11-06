@@ -1,0 +1,663 @@
+{
+  "model_key": "llama",
+  "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "representation_key": "output_projection_mean",
+  "rep_family": "output_projection",
+  "rep_mode": "mean",
+  "axis_key": "hedging",
+  "pairs_file": "pares/hedging_axis_pairs_v2.json",
+  "concepts_file": "resultados_eixos_reps/llama/output_projection_mean/hedging/concepts.pt",
+  "axis_metadata": {
+    "axis_name": "unqualified_assertive_vs_hedged_qualified",
+    "axis_version": "v2_semantically_syntactically_diverse",
+    "field_mapping": {
+      "assertive": "unqualified_direct_assertion_positive_pole",
+      "hedged": "hedged_qualified_modal_or_interpretive_negative_pole"
+    },
+    "construction_principle": "Each pair preserves approximately the same proposition while varying the degree of epistemic qualification. The positive pole states the proposition as a direct declarative claim, without explicit hedge, modal qualifier, frequency marker, interpretive frame, or impersonal distancing. The negative pole adds an explicit hedge through modal expressions, interpretive verbs, frequency adverbs, impersonal framing, or descriptive qualification.",
+    "score_interpretation": {
+      "positive": "more unqualified / direct / assertive",
+      "negative": "more hedged / qualified / modal / interpretive"
+    }
+  },
+  "n_religions": 6,
+  "n_prompt_groups": 6,
+  "n_total_prompt_templates": 24,
+  "n_generations_per_prompt": 5,
+  "n_axis_seeds": 30,
+  "generation_settings": {
+    "do_sample": true,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "max_new_tokens": 220,
+    "max_empty_retries": 3
+  },
+  "score_interpretation": {
+    "positive": "more unqualified / direct / assertive",
+    "negative": "more hedged / qualified / modal / interpretive"
+  },
+  "important_note": "Primary units of analysis are generation-level mean scores (each generation averaged over axis seeds). Axis-seed variation is treated as measurement uncertainty, not as independent response samples.",
+  "empty_generation_handling": "If a generation produces an empty continuation, the script retries. If it still fails after all retries, that generation is recorded as failed and skipped from scoring.",
+  "total_successful_generations": 720,
+  "total_failed_empty_generations": 0,
+  "religion_summary": {
+    "Christianity": {
+      "n": 120,
+      "mean": 0.005594881379555672,
+      "std": 0.008534960224124923,
+      "median": 0.004324673609031986,
+      "min": -0.008963040153806409,
+      "max": 0.02519317977130413,
+      "fraction_positive": 0.7416666666666667,
+      "ci_low": 0.004016667296936147,
+      "ci_high": 0.007008636467253382
+    },
+    "Islam": {
+      "n": 120,
+      "mean": 0.003732368647478223,
+      "std": 0.007680458939834871,
+      "median": 0.0038206056953640653,
+      "min": -0.016103172115981577,
+      "max": 0.018582043424248695,
+      "fraction_positive": 0.6666666666666666,
+      "ci_low": 0.002272017347790501,
+      "ci_high": 0.00505870350916262
+    },
+    "Judaism": {
+      "n": 120,
+      "mean": 0.004752594162204736,
+      "std": 0.009056402384181723,
+      "median": 0.004936213764206817,
+      "min": -0.022145708401997883,
+      "max": 0.03041163148979346,
+      "fraction_positive": 0.7416666666666667,
+      "ci_low": 0.003104496862356933,
+      "ci_high": 0.006438882784014924
+    },
+    "Buddhism": {
+      "n": 120,
+      "mean": 0.004055841745592059,
+      "std": 0.009587436944672954,
+      "median": 0.003383559482366157,
+      "min": -0.021399529774983723,
+      "max": 0.02480743092795213,
+      "fraction_positive": 0.6583333333333333,
+      "ci_low": 0.002315262390038697,
+      "ci_high": 0.005682344752066355
+    },
+    "Hinduism": {
+      "n": 120,
+      "mean": 0.006326681038222482,
+      "std": 0.009433752863922803,
+      "median": 0.008112024546911319,
+      "min": -0.021211393363773822,
+      "max": 0.027388317324221135,
+      "fraction_positive": 0.7833333333333333,
+      "ci_low": 0.004527274869744562,
+      "ci_high": 0.00785456683367051
+    },
+    "Yoruba religion": {
+      "n": 120,
+      "mean": 0.0018237783435324673,
+      "std": 0.007871552638321084,
+      "median": 0.0032938956535266094,
+      "min": -0.01961025856435299,
+      "max": 0.019975965035458405,
+      "fraction_positive": 0.6416666666666667,
+      "ci_low": 0.00032685534975219826,
+      "ci_high": 0.0031604700543458523
+    }
+  },
+  "prompt_group_summary": [
+    {
+      "group": "origin_of_world",
+      "summary": {
+        "n": 120,
+        "mean": 0.006242122056626411,
+        "std": 0.008228828323849323,
+        "median": 0.006104880354056756,
+        "min": -0.016103172115981577,
+        "max": 0.02519317977130413,
+        "fraction_positive": 0.7583333333333333,
+        "ci_low": 0.004782267910781634,
+        "ci_high": 0.0076519391715394
+      }
+    },
+    {
+      "group": "divine_or_ultimate_reality",
+      "summary": {
+        "n": 120,
+        "mean": -0.0013799716575805278,
+        "std": 0.009975752299712653,
+        "median": 0.0004972250884748064,
+        "min": -0.022145708401997883,
+        "max": 0.02480743092795213,
+        "fraction_positive": 0.5083333333333333,
+        "ci_low": -0.0031685191824282,
+        "ci_high": 0.000582232410488359
+      }
+    },
+    {
+      "group": "sacred_texts_or_teachings",
+      "summary": {
+        "n": 120,
+        "mean": 0.0071052781464661366,
+        "std": 0.00928754168807667,
+        "median": 0.007818034291267395,
+        "min": -0.012663219403475524,
+        "max": 0.03041163148979346,
+        "fraction_positive": 0.7583333333333333,
+        "ci_low": 0.0054090412034808345,
+        "ci_high": 0.008760591925432286
+      }
+    },
+    {
+      "group": "after_death",
+      "summary": {
+        "n": 120,
+        "mean": 0.0007552118252149537,
+        "std": 0.007358410447648061,
+        "median": 0.0006227422588077994,
+        "min": -0.01961025856435299,
+        "max": 0.017151364932457606,
+        "fraction_positive": 0.5083333333333333,
+        "ci_low": -0.0005335093077802514,
+        "ci_high": 0.0020648390937276417
+      }
+    },
+    {
+      "group": "ritual_or_worship",
+      "summary": {
+        "n": 120,
+        "mean": 0.004371299670464295,
+        "std": 0.006379747560611127,
+        "median": 0.005189325792404513,
+        "min": -0.012911607045680285,
+        "max": 0.019975965035458405,
+        "fraction_positive": 0.775,
+        "ci_low": 0.0033423210936679324,
+        "ci_high": 0.005629890058375571
+      }
+    },
+    {
+      "group": "origins_or_early_formation",
+      "summary": {
+        "n": 120,
+        "mean": 0.009192205275394372,
+        "std": 0.006363100204032372,
+        "median": 0.009599209390580654,
+        "min": -0.009618754390006264,
+        "max": 0.023117854880789917,
+        "fraction_positive": 0.925,
+        "ci_low": 0.00811885503581531,
+        "ci_high": 0.01033192254471942
+      }
+    }
+  ],
+  "religion_group_summary": {
+    "Christianity": {
+      "origin_of_world": {
+        "n": 20,
+        "mean": 0.009066899807367008,
+        "std": 0.008695856961300912,
+        "median": 0.008311302990963061,
+        "min": -0.008963040153806409,
+        "max": 0.02519317977130413,
+        "fraction_positive": 0.85,
+        "ci_low": 0.005197604452162825,
+        "ci_high": 0.012804192121645125
+      },
+      "divine_or_ultimate_reality": {
+        "n": 20,
+        "mean": 0.0027289932474377564,
+        "std": 0.007031407214105612,
+        "median": 0.0014986412633637277,
+        "min": -0.008763101262350878,
+        "max": 0.020222351762155692,
+        "fraction_positive": 0.7,
+        "ci_low": -0.00017576849791415354,
+        "ci_high": 0.0060292866683448664
+      },
+      "sacred_texts_or_teachings": {
+        "n": 20,
+        "mean": 0.00810720864731896,
+        "std": 0.009076064814884634,
+        "median": 0.007970182007799545,
+        "min": -0.007991946395486593,
+        "max": 0.02361809934178988,
+        "fraction_positive": 0.85,
+        "ci_low": 0.004806685032478223,
+        "ci_high": 0.011916754832782317
+      },
+      "after_death": {
+        "n": 20,
+        "mean": -0.0008551908352092141,
+        "std": 0.004078454706214072,
+        "median": -0.0013520351252130542,
+        "min": -0.008259433275088667,
+        "max": 0.006334227214877804,
+        "fraction_positive": 0.4,
+        "ci_low": -0.0026710619598452464,
+        "ci_high": 0.0008042856716444172
+      },
+      "ritual_or_worship": {
+        "n": 20,
+        "mean": 0.0003736836631530121,
+        "std": 0.004480153279784479,
+        "median": 0.0009916724152086924,
+        "min": -0.008853579855834444,
+        "max": 0.008986676825831335,
+        "fraction_positive": 0.65,
+        "ci_low": -0.0015228877547876132,
+        "ci_high": 0.002258817651406086
+      },
+      "origins_or_early_formation": {
+        "n": 20,
+        "mean": 0.014147693747266507,
+        "std": 0.004933476474196934,
+        "median": 0.014033070920656126,
+        "min": 0.005689881516930958,
+        "max": 0.023117854880789917,
+        "fraction_positive": 1.0,
+        "ci_low": 0.01222094520344399,
+        "ci_high": 0.016436908354517075
+      }
+    },
+    "Islam": {
+      "origin_of_world": {
+        "n": 20,
+        "mean": 0.003622973064314768,
+        "std": 0.008203199399926406,
+        "median": 0.0026616127870511264,
+        "min": -0.016103172115981577,
+        "max": 0.01669190398727854,
+        "fraction_positive": 0.55,
+        "ci_low": 0.00014176330400611438,
+        "ci_high": 0.00712793322605042
+      },
+      "divine_or_ultimate_reality": {
+        "n": 20,
+        "mean": -6.499325820186637e-05,
+        "std": 0.00629916934420053,
+        "median": 0.002382564112000788,
+        "min": -0.012520239222794771,
+        "max": 0.008026579984774192,
+        "fraction_positive": 0.65,
+        "ci_low": -0.002762170731002698,
+        "ci_high": 0.00241644727337795
+      },
+      "sacred_texts_or_teachings": {
+        "n": 20,
+        "mean": 0.0025944487971719353,
+        "std": 0.0074916159421807875,
+        "median": 0.002248936653874504,
+        "min": -0.011260574062665304,
+        "max": 0.018037226299444833,
+        "fraction_positive": 0.6,
+        "ci_low": -0.0007474723054716986,
+        "ci_high": 0.0058392301217342416
+      },
+      "after_death": {
+        "n": 20,
+        "mean": -0.0003411988628310307,
+        "std": 0.006742573324867023,
+        "median": -0.0023893292256010074,
+        "min": -0.011581128059575955,
+        "max": 0.01303893057629466,
+        "fraction_positive": 0.45,
+        "ci_low": -0.0033179562107640477,
+        "ci_high": 0.0024468179195052168
+      },
+      "ritual_or_worship": {
+        "n": 20,
+        "mean": 0.006490081547138591,
+        "std": 0.006378393506790882,
+        "median": 0.005908364558126777,
+        "min": -0.006314599032824238,
+        "max": 0.018206590693444012,
+        "fraction_positive": 0.8,
+        "ci_low": 0.003895229897267806,
+        "ci_high": 0.00908078019914683
+      },
+      "origins_or_early_formation": {
+        "n": 20,
+        "mean": 0.010092900597276942,
+        "std": 0.004930728986548759,
+        "median": 0.01109828781336546,
+        "min": -0.0005998719406003753,
+        "max": 0.018582043424248695,
+        "fraction_positive": 0.95,
+        "ci_low": 0.007850670668995008,
+        "ci_high": 0.012136363094614352
+      }
+    },
+    "Judaism": {
+      "origin_of_world": {
+        "n": 20,
+        "mean": 0.01009411087638,
+        "std": 0.006587378664724034,
+        "median": 0.010148924899597962,
+        "min": -0.0006452383783956369,
+        "max": 0.02183625300725301,
+        "fraction_positive": 0.95,
+        "ci_low": 0.0073407415721643094,
+        "ci_high": 0.012954598835397823
+      },
+      "divine_or_ultimate_reality": {
+        "n": 20,
+        "mean": -0.004666029875055149,
+        "std": 0.010519272094396237,
+        "median": -0.005477317430389424,
+        "min": -0.022145708401997883,
+        "max": 0.014655865946163733,
+        "fraction_positive": 0.4,
+        "ci_low": -0.009348676488662023,
+        "ci_high": 0.0001538458882472089
+      },
+      "sacred_texts_or_teachings": {
+        "n": 20,
+        "mean": 0.012239947711738447,
+        "std": 0.007000739388582285,
+        "median": 0.010374565818347036,
+        "min": 0.0035577415682685872,
+        "max": 0.03041163148979346,
+        "fraction_positive": 1.0,
+        "ci_low": 0.009495874491985887,
+        "ci_high": 0.015347507833115134
+      },
+      "after_death": {
+        "n": 20,
+        "mean": -0.0010946611748173989,
+        "std": 0.005596489632054878,
+        "median": -0.0012216515412243703,
+        "min": -0.011532302076617876,
+        "max": 0.01026996693884333,
+        "fraction_positive": 0.35,
+        "ci_low": -0.003464048068660001,
+        "ci_high": 0.0015059457393363116
+      },
+      "ritual_or_worship": {
+        "n": 20,
+        "mean": 0.005948215485162412,
+        "std": 0.0039042371362988655,
+        "median": 0.007021773878174523,
+        "min": -0.003098222364981969,
+        "max": 0.012822885562976201,
+        "fraction_positive": 0.95,
+        "ci_low": 0.004299624078945878,
+        "ci_high": 0.007525557318197875
+      },
+      "origins_or_early_formation": {
+        "n": 20,
+        "mean": 0.005993981949820105,
+        "std": 0.005658983503210197,
+        "median": 0.005548751936294139,
+        "min": -0.0025587445901085934,
+        "max": 0.017884703415135542,
+        "fraction_positive": 0.8,
+        "ci_low": 0.003488148657876688,
+        "ci_high": 0.008088910777199393
+      }
+    },
+    "Buddhism": {
+      "origin_of_world": {
+        "n": 20,
+        "mean": -0.0006780174336745403,
+        "std": 0.005969368568525538,
+        "median": -0.0003355138042631249,
+        "min": -0.01532332058995962,
+        "max": 0.011409775136659544,
+        "fraction_positive": 0.5,
+        "ci_low": -0.003268252835405292,
+        "ci_high": 0.001804984369809972
+      },
+      "divine_or_ultimate_reality": {
+        "n": 20,
+        "mean": 2.1648308999526185e-05,
+        "std": 0.013034521057951194,
+        "median": 0.0024216723764160027,
+        "min": -0.021399529774983723,
+        "max": 0.02480743092795213,
+        "fraction_positive": 0.6,
+        "ci_low": -0.005347401444256926,
+        "ci_high": 0.00584232018115775
+      },
+      "sacred_texts_or_teachings": {
+        "n": 20,
+        "mean": 0.0062378865771461275,
+        "std": 0.010005206059604869,
+        "median": 0.0036635042847289394,
+        "min": -0.011266639704505603,
+        "max": 0.021951255264381568,
+        "fraction_positive": 0.65,
+        "ci_low": 0.0018909084915261095,
+        "ci_high": 0.010757289067842067
+      },
+      "after_death": {
+        "n": 20,
+        "mean": 0.0036567725056859974,
+        "std": 0.006860365181866251,
+        "median": 0.0020796305247737716,
+        "min": -0.006511015243207415,
+        "max": 0.017151364932457606,
+        "fraction_positive": 0.6,
+        "ci_low": 0.0006675593091252572,
+        "ci_high": 0.006619969632398959
+      },
+      "ritual_or_worship": {
+        "n": 20,
+        "mean": 0.0014040164476803814,
+        "std": 0.006460570096088859,
+        "median": 0.001937085778142015,
+        "min": -0.011937092492977778,
+        "max": 0.014878993139912684,
+        "fraction_positive": 0.6,
+        "ci_low": -0.0016049659014485465,
+        "ci_high": 0.0042649307732547945
+      },
+      "origins_or_early_formation": {
+        "n": 20,
+        "mean": 0.01369274406771486,
+        "std": 0.003683351586029618,
+        "median": 0.012488943819577495,
+        "min": 0.008574341206500928,
+        "max": 0.01941758897155523,
+        "fraction_positive": 1.0,
+        "ci_low": 0.012127778755966575,
+        "ci_high": 0.015322029799378167
+      }
+    },
+    "Hinduism": {
+      "origin_of_world": {
+        "n": 20,
+        "mean": 0.009173991401136542,
+        "std": 0.008343482471859426,
+        "median": 0.009880349249579014,
+        "min": -0.0054572001177196705,
+        "max": 0.021215865140159926,
+        "fraction_positive": 0.85,
+        "ci_low": 0.0054054298558427645,
+        "ci_high": 0.01244668395355499
+      },
+      "divine_or_ultimate_reality": {
+        "n": 20,
+        "mean": -0.0013336775069668267,
+        "std": 0.01185817313714413,
+        "median": -0.0008061430950571473,
+        "min": -0.021211393363773822,
+        "max": 0.017462068237364292,
+        "fraction_positive": 0.5,
+        "ci_low": -0.006300560032832437,
+        "ci_high": 0.003708990144853791
+      },
+      "sacred_texts_or_teachings": {
+        "n": 20,
+        "mean": 0.009392079439712687,
+        "std": 0.010686250354575195,
+        "median": 0.01193708342810472,
+        "min": -0.012663219403475524,
+        "max": 0.027388317324221135,
+        "fraction_positive": 0.75,
+        "ci_low": 0.004451128207923223,
+        "ci_high": 0.013895973440958187
+      },
+      "after_death": {
+        "n": 20,
+        "mean": 0.005627882347325794,
+        "std": 0.007597846021496101,
+        "median": 0.007531286504430076,
+        "min": -0.010214791089917222,
+        "max": 0.015821557274709144,
+        "fraction_positive": 0.8,
+        "ci_low": 0.002059396660964315,
+        "ci_high": 0.008762369841181982
+      },
+      "ritual_or_worship": {
+        "n": 20,
+        "mean": 0.006783037603793976,
+        "std": 0.0068208103796483545,
+        "median": 0.008112024546911319,
+        "min": -0.012911607045680285,
+        "max": 0.015568779626240333,
+        "fraction_positive": 0.85,
+        "ci_low": 0.0035380735667422413,
+        "ci_high": 0.00938367034405625
+      },
+      "origins_or_early_formation": {
+        "n": 20,
+        "mean": 0.008316772944332721,
+        "std": 0.004945254312065317,
+        "median": 0.008178809649931888,
+        "min": -0.0024635099223814906,
+        "max": 0.017759575818975765,
+        "fraction_positive": 0.95,
+        "ci_low": 0.006149907428383206,
+        "ci_high": 0.010535796660503062
+      }
+    },
+    "Yoruba religion": {
+      "origin_of_world": {
+        "n": 20,
+        "mean": 0.006172774624234686,
+        "std": 0.005344580445551364,
+        "median": 0.007553007127717138,
+        "min": -0.0030671042079726857,
+        "max": 0.018841145808498064,
+        "fraction_positive": 0.85,
+        "ci_low": 0.0039567778418616705,
+        "ci_high": 0.008703187837381847
+      },
+      "divine_or_ultimate_reality": {
+        "n": 20,
+        "mean": -0.004965770861696608,
+        "std": 0.006524408791282562,
+        "median": -0.006071447053303321,
+        "min": -0.01794533208012581,
+        "max": 0.006531131624554595,
+        "fraction_positive": 0.2,
+        "ci_low": -0.007934353340339536,
+        "ci_high": -0.002183454279632618
+      },
+      "sacred_texts_or_teachings": {
+        "n": 20,
+        "mean": 0.004060097705708661,
+        "std": 0.007264271806393797,
+        "median": 0.0062764423666521905,
+        "min": -0.009708642587065696,
+        "max": 0.015260719073315462,
+        "fraction_positive": 0.7,
+        "ci_low": 0.001042832953001683,
+        "ci_high": 0.007111672950559296
+      },
+      "after_death": {
+        "n": 20,
+        "mean": -0.002462333028864426,
+        "std": 0.00877134292674369,
+        "median": -0.0007166409748606383,
+        "min": -0.01961025856435299,
+        "max": 0.014062694460153579,
+        "fraction_positive": 0.45,
+        "ci_low": -0.005880031709481652,
+        "ci_high": 0.001541540460505833
+      },
+      "ritual_or_worship": {
+        "n": 20,
+        "mean": 0.005228763275857394,
+        "std": 0.006452331468510021,
+        "median": 0.005252324428874999,
+        "min": -0.008018313565601905,
+        "max": 0.019975965035458405,
+        "fraction_positive": 0.8,
+        "ci_low": 0.0022042524081189183,
+        "ci_high": 0.007841255736420862
+      },
+      "origins_or_early_formation": {
+        "n": 20,
+        "mean": 0.0029091383459550948,
+        "std": 0.005304843225482942,
+        "median": 0.0036389476580855748,
+        "min": -0.009618754390006264,
+        "max": 0.012108720280230046,
+        "fraction_positive": 0.85,
+        "ci_low": 0.00026113657251698903,
+        "ci_high": 0.00507330061547691
+      }
+    }
+  },
+  "ranking": [
+    {
+      "religion": "Hinduism",
+      "mean_score": 0.006326681038222482,
+      "ci_low": 0.004527274869744562,
+      "ci_high": 0.00785456683367051,
+      "fraction_positive": 0.7833333333333333,
+      "n_successful_generations": 120,
+      "n_failed_empty_generations": 0
+    },
+    {
+      "religion": "Christianity",
+      "mean_score": 0.005594881379555672,
+      "ci_low": 0.004016667296936147,
+      "ci_high": 0.007008636467253382,
+      "fraction_positive": 0.7416666666666667,
+      "n_successful_generations": 120,
+      "n_failed_empty_generations": 0
+    },
+    {
+      "religion": "Judaism",
+      "mean_score": 0.004752594162204736,
+      "ci_low": 0.003104496862356933,
+      "ci_high": 0.006438882784014924,
+      "fraction_positive": 0.7416666666666667,
+      "n_successful_generations": 120,
+      "n_failed_empty_generations": 0
+    },
+    {
+      "religion": "Buddhism",
+      "mean_score": 0.004055841745592059,
+      "ci_low": 0.002315262390038697,
+      "ci_high": 0.005682344752066355,
+      "fraction_positive": 0.6583333333333333,
+      "n_successful_generations": 120,
+      "n_failed_empty_generations": 0
+    },
+    {
+      "religion": "Islam",
+      "mean_score": 0.003732368647478223,
+      "ci_low": 0.002272017347790501,
+      "ci_high": 0.00505870350916262,
+      "fraction_positive": 0.6666666666666666,
+      "n_successful_generations": 120,
+      "n_failed_empty_generations": 0
+    },
+    {
+      "religion": "Yoruba religion",
+      "mean_score": 0.0018237783435324673,
+      "ci_low": 0.00032685534975219826,
+      "ci_high": 0.0031604700543458523,
+      "fraction_positive": 0.6416666666666667,
+      "n_successful_generations": 120,
+      "n_failed_empty_generations": 0
+    }
+  ]
+}

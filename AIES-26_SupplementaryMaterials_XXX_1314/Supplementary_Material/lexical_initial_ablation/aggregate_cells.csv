@@ -1,0 +1,610 @@
+religion,n,mean_orig,mean_ablated,delta,same_sign,model,axis,level,prompt_group
+Buddhism,48,-69.73120053211848,-73.72215859095256,-3.9909580588340763,1,qwen,assertive_commitment,religion,
+Christianity,65,-83.60360328674317,-86.29286534236027,-2.689262055617112,1,qwen,assertive_commitment,religion,
+Hinduism,63,-71.05488541618226,-72.98492643568251,-1.9300410195002482,1,qwen,assertive_commitment,religion,
+Islam,80,-79.59508788267772,-79.75778183937072,-0.1626939566930136,1,qwen,assertive_commitment,religion,
+Judaism,70,-79.27989017486571,-80.7488661629813,-1.4689759881155837,1,qwen,assertive_commitment,religion,
+Yoruba religion,88,-69.11314872394908,-70.10692234472795,-0.9937736207788642,1,qwen,assertive_commitment,religion,
+,100,-77.59261761220297,-77.73581493377685,-0.1431973215738934,1,qwen,assertive_commitment,prompt_group,after_death
+,73,-73.8961539682188,-74.81606705548012,-0.919913087261322,1,qwen,assertive_commitment,prompt_group,divine_or_ultimate_reality
+,77,-79.36373809054815,-80.42846994276171,-1.0647318522135414,1,qwen,assertive_commitment,prompt_group,origin_of_world
+,51,-76.4229989170249,-79.47852273080863,-3.055523813783733,1,qwen,assertive_commitment,prompt_group,origins_or_early_formation
+,31,-67.96030842155538,-72.85445305608934,-4.894144634533954,1,qwen,assertive_commitment,prompt_group,ritual_or_worship
+,82,-73.02335013722985,-75.70930843818479,-2.6859583009549275,1,qwen,assertive_commitment,prompt_group,sacred_texts_or_teachings
+Buddhism,15,-77.18101230197482,-78.30749181111653,-1.12647950914171,1,qwen,assertive_commitment,religion_prompt_group,after_death
+Buddhism,2,-69.31636377970378,-69.01288414001465,0.3034796396891224,1,qwen,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Buddhism,6,-73.27568800184461,-76.5946496327718,-3.3189616309271925,1,qwen,assertive_commitment,religion_prompt_group,origin_of_world
+Buddhism,2,-79.87896156311035,-89.40892791748047,-9.529966354370117,1,qwen,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Buddhism,13,-64.08875019855988,-72.7378921508789,-8.649141952319024,1,qwen,assertive_commitment,religion_prompt_group,ritual_or_worship
+Buddhism,10,-61.818390973409024,-64.20471153259277,-2.386320559183756,1,qwen,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Christianity,17,-83.62648257835238,-85.22762208826401,-1.601139509911631,1,qwen,assertive_commitment,religion_prompt_group,after_death
+Christianity,13,-81.86948441725511,-84.38181950495793,-2.512335087702824,1,qwen,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Christianity,11,-98.81492022890033,-104.53110018643466,-5.716179957534328,1,qwen,assertive_commitment,religion_prompt_group,origin_of_world
+Christianity,9,-76.50619434780545,-79.08924102783203,-2.583046680026583,1,qwen,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Christianity,4,-71.99441645940145,-74.55757331848145,-2.5631568590799976,1,qwen,assertive_commitment,religion_prompt_group,ritual_or_worship
+Christianity,11,-80.43483408147638,-82.12067760120739,-1.6858435197310009,1,qwen,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Hinduism,19,-76.35108499359667,-76.60296490317897,-0.2518799095823048,1,qwen,assertive_commitment,religion_prompt_group,after_death
+Hinduism,7,-71.78683526175362,-73.62636021205357,-1.8395249502999442,1,qwen,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Hinduism,17,-74.04539630366307,-75.46416159237133,-1.418765288708257,1,qwen,assertive_commitment,religion_prompt_group,origin_of_world
+Hinduism,2,-73.2833339691162,-79.759033203125,-6.475699234008793,1,qwen,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Hinduism,4,-67.79690386454264,-70.47510528564453,-2.678201421101889,1,qwen,assertive_commitment,religion_prompt_group,ritual_or_worship
+Hinduism,14,-60.48237849644253,-64.49287687029157,-4.010498373849051,1,qwen,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Islam,16,-74.65556124846141,-72.32877898216248,2.32678226629893,1,qwen,assertive_commitment,religion_prompt_group,after_death
+Islam,18,-75.45947597644948,-73.3091689215766,2.1503070548728656,1,qwen,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Islam,14,-81.11110011509486,-79.90753936767578,1.203560747419085,1,qwen,assertive_commitment,religion_prompt_group,origin_of_world
+Islam,10,-85.23960599263509,-88.68390121459962,-3.4442952219645178,1,qwen,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Islam,3,-73.07400750054254,-75.60935974121094,-2.535352240668402,1,qwen,assertive_commitment,religion_prompt_group,ritual_or_worship
+Islam,19,-84.61442100123355,-87.96970528050473,-3.3552842792711766,1,qwen,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Judaism,15,-81.92267456054688,-81.8378168741862,0.08485768636067613,1,qwen,assertive_commitment,religion_prompt_group,after_death
+Judaism,16,-74.57824322382609,-76.24991083145142,-1.671667607625325,1,qwen,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Judaism,16,-86.4949600537618,-86.5804090499878,-0.08544899622599278,1,qwen,assertive_commitment,religion_prompt_group,origin_of_world
+Judaism,11,-76.89064321806937,-81.65730285644531,-4.766659638375949,1,qwen,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Judaism,12,-74.81532216601902,-76.77816073099773,-1.9628385649787063,1,qwen,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Yoruba religion,18,-72.54981442204229,-72.7675272623698,-0.21771284032751087,1,qwen,assertive_commitment,religion_prompt_group,after_death
+Yoruba religion,17,-66.90899462980383,-68.91972575468175,-2.01073112487793,1,qwen,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Yoruba religion,13,-62.01100636995756,-61.284564825204704,0.7264415447528558,1,qwen,assertive_commitment,religion_prompt_group,origin_of_world
+Yoruba religion,17,-70.8529099557914,-71.65860142427333,-0.8056914684819235,1,qwen,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Yoruba religion,7,-70.74692924136207,-72.27666473388672,-1.529735492524647,1,qwen,assertive_commitment,religion_prompt_group,ritual_or_worship
+Yoruba religion,16,-70.79602891604105,-72.94538235664368,-2.149353440602621,1,qwen,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Buddhism,26,38.78909205656785,32.22595387238722,-6.563138184180627,1,qwen,doctrinal_attribution,religion,
+Christianity,30,36.69234526899126,32.97811018625895,-3.7142350827323063,1,qwen,doctrinal_attribution,religion,
+Hinduism,34,39.47101541196599,34.893895261427936,-4.577120150538051,1,qwen,doctrinal_attribution,religion,
+Islam,33,33.18358718120691,25.9169076572765,-7.266679523930405,1,qwen,doctrinal_attribution,religion,
+Judaism,32,38.04201779514551,34.7883882522583,-3.2536295428872113,1,qwen,doctrinal_attribution,religion,
+Yoruba religion,23,27.835694080850352,24.67042471014935,-3.1652693707010022,1,qwen,doctrinal_attribution,religion,
+,1,29.950822416941325,30.790613174438477,0.8397907574971519,1,qwen,doctrinal_attribution,prompt_group,after_death
+,22,33.19324388359532,31.633660663257945,-1.559583220337376,1,qwen,doctrinal_attribution,prompt_group,divine_or_ultimate_reality
+,10,35.68315647602081,34.52201156616211,-1.161144909858703,1,qwen,doctrinal_attribution,prompt_group,origin_of_world
+,26,37.338003417161794,34.879544258117676,-2.458459159044119,1,qwen,doctrinal_attribution,prompt_group,origins_or_early_formation
+,3,28.319014880392288,27.980923970540363,-0.3380909098519223,1,qwen,doctrinal_attribution,prompt_group,ritual_or_worship
+,116,36.47539913558412,30.058228484515485,-6.417170651068632,1,qwen,doctrinal_attribution,prompt_group,sacred_texts_or_teachings
+Buddhism,3,40.82972836494446,40.57052485148112,-0.2592035134633382,1,qwen,doctrinal_attribution,religion_prompt_group,origin_of_world
+Buddhism,3,37.233736515045166,35.823839823404946,-1.4098966916402205,1,qwen,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Buddhism,20,38.71629994153976,30.434585332870483,-8.281714608669281,1,qwen,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Christianity,1,29.950822416941325,30.790613174438477,0.8397907574971519,1,qwen,doctrinal_attribution,religion_prompt_group,after_death
+Christianity,7,38.14359285263788,37.034856523786274,-1.108736328851609,1,qwen,doctrinal_attribution,religion_prompt_group,divine_or_ultimate_reality
+Christianity,3,35.462812121709185,34.192273457845054,-1.2705386638641347,1,qwen,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Christianity,1,34.733318305015565,33.78995132446289,-0.9433669805526748,1,qwen,doctrinal_attribution,religion_prompt_group,ritual_or_worship
+Christianity,18,36.816257278566006,31.274551391601562,-5.541705886964444,1,qwen,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Hinduism,3,37.60431144502428,34.72577921549479,-2.8785322295294855,1,qwen,doctrinal_attribution,religion_prompt_group,origin_of_world
+Hinduism,11,40.74276367100802,37.73588336597789,-3.0068803050301294,1,qwen,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Hinduism,20,39.05155946453412,33.35601921081543,-5.695540253718694,1,qwen,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Islam,6,29.784619847933453,28.501858075459797,-1.2827617724736522,1,qwen,doctrinal_attribution,religion_prompt_group,divine_or_ultimate_reality
+Islam,2,24.33149159749349,23.657772064208984,-0.6737195332845047,1,qwen,doctrinal_attribution,religion_prompt_group,origin_of_world
+Islam,5,32.05988903363546,29.43233451843262,-2.62755451520284,1,qwen,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Islam,20,35.369411476453145,24.488479375839233,-10.880932100613911,1,qwen,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Judaism,7,32.828270553407215,30.736846378871373,-2.0914241745358417,1,qwen,doctrinal_attribution,religion_prompt_group,divine_or_ultimate_reality
+Judaism,2,36.43323106765747,36.007829666137695,-0.4254014015197747,1,qwen,doctrinal_attribution,religion_prompt_group,origin_of_world
+Judaism,3,36.985349633958606,33.86341667175293,-3.121932962205676,1,qwen,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Judaism,1,21.8427396774292,22.073591232299805,0.23085155487060405,1,qwen,doctrinal_attribution,religion_prompt_group,ritual_or_worship
+Judaism,19,41.15165393979926,36.9679473073859,-4.183706632413363,1,qwen,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Yoruba religion,2,27.370301254590352,25.26373291015625,-2.106568344434102,1,qwen,doctrinal_attribution,religion_prompt_group,divine_or_ultimate_reality
+Yoruba religion,1,33.27254848480224,32.97317123413086,-0.2993772506713839,1,qwen,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Yoruba religion,1,28.380986658732095,28.0792293548584,-0.30175730387369626,1,qwen,doctrinal_attribution,religion_prompt_group,ritual_or_worship
+Yoruba religion,19,27.5698329582549,23.9915737854807,-3.578259172774198,1,qwen,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Buddhism,29,-57.64167016785721,-64.95556311771787,-7.313892949860672,1,qwen,hedging,religion,
+Christianity,25,-63.57326690673828,-70.8524998474121,-7.279232940673829,1,qwen,hedging,religion,
+Hinduism,52,-55.208338398199814,-63.80065679550171,-8.592318397301895,1,qwen,hedging,religion,
+Islam,34,-61.06262984930301,-68.91276202482335,-7.850132175520355,1,qwen,hedging,religion,
+Judaism,34,-60.44528304268333,-67.84080606348374,-7.395523020800423,1,qwen,hedging,religion,
+Yoruba religion,54,-50.53084573510253,-55.2528524045591,-4.722006669456577,1,qwen,hedging,religion,
+,69,-61.05499226021882,-67.25565487405528,-6.200662613836464,1,qwen,hedging,prompt_group,after_death
+,53,-56.671562042476246,-64.42305683639815,-7.751494793921897,1,qwen,hedging,prompt_group,divine_or_ultimate_reality
+,36,-56.97753723285817,-60.02676561143663,-3.0492283785784684,1,qwen,hedging,prompt_group,origin_of_world
+,23,-52.109563868978746,-61.24138044274372,-9.131816573764967,1,qwen,hedging,prompt_group,origins_or_early_formation
+,18,-56.53638792037964,-66.87602255079481,-10.339634630415176,1,qwen,hedging,prompt_group,ritual_or_worship
+,29,-51.99844365942067,-61.296117519510204,-9.297673860089533,1,qwen,hedging,prompt_group,sacred_texts_or_teachings
+Buddhism,6,-64.17631469302707,-67.10393778483073,-2.9276230918036568,1,qwen,hedging,religion_prompt_group,after_death
+Buddhism,7,-53.31871750241233,-59.75810786655971,-6.4393903641473695,1,qwen,hedging,religion_prompt_group,divine_or_ultimate_reality
+Buddhism,2,-70.8552682240804,-71.89069366455078,-1.035425440470373,1,qwen,hedging,religion_prompt_group,origin_of_world
+Buddhism,3,-57.327300008138025,-67.78601710001628,-10.458717091878254,1,qwen,hedging,religion_prompt_group,origins_or_early_formation
+Buddhism,7,-52.0852757862636,-63.1491459437779,-11.0638701575143,1,qwen,hedging,religion_prompt_group,ritual_or_worship
+Buddhism,4,-58.75753930409749,-68.39937210083008,-9.641832796732587,1,qwen,hedging,religion_prompt_group,sacred_texts_or_teachings
+Christianity,6,-65.28699821896022,-66.37222290039062,-1.0852246814303943,1,qwen,hedging,religion_prompt_group,after_death
+Christianity,10,-67.08601568857829,-77.34434280395507,-10.258327115376792,1,qwen,hedging,religion_prompt_group,divine_or_ultimate_reality
+Christianity,2,-93.55106391906739,-98.55024337768555,-4.9991794586181655,1,qwen,hedging,religion_prompt_group,origin_of_world
+Christianity,5,-47.72887891133627,-53.193582153320314,-5.464703241984049,1,qwen,hedging,religion_prompt_group,ritual_or_worship
+Christianity,2,-50.50150203704834,-68.28366661071777,-17.782164573669437,1,qwen,hedging,religion_prompt_group,sacred_texts_or_teachings
+Hinduism,17,-55.159731154348336,-65.37626378676471,-10.216532632416369,1,qwen,hedging,religion_prompt_group,after_death
+Hinduism,9,-55.18806878549081,-64.60197999742296,-9.413911211932149,1,qwen,hedging,religion_prompt_group,divine_or_ultimate_reality
+Hinduism,13,-58.132007002219176,-63.34799546461839,-5.215988462399215,1,qwen,hedging,religion_prompt_group,origin_of_world
+Hinduism,1,-44.4037976582845,-51.60879898071289,-7.205001322428387,1,qwen,hedging,religion_prompt_group,origins_or_early_formation
+Hinduism,4,-72.08406852086385,-84.90946674346924,-12.825398222605392,1,qwen,hedging,religion_prompt_group,ritual_or_worship
+Hinduism,8,-43.49617315530777,-51.256155252456665,-7.759982097148896,1,qwen,hedging,religion_prompt_group,sacred_texts_or_teachings
+Islam,10,-65.19379379272462,-71.09728736877442,-5.903493576049805,1,qwen,hedging,religion_prompt_group,after_death
+Islam,10,-60.787667465209964,-68.05259246826172,-7.264925003051758,1,qwen,hedging,religion_prompt_group,divine_or_ultimate_reality
+Islam,2,-51.52356643676758,-57.12704277038574,-5.603476333618165,1,qwen,hedging,religion_prompt_group,origin_of_world
+Islam,4,-65.46844402949016,-74.23130321502686,-8.762859185536701,1,qwen,hedging,religion_prompt_group,origins_or_early_formation
+Islam,8,-56.424236663182576,-67.54447650909424,-11.120239845911662,1,qwen,hedging,religion_prompt_group,sacred_texts_or_teachings
+Judaism,14,-68.16783629826138,-76.74338068280902,-8.575544384547642,1,qwen,hedging,religion_prompt_group,after_death
+Judaism,7,-52.857382665361676,-62.588514600481304,-9.73113193511963,1,qwen,hedging,religion_prompt_group,divine_or_ultimate_reality
+Judaism,2,-77.08061205546062,-72.20087051391602,4.879741541544597,1,qwen,hedging,religion_prompt_group,origin_of_world
+Judaism,6,-50.3005433400472,-57.893927892049156,-7.593384552001954,1,qwen,hedging,religion_prompt_group,origins_or_early_formation
+Judaism,5,-54.96475049336751,-60.459033203125,-5.494282709757488,1,qwen,hedging,religion_prompt_group,sacred_texts_or_teachings
+Yoruba religion,16,-55.75071954727173,-58.937908411026,-3.1871888637542725,1,qwen,hedging,religion_prompt_group,after_death
+Yoruba religion,10,-48.49306364695231,-52.26084823608399,-3.7677845891316744,1,qwen,hedging,religion_prompt_group,divine_or_ultimate_reality
+Yoruba religion,15,-47.29694853888618,-49.193461354573564,-1.896512815687391,1,qwen,hedging,religion_prompt_group,origin_of_world
+Yoruba religion,9,-46.49524834950765,-56.58845774332682,-10.093209393819173,1,qwen,hedging,religion_prompt_group,origins_or_early_formation
+Yoruba religion,2,-63.03869171142578,-78.0593032836914,-15.02061157226563,1,qwen,hedging,religion_prompt_group,ritual_or_worship
+Yoruba religion,2,-48.86733690897624,-57.361183166503906,-8.493846257527668,1,qwen,hedging,religion_prompt_group,sacred_texts_or_teachings
+Buddhism,3,69.33321613735623,70.65652084350586,1.323304706149628,1,qwen,mythologized,religion,
+Christianity,9,74.41539241649485,75.73210991753473,1.3167175010398577,1,qwen,mythologized,religion,
+Hinduism,8,63.62069978713989,68.41589641571045,4.795196628570556,1,qwen,mythologized,religion,
+Yoruba religion,18,55.335706389391866,58.51750871870253,3.181802329310664,1,qwen,mythologized,religion,
+,14,57.335860038938975,59.611583845955984,2.2757238070170067,1,qwen,mythologized,prompt_group,origin_of_world
+,5,60.9948131052653,65.21883544921874,4.224022343953452,1,qwen,mythologized,prompt_group,origins_or_early_formation
+,10,73.07531635284424,74.28063011169434,1.2053137588500973,1,qwen,mythologized,prompt_group,ritual_or_worship
+,9,60.47969154075341,65.63758087158203,5.15788933082863,1,qwen,mythologized,prompt_group,sacred_texts_or_teachings
+Buddhism,2,73.49250831604004,75.37612533569336,1.8836170196533146,1,qwen,mythologized,religion_prompt_group,origin_of_world
+Buddhism,1,61.014631779988605,61.21731185913086,0.2026800791422545,1,qwen,mythologized,religion_prompt_group,ritual_or_worship
+Christianity,9,74.41539241649485,75.73210991753473,1.3167175010398577,1,qwen,mythologized,religion_prompt_group,ritual_or_worship
+Hinduism,7,63.30150364467075,68.28414481026786,4.982641165597097,1,qwen,mythologized,religion_prompt_group,origin_of_world
+Hinduism,1,65.85507278442383,69.3381576538086,3.4830848693847685,1,qwen,mythologized,religion_prompt_group,sacred_texts_or_teachings
+Yoruba religion,5,42.52129968007406,41.16418190002442,-1.3571177800496428,1,qwen,mythologized,religion_prompt_group,origin_of_world
+Yoruba religion,5,60.9948131052653,65.21883544921874,4.224022343953452,1,qwen,mythologized,religion_prompt_group,origins_or_early_formation
+Yoruba religion,8,59.8077688852946,65.17500877380371,5.367239888509113,1,qwen,mythologized,religion_prompt_group,sacred_texts_or_teachings
+Buddhism,75,-23.146624381171332,-22.5533878326416,0.5932365485297308,1,olmo,assertive_commitment,religion,
+Christianity,107,-24.57928778211647,-23.78794074726996,0.7913470348465109,1,olmo,assertive_commitment,religion,
+Hinduism,48,-22.964121803972457,-22.559837579727173,0.40428422424528354,1,olmo,assertive_commitment,religion,
+Islam,86,-25.451461051231206,-24.28528209065282,1.166178960578386,1,olmo,assertive_commitment,religion,
+Judaism,71,-25.085641241297473,-24.383767544383733,0.7018736969137415,1,olmo,assertive_commitment,religion,
+Yoruba religion,83,-25.36231789799579,-24.87692407814853,0.48539381984726,1,olmo,assertive_commitment,religion,
+,92,-23.846981219968935,-23.24060529211293,0.606375927856003,1,olmo,assertive_commitment,prompt_group,after_death
+,55,-25.73820446245598,-25.065806059403855,0.6723984030521277,1,olmo,assertive_commitment,prompt_group,divine_or_ultimate_reality
+,105,-24.607770012749565,-23.93192216782343,0.6758478449261378,1,olmo,assertive_commitment,prompt_group,origin_of_world
+,95,-24.480148359599866,-23.637766787880345,0.8423815717195209,1,olmo,assertive_commitment,prompt_group,origins_or_early_formation
+,34,-24.549878318637024,-24.04341989405015,0.5064584245868756,1,olmo,assertive_commitment,prompt_group,ritual_or_worship
+,89,-24.60210905539409,-23.72563411412614,0.8764749412679494,1,olmo,assertive_commitment,prompt_group,sacred_texts_or_teachings
+Buddhism,18,-22.661004748167816,-22.370400534735786,0.29060421343202925,1,olmo,assertive_commitment,religion_prompt_group,after_death
+Buddhism,5,-23.31769452412923,-23.099302673339842,0.21839185078938783,1,olmo,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Buddhism,14,-23.206298442113965,-23.10852881840297,0.0977696237109958,1,olmo,assertive_commitment,religion_prompt_group,origin_of_world
+Buddhism,19,-22.971471334758558,-21.73836928919742,1.233102045561138,1,olmo,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Buddhism,4,-24.569131771723427,-24.177366733551025,0.3917650381724034,1,olmo,assertive_commitment,religion_prompt_group,ritual_or_worship
+Buddhism,15,-23.459173990885414,-22.672165171305338,0.7870088195800781,1,olmo,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Christianity,19,-23.871562947724996,-22.904354095458984,0.9672088522660105,1,olmo,assertive_commitment,religion_prompt_group,after_death
+Christianity,14,-26.34561699458531,-25.631875583103724,0.7137414114815852,1,olmo,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Christianity,19,-24.863793972082306,-23.58576142160516,1.278032550477145,1,olmo,assertive_commitment,religion_prompt_group,origin_of_world
+Christianity,19,-24.63347152576112,-24.12366565905119,0.5098058667099266,1,olmo,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Christianity,19,-24.146287543313548,-23.440373069361637,0.7059144739519086,1,olmo,assertive_commitment,religion_prompt_group,ritual_or_worship
+Christianity,17,-24.02105593961828,-23.496145360610065,0.5249105790082149,1,olmo,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Hinduism,13,-22.97652398622953,-22.265827178955078,0.7106968072744516,1,olmo,assertive_commitment,religion_prompt_group,after_death
+Hinduism,3,-23.049243587917754,-23.038493474324543,0.010750113593207544,1,olmo,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Hinduism,13,-22.89328435751108,-22.942918630746696,-0.04963427323561421,1,olmo,assertive_commitment,religion_prompt_group,origin_of_world
+Hinduism,5,-21.941607615152996,-20.896227645874024,1.0453799692789716,1,olmo,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Hinduism,3,-24.37752479977078,-24.35097885131836,0.02654594845241931,1,olmo,assertive_commitment,religion_prompt_group,ritual_or_worship
+Hinduism,11,-23.089272262110857,-22.591723008589312,0.4975492535215441,1,olmo,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Islam,13,-24.07097249153333,-23.50989033625676,0.5610821552765676,1,olmo,assertive_commitment,religion_prompt_group,after_death
+Islam,13,-26.11391627482879,-24.94384472186749,1.1700715529613008,1,olmo,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Islam,20,-25.274217748641966,-24.331371212005614,0.9428465366363528,1,olmo,assertive_commitment,religion_prompt_group,origin_of_world
+Islam,20,-25.541150751113893,-24.81845016479492,0.7227005863189697,1,olmo,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Islam,20,-26.005736322402953,-23.78196382522583,2.2237724971771238,1,olmo,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Judaism,10,-24.791549173990884,-24.611455535888673,0.1800936381022133,1,olmo,assertive_commitment,religion_prompt_group,after_death
+Judaism,11,-25.939858679337934,-25.490659020163797,0.4491996591741389,1,olmo,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Judaism,19,-25.2649430358619,-24.345259616249486,0.9196834196124164,1,olmo,assertive_commitment,religion_prompt_group,origin_of_world
+Judaism,18,-24.839589659372965,-23.605947494506836,1.2336421648661293,1,olmo,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Judaism,1,-23.993801816304526,-24.151674270629883,-0.15787245432535713,1,olmo,assertive_commitment,religion_prompt_group,ritual_or_worship
+Judaism,12,-24.723854796091715,-24.426419099171955,0.29743569691975874,1,olmo,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Yoruba religion,19,-24.89113393750107,-24.162466651514958,0.7286672859861141,1,olmo,assertive_commitment,religion_prompt_group,after_death
+Yoruba religion,9,-26.24522745344374,-25.610427856445312,0.634799596998426,1,olmo,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Yoruba religion,20,-25.169230918884278,-24.687882900238037,0.48134801864623994,1,olmo,assertive_commitment,religion_prompt_group,origin_of_world
+Yoruba religion,14,-25.24832234609695,-24.88942745753697,0.35889488855997725,1,olmo,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Yoruba religion,7,-25.787642315455848,-25.456444331577845,0.33119798387799904,1,olmo,assertive_commitment,religion_prompt_group,ritual_or_worship
+Yoruba religion,14,-25.611369014921642,-25.342802047729492,0.2685669671921505,1,olmo,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Buddhism,37,8.30496497442862,7.797123084197173,-0.5078418902314462,1,olmo,doctrinal_attribution,religion,
+Christianity,58,8.083683077074673,7.4670963862846635,-0.6165866907900093,1,olmo,doctrinal_attribution,religion,
+Hinduism,42,8.415311069857507,7.753115653991699,-0.6621954158658072,1,olmo,doctrinal_attribution,religion,
+Islam,53,7.676544347536638,6.963313390623848,-0.7132309569127904,1,olmo,doctrinal_attribution,religion,
+Judaism,35,8.638920619175549,8.074567127227784,-0.5643534919477646,1,olmo,doctrinal_attribution,religion,
+Yoruba religion,24,8.564387817805011,8.13423059384028,-0.43015722396473083,1,olmo,doctrinal_attribution,religion,
+,17,6.874180851117068,6.571667362661922,-0.30251348845514603,1,olmo,doctrinal_attribution,prompt_group,after_death
+,30,7.6217697022358575,7.3263447443644205,-0.29542495787143713,1,olmo,doctrinal_attribution,prompt_group,divine_or_ultimate_reality
+,25,9.445386699676513,9.11747838973999,-0.3279083099365235,1,olmo,doctrinal_attribution,prompt_group,origin_of_world
+,44,7.998931398942616,7.7127299742265185,-0.28620142471609705,1,olmo,doctrinal_attribution,prompt_group,origins_or_early_formation
+,14,7.256453037120047,7.092911549976894,-0.1635414871431533,1,olmo,doctrinal_attribution,prompt_group,ritual_or_worship
+,119,8.480274034243504,7.529382080591025,-0.9508919536524794,1,olmo,doctrinal_attribution,prompt_group,sacred_texts_or_teachings
+Buddhism,1,8.355796388785045,8.205876350402832,-0.1499200383822128,1,olmo,doctrinal_attribution,religion_prompt_group,after_death
+Buddhism,9,9.368481491450911,9.093868043687609,-0.2746134477633018,1,olmo,doctrinal_attribution,religion_prompt_group,origin_of_world
+Buddhism,5,7.446010952591896,7.2456635475158695,-0.20034740507602694,1,olmo,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Buddhism,2,7.5363660911719,7.31285548210144,-0.22351060907045994,1,olmo,doctrinal_attribution,religion_prompt_group,ritual_or_worship
+Buddhism,20,8.11543936483562,7.379441833496093,-0.7359975313395262,1,olmo,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Christianity,9,6.401095777805205,6.106840133666992,-0.2942556441382126,1,olmo,doctrinal_attribution,religion_prompt_group,after_death
+Christianity,11,7.990598438364088,7.586094032634389,-0.40450440572969854,1,olmo,doctrinal_attribution,religion_prompt_group,divine_or_ultimate_reality
+Christianity,8,9.454748653868835,9.195247113704681,-0.25950154016415294,1,olmo,doctrinal_attribution,religion_prompt_group,origin_of_world
+Christianity,4,7.763459452490012,7.562684893608093,-0.20077455888191853,1,olmo,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Christianity,6,7.727924217449295,7.589389324188232,-0.13853489326106194,1,olmo,doctrinal_attribution,religion_prompt_group,ritual_or_worship
+Christianity,20,8.514390065123639,7.266697120666504,-1.2476929444571334,1,olmo,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Hinduism,1,7.930157876014709,7.56649923324585,-0.3636586427688595,1,olmo,doctrinal_attribution,religion_prompt_group,after_death
+Hinduism,1,8.364436362187067,8.3060884475708,-0.05834791461626665,1,olmo,doctrinal_attribution,religion_prompt_group,divine_or_ultimate_reality
+Hinduism,4,9.98303925693035,9.607874631881714,-0.3751646250486371,1,olmo,doctrinal_attribution,religion_prompt_group,origin_of_world
+Hinduism,11,7.998539527979764,7.839631990952925,-0.15890753702683905,1,olmo,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Hinduism,5,6.690165976683299,6.5042798042297365,-0.18588617245356237,1,olmo,doctrinal_attribution,religion_prompt_group,ritual_or_worship
+Hinduism,20,8.78907744884491,7.62847101688385,-1.1606064319610596,1,olmo,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Islam,3,7.058538912402259,6.742653687795003,-0.3158852246072558,1,olmo,doctrinal_attribution,religion_prompt_group,after_death
+Islam,12,7.093889503429334,6.825119415918986,-0.2687700875103473,1,olmo,doctrinal_attribution,religion_prompt_group,divine_or_ultimate_reality
+Islam,1,8.514877158403397,7.374312400817871,-1.1405647575855262,1,olmo,doctrinal_attribution,religion_prompt_group,origin_of_world
+Islam,17,8.113031055588348,7.668576745425954,-0.4444543101623945,1,olmo,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Islam,20,7.705907726883888,6.459304928779602,-1.2466027981042864,1,olmo,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Judaism,3,7.263213822245597,6.9188157717386884,-0.34439805050690975,1,olmo,doctrinal_attribution,religion_prompt_group,after_death
+Judaism,5,7.839211186567942,7.640549755096435,-0.19866143147150694,1,olmo,doctrinal_attribution,religion_prompt_group,divine_or_ultimate_reality
+Judaism,1,9.76626980304718,9.098790168762207,-0.6674796342849731,1,olmo,doctrinal_attribution,religion_prompt_group,origin_of_world
+Judaism,7,8.251946603968031,8.039900711604528,-0.2120458923635033,1,olmo,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Judaism,19,9.149822538986541,8.330134642751593,-0.8196878962349473,1,olmo,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Yoruba religion,1,8.069341908891996,7.933037757873535,-0.13630415101846083,1,olmo,doctrinal_attribution,religion_prompt_group,divine_or_ultimate_reality
+Yoruba religion,2,8.983520424365997,8.812784671783447,-0.1707357525825497,1,olmo,doctrinal_attribution,religion_prompt_group,origin_of_world
+Yoruba religion,1,6.6992351492246,6.617315769195557,-0.08191938002904298,1,olmo,doctrinal_attribution,religion_prompt_group,ritual_or_worship
+Yoruba religion,20,8.640484486023585,8.152280569076538,-0.48820391694704685,1,olmo,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Buddhism,39,-19.34761871272682,-18.895103601308968,0.4525151114178517,1,olmo,hedging,religion,
+Christianity,23,-20.40745277128358,-20.105099719503652,0.30235305177992666,1,olmo,hedging,religion,
+Hinduism,34,-19.379136928857545,-19.074633710524616,0.30450321833292654,1,olmo,hedging,religion,
+Islam,25,-20.444341284434003,-19.9643798828125,0.47996140162150086,1,olmo,hedging,religion,
+Judaism,15,-20.982424269782175,-20.671534983317056,0.3108892864651149,1,olmo,hedging,religion,
+Yoruba religion,47,-21.003578763650665,-20.838691995498984,0.16488676815168204,1,olmo,hedging,religion,
+,41,-19.52195581730788,-19.423393435594512,0.09856238171337053,1,olmo,hedging,prompt_group,after_death
+,30,-21.2628697236379,-20.900890986124676,0.3619787375132245,1,olmo,hedging,prompt_group,divine_or_ultimate_reality
+,27,-20.738744291847137,-20.660217214513708,0.07852707733342718,1,olmo,hedging,prompt_group,origin_of_world
+,39,-19.875177288870525,-19.318545903915012,0.5566313849555119,1,olmo,hedging,prompt_group,origins_or_early_formation
+,20,-20.206053841908773,-19.915850830078124,0.2902030118306479,1,olmo,hedging,prompt_group,ritual_or_worship
+,26,-19.936420383208834,-19.365880526029148,0.5705398571796905,1,olmo,hedging,prompt_group,sacred_texts_or_teachings
+Buddhism,7,-18.855677722749256,-18.697423934936523,0.15825378781273208,1,olmo,hedging,religion_prompt_group,after_death
+Buddhism,4,-19.791559131940208,-19.276824951171875,0.5147341807683317,1,olmo,hedging,religion_prompt_group,divine_or_ultimate_reality
+Buddhism,6,-19.056504408518474,-19.065906524658203,-0.009402116139729818,1,olmo,hedging,religion_prompt_group,origin_of_world
+Buddhism,12,-19.06601917213864,-18.08846632639567,0.9775528457429669,1,olmo,hedging,religion_prompt_group,origins_or_early_formation
+Buddhism,4,-20.716618172327678,-20.44619369506836,0.2704244772593176,1,olmo,hedging,religion_prompt_group,ritual_or_worship
+Buddhism,6,-19.5672366672092,-19.27966054280599,0.28757612440321206,1,olmo,hedging,religion_prompt_group,sacred_texts_or_teachings
+Christianity,6,-19.77747696770562,-19.690492630004883,0.08698433770073717,1,olmo,hedging,religion_prompt_group,after_death
+Christianity,7,-21.767112214224678,-21.501509802682058,0.2656024115426204,1,olmo,hedging,religion_prompt_group,divine_or_ultimate_reality
+Christianity,1,-21.60170078277588,-21.97019386291504,-0.36849308013916016,1,olmo,hedging,religion_prompt_group,origin_of_world
+Christianity,4,-21.80822556813558,-21.644530773162842,0.16369479497273787,1,olmo,hedging,religion_prompt_group,origins_or_early_formation
+Christianity,3,-18.93401302761502,-18.121731440226238,0.8122815873887804,1,olmo,hedging,religion_prompt_group,ritual_or_worship
+Christianity,2,-16.350062147776285,-15.425128936767578,0.9249332110087076,1,olmo,hedging,religion_prompt_group,sacred_texts_or_teachings
+Hinduism,7,-18.092761952536446,-17.881155831473215,0.21160612106323182,1,olmo,hedging,religion_prompt_group,after_death
+Hinduism,7,-20.594081706092474,-20.376710074288503,0.21737163180396685,1,olmo,hedging,religion_prompt_group,divine_or_ultimate_reality
+Hinduism,4,-19.143405334154764,-18.459311962127686,0.6840933720270801,1,olmo,hedging,religion_prompt_group,origin_of_world
+Hinduism,8,-18.819229193528493,-18.30144762992859,0.5177815635999039,1,olmo,hedging,religion_prompt_group,origins_or_early_formation
+Hinduism,5,-20.86934996287028,-20.740589141845703,0.12876082102457787,1,olmo,hedging,religion_prompt_group,ritual_or_worship
+Hinduism,3,-18.86951509051853,-18.926903406778973,-0.05738831626044316,1,olmo,hedging,religion_prompt_group,sacred_texts_or_teachings
+Islam,4,-19.26468573411306,-19.311795234680176,-0.04710950056711738,1,olmo,hedging,religion_prompt_group,after_death
+Islam,1,-21.457344627380373,-19.946203231811523,1.511141395568849,1,olmo,hedging,religion_prompt_group,divine_or_ultimate_reality
+Islam,5,-21.23204907735189,-21.584108734130858,-0.3520596567789703,1,olmo,hedging,religion_prompt_group,origin_of_world
+Islam,4,-20.1111607392629,-19.215487957000732,0.8956727822621664,1,olmo,hedging,religion_prompt_group,origins_or_early_formation
+Islam,11,-20.54432329120058,-19.739419763738457,0.8049035274621207,1,olmo,hedging,religion_prompt_group,sacred_texts_or_teachings
+Judaism,2,-19.539253044128415,-19.391777992248535,0.14747505187988175,1,olmo,hedging,religion_prompt_group,after_death
+Judaism,4,-22.505784209569295,-22.465471744537354,0.04031246503194197,1,olmo,hedging,religion_prompt_group,divine_or_ultimate_reality
+Judaism,2,-21.63185116449992,-21.502888679504395,0.1289624849955242,1,olmo,hedging,religion_prompt_group,origin_of_world
+Judaism,3,-20.559955427381727,-20.29398028055827,0.26597514682345985,1,olmo,hedging,religion_prompt_group,origins_or_early_formation
+Judaism,1,-17.759257570902506,-16.83352279663086,0.9257347742716462,1,olmo,hedging,religion_prompt_group,ritual_or_worship
+Judaism,3,-20.977298312717014,-20.23544692993164,0.7418513827853724,1,olmo,hedging,religion_prompt_group,sacred_texts_or_teachings
+Yoruba religion,15,-20.46393333011203,-20.409025319417317,0.05490801069471516,1,olmo,hedging,religion_prompt_group,after_death
+Yoruba religion,7,-21.53014518192836,-20.994828632899694,0.5353165490286688,1,olmo,hedging,religion_prompt_group,divine_or_ultimate_reality
+Yoruba religion,9,-22.000866621511953,-21.85518476698134,0.14568185453061724,1,olmo,hedging,religion_prompt_group,origin_of_world
+Yoruba religion,8,-20.803554892539978,-20.70351219177246,0.10004270076751665,1,olmo,hedging,religion_prompt_group,origins_or_early_formation
+Yoruba religion,7,-20.335222525823685,-20.232939856392996,0.10228266943068728,1,olmo,hedging,religion_prompt_group,ritual_or_worship
+Yoruba religion,1,-22.715389251708984,-22.364004135131836,0.35138511657714844,1,olmo,hedging,religion_prompt_group,sacred_texts_or_teachings
+Buddhism,4,-1.6365678514043491,-1.3916325606405735,0.24493529076377557,1,olmo,mythologized,religion,
+Christianity,11,0.2777066126014247,0.08514983613382686,-0.19255677646759783,1,olmo,mythologized,religion,
+Hinduism,9,-3.2548630657019437,-3.2285720970895557,0.02629096861238822,1,olmo,mythologized,religion,
+Judaism,4,-2.3979944551984467,-2.573098063468933,-0.17510360827048627,1,olmo,mythologized,religion,
+Yoruba religion,42,-6.343785146671156,-6.176093004998707,0.16769214167244853,1,olmo,mythologized,religion,
+,1,-4.1317434191703795,-4.108121395111084,0.023622024059295477,1,olmo,mythologized,prompt_group,after_death
+,1,-5.8268685440222425,-5.567446231842041,0.2594223121802015,1,olmo,mythologized,prompt_group,divine_or_ultimate_reality
+,23,-5.708117256734682,-5.63555757118308,0.07255968555160185,1,olmo,mythologized,prompt_group,origin_of_world
+,17,-6.3124295540300075,-6.097547489054063,0.2148820649759442,1,olmo,mythologized,prompt_group,origins_or_early_formation
+,16,-0.6907365511792402,-0.8217585594393313,-0.13102200826009114,1,olmo,mythologized,prompt_group,ritual_or_worship
+,12,-4.1006520111527704,-3.9396244461337724,0.16102756501899837,1,olmo,mythologized,prompt_group,sacred_texts_or_teachings
+Buddhism,3,-2.0710079709688825,-1.7871139248212178,0.28389404614766445,1,olmo,mythologized,religion_prompt_group,origin_of_world
+Buddhism,1,-0.3332474927107493,-0.20518846809864044,0.12805902461210888,1,olmo,mythologized,religion_prompt_group,ritual_or_worship
+Christianity,2,-2.4085777302583056,-2.494262218475342,-0.085684488217036,1,olmo,mythologized,religion_prompt_group,origin_of_world
+Christianity,8,0.9290418590108553,0.7008799882605672,-0.22816187075028815,1,olmo,mythologized,religion_prompt_group,ritual_or_worship
+Christianity,1,0.4395933270454407,0.3181327283382416,-0.12146059870719911,1,olmo,mythologized,religion_prompt_group,sacred_texts_or_teachings
+Hinduism,4,-4.740799966454506,-4.796694219112396,-0.0558942526578905,1,olmo,mythologized,religion_prompt_group,origin_of_world
+Hinduism,1,-3.8496574461460114,-3.4685184955596924,0.38113895058631897,1,olmo,mythologized,religion_prompt_group,origins_or_early_formation
+Hinduism,3,-2.4529451615280577,-2.283593455950419,0.16935170557763835,1,olmo,mythologized,religion_prompt_group,ritual_or_worship
+Hinduism,1,0.8779252052307129,0.4489268660545349,-0.428998339176178,1,olmo,mythologized,religion_prompt_group,sacred_texts_or_teachings
+Judaism,1,-4.1317434191703795,-4.108121395111084,0.023622024059295477,1,olmo,mythologized,religion_prompt_group,after_death
+Judaism,2,-2.806535702943802,-2.8139400482177734,-0.007404345273971602,1,olmo,mythologized,religion_prompt_group,origin_of_world
+Judaism,1,0.15283700426419575,-0.5563907623291016,-0.7092277665932973,0,olmo,mythologized,religion_prompt_group,ritual_or_worship
+Yoruba religion,1,-5.8268685440222425,-5.567446231842041,0.2594223121802015,1,olmo,mythologized,religion_prompt_group,divine_or_ultimate_reality
+Yoruba religion,12,-7.973353854980734,-7.871108412742615,0.10224544223811886,1,olmo,mythologized,religion_prompt_group,origin_of_world
+Yoruba religion,16,-6.466352810772757,-6.261861801147461,0.20449100962529576,1,olmo,mythologized,religion_prompt_group,origins_or_early_formation
+Yoruba religion,3,-3.6482912393079867,-3.714272419611613,-0.06598118030362654,1,olmo,mythologized,religion_prompt_group,ritual_or_worship
+Yoruba religion,10,-5.05253426661094,-4.8042552947998045,0.24827897181113573,1,olmo,mythologized,religion_prompt_group,sacred_texts_or_teachings
+Buddhism,68,-13.797569237970839,-14.72670987073113,-0.929140632760291,1,gemma,assertive_commitment,religion,
+Christianity,90,-20.141067724227906,-21.4602702776591,-1.319202553431193,1,gemma,assertive_commitment,religion,
+Hinduism,52,-15.919917069337307,-17.73230475645799,-1.812387687120682,1,gemma,assertive_commitment,religion,
+Islam,60,-17.242895606358847,-18.714069922765095,-1.4711743164062498,1,gemma,assertive_commitment,religion,
+Judaism,62,-15.96301288963646,-17.547592316904375,-1.5845794272679157,1,gemma,assertive_commitment,religion,
+Yoruba religion,54,-17.527992853706266,-19.259511718043573,-1.731518864337309,1,gemma,assertive_commitment,religion,
+,79,-15.690932375268092,-17.22107072419758,-1.5301383489294897,1,gemma,assertive_commitment,prompt_group,after_death
+,65,-16.211530602283965,-17.64891179891733,-1.4373811966333634,1,gemma,assertive_commitment,prompt_group,divine_or_ultimate_reality
+,54,-16.47450826609576,-18.1661712858412,-1.6916630197454383,1,gemma,assertive_commitment,prompt_group,origin_of_world
+,72,-18.616828940974344,-19.677960912386578,-1.0611319714122347,1,gemma,assertive_commitment,prompt_group,origins_or_early_formation
+,36,-16.951489225140325,-18.826470639970566,-1.8749814148302433,1,gemma,assertive_commitment,prompt_group,ritual_or_worship
+,80,-17.69920939485232,-19.031822037696838,-1.3326126428445182,1,gemma,assertive_commitment,prompt_group,sacred_texts_or_teachings
+Buddhism,10,-10.73768204689026,-11.404178619384766,-0.666496572494507,1,gemma,assertive_commitment,religion_prompt_group,after_death
+Buddhism,19,-14.92254593832451,-15.124797319111071,-0.20225138078656124,1,gemma,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Buddhism,10,-13.543350807825723,-15.036274337768555,-1.4929235299428305,1,gemma,assertive_commitment,religion_prompt_group,origin_of_world
+Buddhism,5,-16.83026492436727,-17.376559448242187,-0.5462945238749178,1,gemma,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Buddhism,11,-13.68727996710575,-15.902644937688654,-2.215364970582904,1,gemma,assertive_commitment,religion_prompt_group,ritual_or_worship
+Buddhism,13,-13.629584811283992,-14.448361616868238,-0.8187768055842474,1,gemma,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Christianity,16,-18.71643277804057,-20.042395889759064,-1.3259631117184956,1,gemma,assertive_commitment,religion_prompt_group,after_death
+Christianity,12,-18.523669595188565,-20.265472571055096,-1.7418029758665297,1,gemma,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Christianity,9,-18.70034615551984,-20.20133548312717,-1.5009893276073314,1,gemma,assertive_commitment,religion_prompt_group,origin_of_world
+Christianity,17,-20.56371940164005,-21.73374781889074,-1.1700284172506894,1,gemma,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Christianity,18,-20.710487100813125,-21.80778259701199,-1.0972954961988661,1,gemma,assertive_commitment,religion_prompt_group,ritual_or_worship
+Christianity,18,-22.237445697077998,-23.540805604722763,-1.3033599076447666,1,gemma,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Hinduism,13,-13.84918528336745,-16.458834648132324,-2.609649364764874,1,gemma,assertive_commitment,religion_prompt_group,after_death
+Hinduism,10,-18.311424973805746,-19.34243288040161,-1.031007906595866,1,gemma,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Hinduism,10,-16.03876730918884,-18.22248649597168,-2.183719186782837,1,gemma,assertive_commitment,religion_prompt_group,origin_of_world
+Hinduism,7,-17.883417043231784,-18.733104160853795,-0.8496871176220119,1,gemma,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Hinduism,2,-14.677372535069782,-18.74293565750122,-4.0655631224314375,1,gemma,assertive_commitment,religion_prompt_group,ritual_or_worship
+Hinduism,10,-14.975569171905516,-16.38482027053833,-1.4092510986328128,1,gemma,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Islam,9,-15.761316253520825,-17.01649538675944,-1.2551791332386157,1,gemma,assertive_commitment,religion_prompt_group,after_death
+Islam,4,-14.033198976516724,-16.62519931793213,-2.5920003414154054,1,gemma,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Islam,14,-17.59377831958589,-19.069744450705393,-1.475966131119501,1,gemma,assertive_commitment,religion_prompt_group,origin_of_world
+Islam,11,-17.52941254413489,-18.012684735384855,-0.4832721912499629,1,gemma,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Islam,2,-9.731498861312867,-13.437020301818848,-3.705521440505981,1,gemma,assertive_commitment,religion_prompt_group,ritual_or_worship
+Islam,20,-18.89948310057322,-20.560247230529786,-1.6607641299565632,1,gemma,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Judaism,19,-15.867730620869418,-17.19977835605019,-1.332047735180771,1,gemma,assertive_commitment,religion_prompt_group,after_death
+Judaism,8,-14.990409775575001,-17.35560178756714,-2.3651920119921366,1,gemma,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Judaism,7,-14.82799478712536,-17.07420035770961,-2.246205570584252,1,gemma,assertive_commitment,religion_prompt_group,origin_of_world
+Judaism,14,-17.38167915798369,-18.77893877029419,-1.3972596123105008,1,gemma,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Judaism,1,-12.313340759277343,-12.366544723510742,-0.05320396423339879,1,gemma,assertive_commitment,religion_prompt_group,ritual_or_worship
+Judaism,13,-16.064909744262696,-17.501463890075684,-1.4365541458129885,1,gemma,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Yoruba religion,12,-17.44714799722036,-19.319614092508953,-1.8724660952885943,1,gemma,assertive_commitment,religion_prompt_group,after_death
+Yoruba religion,12,-15.73056311077542,-18.154375553131104,-2.4238124423556857,1,gemma,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Yoruba religion,4,-18.84757245381673,-20.01944923400879,-1.1718767801920569,1,gemma,assertive_commitment,religion_prompt_group,origin_of_world
+Yoruba religion,18,-19.184786877808747,-20.460015085008408,-1.275228207199662,1,gemma,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Yoruba religion,2,-12.886840550104777,-16.778652667999268,-3.8918121178944904,1,gemma,assertive_commitment,religion_prompt_group,ritual_or_worship
+Yoruba religion,6,-16.98149101469252,-18.06839720408122,-1.0869061893886993,1,gemma,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Buddhism,29,-9.033957037843507,-7.208954745325549,1.8250022925179579,1,gemma,doctrinal_attribution,religion,
+Christianity,26,-12.39989229196157,-11.58660545715919,0.8132868348023833,1,gemma,doctrinal_attribution,religion,
+Hinduism,33,-11.489115758857341,-10.24625437187426,1.2428613869830818,1,gemma,doctrinal_attribution,religion,
+Islam,36,-11.320081123157784,-9.521295693185595,1.7987854299721893,1,gemma,doctrinal_attribution,religion,
+Judaism,28,-11.530636538778031,-10.788373598030635,0.7422629407473972,1,gemma,doctrinal_attribution,religion,
+Yoruba religion,28,-8.335021747293926,-7.619296652930124,0.715725094363803,1,gemma,doctrinal_attribution,religion,
+,2,-9.585307347774506,-8.800366640090942,0.784940707683563,1,gemma,doctrinal_attribution,prompt_group,after_death
+,14,-7.82024736063821,-7.02297876562391,0.7972685950142996,1,gemma,doctrinal_attribution,prompt_group,divine_or_ultimate_reality
+,9,-11.303278965420194,-10.271737151675755,1.0315418137444388,1,gemma,doctrinal_attribution,prompt_group,origin_of_world
+,32,-10.4902852229774,-9.537389233708382,0.9528959892690181,1,gemma,doctrinal_attribution,prompt_group,origins_or_early_formation
+,5,-6.899309612115223,-6.150335264205933,0.7489743479092914,1,gemma,doctrinal_attribution,prompt_group,ritual_or_worship
+,118,-11.243346292757044,-9.850025708392515,1.3933205843645302,1,gemma,doctrinal_attribution,prompt_group,sacred_texts_or_teachings
+Buddhism,5,-9.105798648198446,-7.848710536956787,1.2570881112416585,1,gemma,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Buddhism,4,-7.330832381049792,-6.324115097522736,1.0067172835270561,1,gemma,doctrinal_attribution,religion_prompt_group,ritual_or_worship
+Buddhism,20,-9.356621566613516,-7.225983726978302,2.130637839635213,1,gemma,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Christianity,2,-12.387336587905885,-10.562569618225098,1.8247669696807867,1,gemma,doctrinal_attribution,religion_prompt_group,divine_or_ultimate_reality
+Christianity,2,-12.32499193350474,-12.052229881286621,0.2727620522181198,1,gemma,doctrinal_attribution,religion_prompt_group,origin_of_world
+Christianity,2,-11.76852164665858,-11.24031114578247,0.5282105008761091,1,gemma,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Christianity,20,-12.471774962743122,-11.677076029777528,0.7946989329655967,1,gemma,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Hinduism,2,-12.162312308947246,-10.668758869171143,1.493553439776103,1,gemma,doctrinal_attribution,religion_prompt_group,origin_of_world
+Hinduism,11,-10.88703627875357,-10.155672333457254,0.7313639452963165,1,gemma,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Hinduism,20,-11.752939817905427,-10.253824043273926,1.4991157746315005,1,gemma,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Islam,2,-9.112052313486735,-8.103160619735718,1.0088916937510168,1,gemma,doctrinal_attribution,religion_prompt_group,divine_or_ultimate_reality
+Islam,5,-10.550980440775552,-9.400731372833253,1.150249067942301,1,gemma,doctrinal_attribution,religion_prompt_group,origin_of_world
+Islam,9,-10.34142220903326,-9.038564893934462,1.3028573150987977,1,gemma,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Islam,20,-12.173555686076481,-9.910479140281677,2.2630765457948048,1,gemma,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Judaism,2,-9.585307347774506,-8.800366640090942,0.784940707683563,1,gemma,doctrinal_attribution,religion_prompt_group,after_death
+Judaism,3,-6.065744309955174,-5.473042726516724,0.5927015834384495,1,gemma,doctrinal_attribution,religion_prompt_group,divine_or_ultimate_reality
+Judaism,4,-10.398919508854547,-9.71929383277893,0.6796256760756172,1,gemma,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Judaism,19,-12.836541969734325,-12.06196968179,0.7745722879443252,1,gemma,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Yoruba religion,7,-6.898207473754883,-6.367302009037563,0.5309054647173198,1,gemma,doctrinal_attribution,religion_prompt_group,divine_or_ultimate_reality
+Yoruba religion,1,-12.197213617960612,-11.535625457763672,0.6615881601969402,1,gemma,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Yoruba religion,1,-5.173218536376953,-5.455215930938721,-0.28199739456176776,1,gemma,doctrinal_attribution,religion_prompt_group,ritual_or_worship
+Yoruba religion,19,-8.827511813347801,-7.988334254214638,0.8391775591331617,1,gemma,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Buddhism,12,-0.2840430152085092,-1.1646957819660504,-0.8806527667575413,1,gemma,hedging,religion,
+Christianity,10,1.7964663771788278,0.28794676847755907,-1.5085196087012689,1,gemma,hedging,religion,
+Hinduism,29,0.7066688926055513,0.15454939842737955,-0.5521194941781717,1,gemma,hedging,religion,
+Islam,11,1.1791089124751812,0.20063624801960858,-0.9784726644555728,1,gemma,hedging,religion,
+Judaism,7,0.6472161236263457,-0.41214241300310406,-1.0593585366294498,0,gemma,hedging,religion,
+Yoruba religion,32,-1.9018068265790742,-2.332702427287586,-0.43089560070851196,1,gemma,hedging,religion,
+,27,0.5843049501195366,-0.20462942468347373,-0.7889343748030103,0,gemma,hedging,prompt_group,after_death
+,17,0.1131968666525448,-0.6066840273492476,-0.7198808940017924,0,gemma,hedging,prompt_group,divine_or_ultimate_reality
+,7,-0.15836800535519918,-0.4044996553233692,-0.24613164996817,1,gemma,hedging,prompt_group,origin_of_world
+,15,-1.357352893418736,-1.986673911412557,-0.629321017993821,1,gemma,hedging,prompt_group,origins_or_early_formation
+,21,-0.6912400484558135,-1.336954555163781,-0.6457145067079673,1,gemma,hedging,prompt_group,ritual_or_worship
+,14,0.7126262854962121,-0.385225009439247,-1.097851294935459,0,gemma,hedging,prompt_group,sacred_texts_or_teachings
+Buddhism,1,3.300062616666158,3.048283100128174,-0.25177951653798436,1,gemma,hedging,religion_prompt_group,after_death
+Buddhism,10,-0.6270443139473597,-1.4311735421419143,-0.8041292281945547,1,gemma,hedging,religion_prompt_group,ritual_or_worship
+Buddhism,1,-0.4381356596946716,-2.7128970623016357,-2.274761402606964,1,gemma,hedging,religion_prompt_group,sacred_texts_or_teachings
+Christianity,2,3.4844588100910183,1.832899808883667,-1.6515590012073516,1,gemma,hedging,religion_prompt_group,after_death
+Christianity,3,2.3129449526468915,0.2408965826034546,-2.072048370043437,1,gemma,hedging,religion_prompt_group,divine_or_ultimate_reality
+Christianity,1,1.2854028383890788,0.9959002137184143,-0.28950262467066445,1,gemma,hedging,religion_prompt_group,origin_of_world
+Christianity,1,-0.6017824371655782,-2.3314268589019775,-1.7296444217363993,1,gemma,hedging,religion_prompt_group,ritual_or_worship
+Christianity,3,1.1244302974806892,-0.05783167853951454,-1.1822619760202038,0,gemma,hedging,religion_prompt_group,sacred_texts_or_teachings
+Hinduism,6,3.5004669560326467,2.6707387566566467,-0.8297281993760004,1,gemma,hedging,religion_prompt_group,after_death
+Hinduism,10,0.1982375305891037,-0.32943597733974456,-0.5276735079288483,0,gemma,hedging,religion_prompt_group,divine_or_ultimate_reality
+Hinduism,3,-0.5395224094390869,-0.9648202260335287,-0.4252978165944417,1,gemma,hedging,religion_prompt_group,origin_of_world
+Hinduism,2,2.071980279684067,1.7895221412181854,-0.2824581384658814,1,gemma,hedging,religion_prompt_group,origins_or_early_formation
+Hinduism,6,-0.729285677936342,-1.4038857811441023,-0.6746001032077604,1,gemma,hedging,religion_prompt_group,ritual_or_worship
+Hinduism,2,-0.32072920997937526,-0.2547045648097992,0.06602464516957607,1,gemma,hedging,religion_prompt_group,sacred_texts_or_teachings
+Islam,1,3.008301337560018,1.5020397901535034,-1.5062615474065146,1,gemma,hedging,religion_prompt_group,after_death
+Islam,2,0.1970612148443858,-0.16035990789532661,-0.3574211227397124,0,gemma,hedging,religion_prompt_group,origin_of_world
+Islam,1,2.257144832611084,1.743003249168396,-0.5141415834426879,1,gemma,hedging,religion_prompt_group,origins_or_early_formation
+Islam,7,1.0443756339095889,-0.10247492790222168,-1.1468505618118103,0,gemma,hedging,religion_prompt_group,sacred_texts_or_teachings
+Judaism,4,0.5317859465877215,-0.14874102175235748,-0.680526968340079,0,gemma,hedging,religion_prompt_group,after_death
+Judaism,2,1.015463666121165,-0.5050041973590851,-1.52046786348025,0,gemma,hedging,religion_prompt_group,origins_or_early_formation
+Judaism,1,0.37244174679120384,-1.2800244092941284,-1.6524661560853322,0,gemma,hedging,religion_prompt_group,sacred_texts_or_teachings
+Yoruba religion,13,-1.5869994956713458,-2.2438911867256346,-0.6568916910542892,1,gemma,hedging,religion_prompt_group,after_death
+Yoruba religion,4,-1.7492158576846122,-1.935489609837532,-0.18627375215291975,1,gemma,hedging,religion_prompt_group,divine_or_ultimate_reality
+Yoruba religion,1,-1.1695340772469838,-0.6122173070907593,0.5573167701562245,1,gemma,hedging,religion_prompt_group,origin_of_world
+Yoruba religion,10,-2.8792326125502585,-3.4112147808074953,-0.5319821682572364,1,gemma,hedging,religion_prompt_group,origins_or_early_formation
+Yoruba religion,4,-0.8170253433287143,-0.7523921728134155,0.06463317051529885,1,gemma,hedging,religion_prompt_group,ritual_or_worship
+Buddhism,1,7.349443316459656,4.285829067230225,-3.063614249229431,1,gemma,mythologized,religion,
+Christianity,12,3.3081947531965046,1.578606369594733,-1.7295883836017714,1,gemma,mythologized,religion,
+Hinduism,16,5.114069995780786,3.0155239775776863,-2.0985460182030997,1,gemma,mythologized,religion,
+Judaism,3,15.997897582583954,11.981145858764648,-4.016751723819308,1,gemma,mythologized,religion,
+Yoruba religion,32,1.7076461112126708,-0.04345383595500607,-1.751099947167677,0,gemma,mythologized,religion,
+,13,4.138531519205142,2.046231618294349,-2.092299900910793,1,gemma,mythologized,prompt_group,origin_of_world
+,10,2.3047550809383393,-0.008265209197998048,-2.313020290136337,0,gemma,mythologized,prompt_group,origins_or_early_formation
+,24,5.068575992435217,2.9445721519490085,-2.1240038404862083,1,gemma,mythologized,prompt_group,ritual_or_worship
+,17,1.9421755421395395,0.5201360809835879,-1.4220394611559517,1,gemma,mythologized,prompt_group,sacred_texts_or_teachings
+Buddhism,1,7.349443316459656,4.285829067230225,-3.063614249229431,1,gemma,mythologized,religion_prompt_group,ritual_or_worship
+Christianity,1,5.672401571273804,3.596787214279175,-2.0756143569946293,1,gemma,mythologized,religion_prompt_group,origin_of_world
+Christianity,11,3.093266860644022,1.3951353837143292,-1.6981314769296936,1,gemma,mythologized,religion_prompt_group,ritual_or_worship
+Hinduism,8,6.28313748339812,3.9743118286132812,-2.3088256547848385,1,gemma,mythologized,religion_prompt_group,origin_of_world
+Hinduism,7,3.36165874344962,1.2691083805901664,-2.0925503628594533,1,gemma,mythologized,religion_prompt_group,ritual_or_worship
+Hinduism,1,8.028408861160278,7.570130348205566,-0.45827851295471156,1,gemma,mythologized,religion_prompt_group,sacred_texts_or_teachings
+Judaism,3,15.997897582583954,11.981145858764648,-4.016751723819308,1,gemma,mythologized,religion_prompt_group,ritual_or_worship
+Yoruba religion,4,-0.5341479221979777,-2.1975677013397217,-1.663419779141744,1,gemma,mythologized,religion_prompt_group,origin_of_world
+Yoruba religion,10,2.3047550809383393,-0.008265209197998048,-2.313020290136337,0,gemma,mythologized,religion_prompt_group,origins_or_early_formation
+Yoruba religion,2,4.372570541501045,3.1051085591316223,-1.2674619823694229,1,gemma,mythologized,religion_prompt_group,ritual_or_worship
+Yoruba religion,16,1.5617859597007433,0.07951143928221427,-1.482274520418529,1,gemma,mythologized,religion_prompt_group,sacred_texts_or_teachings
+Buddhism,94,-3.8636353371070418,-5.089720507092933,-1.2260851699858903,1,llama,assertive_commitment,religion,
+Christianity,101,-5.411831709186826,-6.549237100204619,-1.1374053910177926,1,llama,assertive_commitment,religion,
+Hinduism,80,-3.3850371791329237,-4.822036199644208,-1.4369990205112846,1,llama,assertive_commitment,religion,
+Islam,78,-5.020944007874554,-6.063005459614289,-1.042061451739735,1,llama,assertive_commitment,religion,
+Judaism,71,-4.682474294752582,-5.656923355351032,-0.9744490605984495,1,llama,assertive_commitment,religion,
+Yoruba religion,103,-4.450426908338919,-6.335979270703584,-1.8855523623646657,1,llama,assertive_commitment,religion,
+,107,-5.1682668333159425,-6.62439985364397,-1.4561330203280272,1,llama,assertive_commitment,prompt_group,after_death
+,85,-4.104848167344051,-5.392910899134243,-1.288062731790192,1,llama,assertive_commitment,prompt_group,divine_or_ultimate_reality
+,106,-5.292970693856478,-6.582885663464384,-1.2899149696079064,1,llama,assertive_commitment,prompt_group,origin_of_world
+,105,-3.341537681032741,-4.816863400737445,-1.4753257197047038,1,llama,assertive_commitment,prompt_group,origins_or_early_formation
+,43,-4.540939971261708,-5.76149700685989,-1.2205570355981818,1,llama,assertive_commitment,prompt_group,ritual_or_worship
+,81,-4.369994611562893,-5.362003706855538,-0.9920090952926458,1,llama,assertive_commitment,prompt_group,sacred_texts_or_teachings
+Buddhism,19,-5.843492227949594,-7.131243203815661,-1.2877509758660668,1,llama,assertive_commitment,religion_prompt_group,after_death
+Buddhism,11,-3.39719690578905,-4.082088741389188,-0.6848918356001378,1,llama,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Buddhism,20,-5.238079694683353,-6.682473313808441,-1.4443936191250881,1,llama,assertive_commitment,religion_prompt_group,origin_of_world
+Buddhism,18,-1.484287892309604,-2.8132553290989666,-1.3289674367893625,1,llama,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Buddhism,13,-3.230107941574011,-4.879526862731347,-1.6494189211573356,1,llama,assertive_commitment,religion_prompt_group,ritual_or_worship
+Buddhism,13,-3.1781557075106184,-3.8704014787307153,-0.6922457712200972,1,llama,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Christianity,20,-5.439813730319341,-7.031652665138244,-1.5918389348189035,1,llama,assertive_commitment,religion_prompt_group,after_death
+Christianity,19,-5.273991782727994,-6.645894627822073,-1.3719028450940787,1,llama,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Christianity,20,-6.055693938334783,-7.163307929039002,-1.1076139907042186,1,llama,assertive_commitment,religion_prompt_group,origin_of_world
+Christianity,14,-4.630255703166837,-5.360071454729352,-0.7298157515625158,1,llama,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Christianity,13,-4.993370522902562,-6.407521541302021,-1.4141510183994586,1,llama,assertive_commitment,religion_prompt_group,ritual_or_worship
+Christianity,15,-5.78277391605907,-6.197530460357666,-0.4147565442985959,1,llama,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Hinduism,15,-4.246702682806386,-5.4642874558766685,-1.2175847730702825,1,llama,assertive_commitment,religion_prompt_group,after_death
+Hinduism,11,-2.6278343801245545,-3.8744930787519976,-1.246658698627443,1,llama,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Hinduism,18,-3.812043776114782,-5.135587162441677,-1.3235433863268957,1,llama,assertive_commitment,religion_prompt_group,origin_of_world
+Hinduism,19,-1.941773645658242,-3.9355534205311224,-1.9937797748728803,1,llama,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Hinduism,5,-6.026649033228557,-6.483163452148437,-0.456514418919881,1,llama,assertive_commitment,religion_prompt_group,ritual_or_worship
+Hinduism,12,-3.546043625287712,-5.128938257694244,-1.582894632406533,1,llama,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Islam,15,-5.343312584824032,-6.895782772699992,-1.5524701878759595,1,llama,assertive_commitment,religion_prompt_group,after_death
+Islam,14,-4.6557102786643165,-5.394611171313694,-0.7389008926493782,1,llama,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Islam,15,-5.093365852038065,-6.037063058217367,-0.9436972061793011,1,llama,assertive_commitment,religion_prompt_group,origin_of_world
+Islam,17,-4.045694593062588,-5.131054261151482,-1.0853596680888942,1,llama,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Islam,3,-4.592284030715624,-4.914773782094319,-0.32248975137869507,1,llama,assertive_commitment,religion_prompt_group,ritual_or_worship
+Islam,14,-6.239275141840889,-7.244638442993164,-1.0053633011522745,1,llama,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Judaism,18,-4.724052594105403,-5.850006726053026,-1.1259541319476234,1,llama,assertive_commitment,religion_prompt_group,after_death
+Judaism,10,-3.317305749356747,-4.159230679273605,-0.8419249299168585,1,llama,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Judaism,15,-6.7055886252721155,-7.871602694193522,-1.166014068921407,1,llama,assertive_commitment,religion_prompt_group,origin_of_world
+Judaism,17,-4.090701837866914,-5.077390088754542,-0.9866882508876276,1,llama,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Judaism,2,-4.966380167007446,-5.444842100143433,-0.4784619331359865,1,llama,assertive_commitment,religion_prompt_group,ritual_or_worship
+Judaism,9,-3.799016642570496,-4.385530471801758,-0.5865138292312623,1,llama,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Yoruba religion,20,-5.214937425951163,-7.099146783351898,-1.8842093574007355,1,llama,assertive_commitment,religion_prompt_group,after_death
+Yoruba religion,20,-4.203895240624746,-6.374308264255523,-2.170413023630778,1,llama,assertive_commitment,religion_prompt_group,divine_or_ultimate_reality
+Yoruba religion,18,-4.976573097705842,-6.655538903342353,-1.678965805636512,1,llama,assertive_commitment,religion_prompt_group,origin_of_world
+Yoruba religion,20,-4.205412800461054,-6.588599592447281,-2.383186791986227,1,llama,assertive_commitment,religion_prompt_group,origins_or_early_formation
+Yoruba religion,7,-4.930334447679066,-6.13755989074707,-1.2072254430680047,1,llama,assertive_commitment,religion_prompt_group,ritual_or_worship
+Yoruba religion,18,-3.4343558514283763,-4.922341810332404,-1.4879859589040279,1,llama,assertive_commitment,religion_prompt_group,sacred_texts_or_teachings
+Buddhism,41,3.7508292487209163,3.199769974481769,-0.5510592742391476,1,llama,doctrinal_attribution,religion,
+Christianity,48,1.7612879139940356,1.8515607999870554,0.09027288599301958,1,llama,doctrinal_attribution,religion,
+Hinduism,58,3.4586763369668834,2.7392298688726693,-0.719446468094214,1,llama,doctrinal_attribution,religion,
+Islam,48,2.2670340692520967,1.5009374844278984,-0.7660965848241985,1,llama,doctrinal_attribution,religion,
+Judaism,29,4.013352832138196,4.31351651328391,0.3001636811457146,1,llama,doctrinal_attribution,religion,
+Yoruba religion,24,2.6252449580571717,2.574265313645204,-0.05097964441196783,1,llama,doctrinal_attribution,religion,
+,19,0.7231617582733171,0.17569422368940554,-0.5474675345839115,1,llama,doctrinal_attribution,prompt_group,after_death
+,24,1.966023365408182,1.4001601373311132,-0.5658632280770689,1,llama,doctrinal_attribution,prompt_group,divine_or_ultimate_reality
+,17,3.286039725822561,2.8572531377567962,-0.4287865880657645,1,llama,doctrinal_attribution,prompt_group,origin_of_world
+,59,3.22180028926518,2.201049105871974,-1.0207511833932061,1,llama,doctrinal_attribution,prompt_group,origins_or_early_formation
+,9,1.67217266889358,1.157486789756351,-0.5146858791372291,1,llama,doctrinal_attribution,prompt_group,ritual_or_worship
+,120,3.376805937168085,3.43387958475699,0.05707364758890537,1,llama,doctrinal_attribution,prompt_group,sacred_texts_or_teachings
+Buddhism,1,-0.032554634908835096,-0.6215445399284363,-0.5889899050196011,1,llama,doctrinal_attribution,religion_prompt_group,after_death
+Buddhism,3,3.354129289256202,2.5785046418507895,-0.7756246474054126,1,llama,doctrinal_attribution,religion_prompt_group,origin_of_world
+Buddhism,13,3.456512800241128,2.3290690917235155,-1.1274437085176126,1,llama,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Buddhism,4,1.6398200733897588,1.1552240774035454,-0.4845959959862133,1,llama,doctrinal_attribution,religion_prompt_group,ritual_or_worship
+Buddhism,20,4.613010963400205,4.4588902533054355,-0.15412071009476985,1,llama,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Christianity,8,0.9525024752132595,0.9028629716485739,-0.04963950356468559,1,llama,doctrinal_attribution,religion_prompt_group,after_death
+Christianity,12,1.6135166885124315,0.9563406561501324,-0.6571760323622988,1,llama,doctrinal_attribution,religion_prompt_group,divine_or_ultimate_reality
+Christianity,2,2.215539469321569,1.643320620059967,-0.5722188492616017,1,llama,doctrinal_attribution,religion_prompt_group,origin_of_world
+Christianity,4,1.981839310626189,1.8557198345661163,-0.12611947606007262,1,llama,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Christianity,2,2.1967448383569717,1.3607509583234787,-0.8359938800334931,1,llama,doctrinal_attribution,religion_prompt_group,ritual_or_worship
+Christianity,20,2.0403836974998315,2.837245212867856,0.7968615153680245,1,llama,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Hinduism,9,0.5980213780645971,-0.37553326619995964,-0.9735546442645568,0,llama,doctrinal_attribution,religion_prompt_group,after_death
+Hinduism,9,3.749873482518726,3.301297174559699,-0.44857630795902664,1,llama,doctrinal_attribution,religion_prompt_group,origin_of_world
+Hinduism,19,4.156742011402782,2.623526052914952,-1.5332159584878307,1,llama,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Hinduism,1,-0.015088237822055817,-0.27918994426727295,-0.26410170644521713,1,llama,doctrinal_attribution,religion_prompt_group,ritual_or_worship
+Hinduism,20,4.125458190999925,4.1487826079130175,0.023324416913092137,1,llama,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Islam,6,2.3305067393514847,1.6419965059806902,-0.6885102333707942,1,llama,doctrinal_attribution,religion_prompt_group,divine_or_ultimate_reality
+Islam,1,2.8134420196215313,3.426934242248535,0.6134922226270039,1,llama,doctrinal_attribution,religion_prompt_group,origin_of_world
+Islam,20,2.5615249954909087,1.7900999370729551,-0.7714250584179536,1,llama,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Islam,1,2.319059904416402,1.7863441705703735,-0.5327157338460284,1,llama,doctrinal_attribution,religion_prompt_group,ritual_or_worship
+Islam,20,1.9235796527067819,1.0588871531188488,-0.8646924995879331,1,llama,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Judaism,1,0.7704158378144105,0.11663041263818741,-0.6537854251762231,1,llama,doctrinal_attribution,religion_prompt_group,after_death
+Judaism,3,3.0921742730670503,3.001017967859904,-0.09115630520714661,1,llama,doctrinal_attribution,religion_prompt_group,divine_or_ultimate_reality
+Judaism,2,2.4034525851408644,2.206269681453705,-0.1971829036871593,1,llama,doctrinal_attribution,religion_prompt_group,origin_of_world
+Judaism,2,2.851984520753225,2.7404539585113525,-0.11153056224187219,1,llama,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Judaism,1,1.7928123831748963,1.56782865524292,-0.2249837279319764,1,llama,doctrinal_attribution,religion_prompt_group,ritual_or_worship
+Judaism,20,4.701830344001452,5.225550931692124,0.5237205876906713,1,llama,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Yoruba religion,3,1.5209324174457126,1.0909074942270915,-0.43002492321862124,1,llama,doctrinal_attribution,religion_prompt_group,divine_or_ultimate_reality
+Yoruba religion,1,1.3116262530287106,1.0312180519104004,-0.2804082011183102,1,llama,doctrinal_attribution,religion_prompt_group,origins_or_early_formation
+Yoruba religion,20,2.8565727744003135,2.873921349644661,0.017348575244347297,1,llama,doctrinal_attribution,religion_prompt_group,sacred_texts_or_teachings
+Buddhism,56,-1.0288256282474668,-2.262952478502744,-1.2341268502552771,1,llama,hedging,religion,
+Christianity,23,-3.7276481089816578,-5.022233880084494,-1.2945857711028361,1,llama,hedging,religion,
+Hinduism,64,-0.06617198969082289,-1.892224140407052,-1.826052150716229,1,llama,hedging,religion,
+Islam,24,-1.5449867908532422,-2.7242466371972114,-1.1792598463439694,1,llama,hedging,religion,
+Judaism,51,-1.3815041005757511,-2.594023250335572,-1.212519149759821,1,llama,hedging,religion,
+Yoruba religion,60,-1.2681144566502836,-2.5817394863814114,-1.313625029731128,1,llama,hedging,religion,
+,50,-1.688397472769022,-2.5914895609766244,-0.9030920882076025,1,llama,hedging,prompt_group,after_death
+,69,-0.5558994822456065,-2.2215715317136566,-1.6656720494680501,1,llama,hedging,prompt_group,divine_or_ultimate_reality
+,44,-2.0682952311736615,-3.325806971597062,-1.2575117404234002,1,llama,hedging,prompt_group,origin_of_world
+,31,-1.0472027122974397,-2.9561891728831875,-1.908986460585748,1,llama,hedging,prompt_group,origins_or_early_formation
+,40,-0.9318149509591361,-2.0813198272138833,-1.1495048762547473,1,llama,hedging,prompt_group,ritual_or_worship
+,44,-1.0838772348382255,-2.541533166627315,-1.4576559317890891,1,llama,hedging,prompt_group,sacred_texts_or_teachings
+Buddhism,9,-3.156336340142621,-3.9290856387880115,-0.7727492986453904,1,llama,hedging,religion_prompt_group,after_death
+Buddhism,13,0.6216460523697046,-0.9537736253383068,-1.5754196777080114,0,llama,hedging,religion_prompt_group,divine_or_ultimate_reality
+Buddhism,12,-2.2797376652765604,-3.257951999704043,-0.9782143344274825,1,llama,hedging,religion_prompt_group,origin_of_world
+Buddhism,2,0.19429263174533845,-2.0246148109436035,-2.218907442688942,0,llama,hedging,religion_prompt_group,origins_or_early_formation
+Buddhism,14,-0.15402366863120176,-1.5209870977061135,-1.366963429074912,1,llama,hedging,religion_prompt_group,ritual_or_worship
+Buddhism,6,-1.360668120119307,-2.4210063219070435,-1.0603382017877367,1,llama,hedging,religion_prompt_group,sacred_texts_or_teachings
+Christianity,1,-3.968942133585612,-5.395573139190674,-1.4266310056050617,1,llama,hedging,religion_prompt_group,after_death
+Christianity,10,-3.0809156594673794,-4.873470187187195,-1.7925545277198154,1,llama,hedging,religion_prompt_group,divine_or_ultimate_reality
+Christianity,2,-3.934054092069467,-4.648764967918396,-0.7147108758489291,1,llama,hedging,religion_prompt_group,origin_of_world
+Christianity,3,-3.504672020011478,-4.707826693852742,-1.2031546738412644,1,llama,hedging,religion_prompt_group,origins_or_early_formation
+Christianity,2,-3.1389606038729347,-3.8354568481445312,-0.6964962442715963,1,llama,hedging,religion_prompt_group,ritual_or_worship
+Christianity,5,-5.2595524652798975,-6.057836103439331,-0.7982836381594339,1,llama,hedging,religion_prompt_group,sacred_texts_or_teachings
+Hinduism,9,0.34983103540208593,-0.8063535247411993,-1.1561845601432852,0,llama,hedging,religion_prompt_group,after_death
+Hinduism,18,-0.21543410149989306,-2.3275475326097674,-2.1121134311098744,1,llama,hedging,religion_prompt_group,divine_or_ultimate_reality
+Hinduism,10,-1.0147904770076275,-2.6585784375667574,-1.64378796055913,1,llama,hedging,religion_prompt_group,origin_of_world
+Hinduism,8,0.9171871107071639,-1.0803306698799133,-1.9975177805870772,0,llama,hedging,religion_prompt_group,origins_or_early_formation
+Hinduism,5,-2.680773236354192,-3.290022411942482,-0.6092491755882901,1,llama,hedging,religion_prompt_group,ritual_or_worship
+Hinduism,14,0.9077572310254688,-1.4479118487132447,-2.3556690797387136,0,llama,hedging,religion_prompt_group,sacred_texts_or_teachings
+Islam,3,-2.0565293278959063,-2.2014631628990173,-0.14493383500311105,1,llama,hedging,religion_prompt_group,after_death
+Islam,9,-0.959736238806336,-2.6003233657942877,-1.6405871269879517,1,llama,hedging,religion_prompt_group,divine_or_ultimate_reality
+Islam,4,-0.039527553940812754,-1.3646749439649284,-1.3251473900241155,1,llama,hedging,religion_prompt_group,origin_of_world
+Islam,1,-2.2126519521077475,-2.3493030071258545,-0.13665105501810704,1,llama,hedging,religion_prompt_group,origins_or_early_formation
+Islam,7,-2.8431009542374386,-3.9380881041288376,-1.0949871498913992,1,llama,hedging,religion_prompt_group,sacred_texts_or_teachings
+Judaism,13,-1.3800562569728265,-2.238140954421117,-0.8580846974482903,1,llama,hedging,religion_prompt_group,after_death
+Judaism,10,-0.21258414884408317,-1.0852598428726197,-0.8726756940285364,1,llama,hedging,religion_prompt_group,divine_or_ultimate_reality
+Judaism,5,-5.118440909385681,-5.697738265991211,-0.5792973566055297,1,llama,hedging,religion_prompt_group,origin_of_world
+Judaism,10,-1.9517179168264072,-4.239565938711166,-2.287848021884759,1,llama,hedging,religion_prompt_group,origins_or_early_formation
+Judaism,11,-0.05538776749462792,-1.3557703786275603,-1.3003826111329324,1,llama,hedging,religion_prompt_group,ritual_or_worship
+Judaism,2,-2.3357435713211694,-3.274465024471283,-0.9387214531501136,1,llama,hedging,religion_prompt_group,sacred_texts_or_teachings
+Yoruba religion,15,-2.0721376291910807,-3.0573153694470725,-0.9851777402559916,1,llama,hedging,religion_prompt_group,after_death
+Yoruba religion,9,-0.1097805440425873,-1.77814581990242,-1.6683652758598329,1,llama,hedging,religion_prompt_group,divine_or_ultimate_reality
+Yoruba religion,11,-1.807437315583229,-3.4008524851365523,-1.5934151695533232,1,llama,hedging,religion_prompt_group,origin_of_world
+Yoruba religion,7,-1.135074149994623,-2.868792414665222,-1.733718264670599,1,llama,hedging,religion_prompt_group,origins_or_early_formation
+Yoruba religion,8,-1.8531517306963603,-2.8655592249706388,-1.0124074942742785,1,llama,hedging,religion_prompt_group,ritual_or_worship
+Yoruba religion,10,-0.1364234697818756,-1.2625928223133087,-1.1261693525314331,1,llama,hedging,religion_prompt_group,sacred_texts_or_teachings
+Buddhism,5,4.982140672206879,4.037804517149925,-0.9443361550569535,1,llama,mythologized,religion,
+Christianity,5,7.933192319869995,7.343941879272461,-0.5892504405975343,1,llama,mythologized,religion,
+Hinduism,23,4.289263126556424,3.2480886793675143,-1.0411744471889097,1,llama,mythologized,religion,
+Judaism,3,4.699537632200453,4.122276306152344,-0.5772613260481094,1,llama,mythologized,religion,
+Yoruba religion,39,1.0374807024613404,0.19580452736371604,-0.8416761750976244,1,llama,mythologized,religion,
+,1,8.116907739639283,7.5561604499816895,-0.5607472896575931,1,llama,mythologized,prompt_group,divine_or_ultimate_reality
+,28,0.9762204483861014,0.007258234387596271,-0.9689622139985052,1,llama,mythologized,prompt_group,origin_of_world
+,23,2.436352874489798,1.4442247184722319,-0.992128156017566,1,llama,mythologized,prompt_group,origins_or_early_formation
+,5,7.233849657376608,6.819089889526367,-0.4147597678502401,1,llama,mythologized,prompt_group,ritual_or_worship
+,18,5.007424026065403,4.252553783771065,-0.7548702422943381,1,llama,mythologized,prompt_group,sacred_texts_or_teachings
+Buddhism,2,0.8793496072292327,0.4702019914984703,-0.4091476157307624,1,llama,mythologized,religion_prompt_group,origin_of_world
+Buddhism,3,7.7173347155253085,6.4162062009175616,-1.3011285146077476,1,llama,mythologized,religion_prompt_group,origins_or_early_formation
+Christianity,1,7.437360175450643,6.4555792808532715,-0.9817808945973718,1,llama,mythologized,religion_prompt_group,origins_or_early_formation
+Christianity,4,8.057150355974834,7.566032528877258,-0.4911178270975749,1,llama,mythologized,religion_prompt_group,ritual_or_worship
+Hinduism,9,2.149881242160444,0.9428284916664578,-1.2070527504939863,1,llama,mythologized,religion_prompt_group,origin_of_world
+Hinduism,2,4.69638002316157,3.489817500114441,-1.2065625230471293,1,llama,mythologized,religion_prompt_group,origins_or_early_formation
+Hinduism,1,3.9406468629837037,3.8313193321228027,-0.10932753086090097,1,llama,mythologized,religion_prompt_group,ritual_or_worship
+Hinduism,11,5.997337620186084,5.037238988009366,-0.9600986321767171,1,llama,mythologized,religion_prompt_group,sacred_texts_or_teachings
+Judaism,1,8.116907739639283,7.5561604499816895,-0.5607472896575931,1,llama,mythologized,religion_prompt_group,divine_or_ultimate_reality
+Judaism,2,2.9908525784810385,2.405334234237671,-0.5855183442433676,1,llama,mythologized,religion_prompt_group,origin_of_world
+Yoruba religion,15,0.016322466929753643,-0.9355532209078471,-0.9518756878376008,0,llama,mythologized,religion_prompt_group,origin_of_world
+Yoruba religion,17,0.9443524555832733,0.03137268476626452,-0.9129797708170087,1,llama,mythologized,religion_prompt_group,origins_or_early_formation
+Yoruba religion,7,3.4518455210186185,3.0194770342537334,-0.4323684867648851,1,llama,mythologized,religion_prompt_group,sacred_texts_or_teachings

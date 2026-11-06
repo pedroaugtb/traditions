@@ -1,0 +1,665 @@
+{
+  "n_annotators": 3,
+  "annotator_ids": [
+    "anotador_4",
+    "anotador_64",
+    "anotador_3"
+  ],
+  "n_pairs_total": 288,
+  "global_agreement": {
+    "positive_pole_correct": {
+      "gwet_ac2": {
+        "level": "ordinal",
+        "coefficient_name": "AC2",
+        "coefficient_value": 0.9692,
+        "confidence_interval": [
+          0.95841,
+          0.97999
+        ],
+        "p_value": 0.0,
+        "z": 176.78315,
+        "se": 0.00548,
+        "pa": 0.97184,
+        "pe": 0.08548,
+        "categories_intended": [
+          0,
+          1,
+          2
+        ],
+        "categories_used_by_irrcac": [
+          0.0,
+          1.0,
+          2.0
+        ]
+      },
+      "exact_agreement": 0.8784722222222222,
+      "adjacent_agreement": 0.9965277777777778,
+      "n_units_used": 288
+    },
+    "negative_pole_correct": {
+      "gwet_ac2": {
+        "level": "ordinal",
+        "coefficient_name": "AC2",
+        "coefficient_value": 0.94369,
+        "confidence_interval": [
+          0.92851,
+          0.95887
+        ],
+        "p_value": 0.0,
+        "z": 122.34101,
+        "se": 0.00771,
+        "pa": 0.951,
+        "pe": 0.12987,
+        "categories_intended": [
+          0,
+          1,
+          2
+        ],
+        "categories_used_by_irrcac": [
+          0.0,
+          1.0,
+          2.0
+        ]
+      },
+      "exact_agreement": 0.7916666666666666,
+      "adjacent_agreement": 0.9930555555555556,
+      "n_units_used": 288
+    },
+    "proposition_preserved": {
+      "gwet_ac2": {
+        "level": "ordinal",
+        "coefficient_name": "AC2",
+        "coefficient_value": 0.93408,
+        "confidence_interval": [
+          0.91776,
+          0.95041
+        ],
+        "p_value": 0.0,
+        "z": 112.63377,
+        "se": 0.00829,
+        "pa": 0.9456,
+        "pe": 0.17475,
+        "categories_intended": [
+          0,
+          1,
+          2
+        ],
+        "categories_used_by_irrcac": [
+          0.0,
+          1.0,
+          2.0
+        ]
+      },
+      "exact_agreement": 0.7604166666666666,
+      "adjacent_agreement": 0.9965277777777778,
+      "n_units_used": 288
+    },
+    "contrast_strength": {
+      "gwet_ac2": {
+        "level": "ordinal",
+        "coefficient_name": "AC2",
+        "coefficient_value": 0.86757,
+        "confidence_interval": [
+          0.84607,
+          0.88907
+        ],
+        "p_value": 0.0,
+        "z": 79.42348,
+        "se": 0.01092,
+        "pa": 0.92442,
+        "pe": 0.42931,
+        "categories_intended": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "categories_used_by_irrcac": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ]
+      },
+      "exact_agreement": 0.3715277777777778,
+      "adjacent_agreement": 0.75,
+      "n_units_used": 288
+    }
+  },
+  "axis_level_agreement": {
+    "doctrinal_attribution": {
+      "positive_pole_correct": {
+        "gwet_ac2": {
+          "level": "ordinal",
+          "coefficient_name": "AC2",
+          "coefficient_value": 0.94943,
+          "confidence_interval": [
+            0.9188,
+            0.98006
+          ],
+          "p_value": 0.0,
+          "z": 61.80119,
+          "se": 0.01536,
+          "pa": 0.95525,
+          "pe": 0.11502,
+          "categories_intended": [
+            0,
+            1,
+            2
+          ],
+          "categories_used_by_irrcac": [
+            0.0,
+            1.0,
+            2.0
+          ]
+        },
+        "exact_agreement": 0.8194444444444444,
+        "adjacent_agreement": 0.9861111111111112,
+        "n_units_used": 72
+      },
+      "negative_pole_correct": {
+        "gwet_ac2": {
+          "level": "ordinal",
+          "coefficient_name": "AC1",
+          "coefficient_value": 0.94127,
+          "confidence_interval": [
+            0.89262,
+            0.98992
+          ],
+          "p_value": 0.0,
+          "z": 38.58001,
+          "se": 0.0244,
+          "pa": 0.94444,
+          "pe": 0.05401,
+          "categories_intended": [
+            0,
+            1,
+            2
+          ],
+          "categories_used_by_irrcac": [
+            1.0,
+            2.0
+          ]
+        },
+        "exact_agreement": 0.9166666666666666,
+        "adjacent_agreement": 1.0,
+        "n_units_used": 72
+      },
+      "proposition_preserved": {
+        "gwet_ac2": {
+          "level": "ordinal",
+          "coefficient_name": "AC1",
+          "coefficient_value": 0.79045,
+          "confidence_interval": [
+            0.69333,
+            0.88757
+          ],
+          "p_value": 0.0,
+          "z": 16.22852,
+          "se": 0.04871,
+          "pa": 0.82407,
+          "pe": 0.16045,
+          "categories_intended": [
+            0,
+            1,
+            2
+          ],
+          "categories_used_by_irrcac": [
+            1.0,
+            2.0
+          ]
+        },
+        "exact_agreement": 0.7361111111111112,
+        "adjacent_agreement": 1.0,
+        "n_units_used": 72
+      },
+      "contrast_strength": {
+        "gwet_ac2": {
+          "level": "ordinal",
+          "coefficient_name": "AC2",
+          "coefficient_value": 0.82804,
+          "confidence_interval": [
+            0.7657,
+            0.89037
+          ],
+          "p_value": 0.0,
+          "z": 26.48651,
+          "se": 0.03126,
+          "pa": 0.90278,
+          "pe": 0.43464,
+          "categories_intended": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "categories_used_by_irrcac": [
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        },
+        "exact_agreement": 0.4444444444444444,
+        "adjacent_agreement": 0.8333333333333334,
+        "n_units_used": 72
+      }
+    },
+    "assertive_commitment": {
+      "positive_pole_correct": {
+        "gwet_ac2": {
+          "level": "ordinal",
+          "coefficient_name": "AC1",
+          "coefficient_value": 0.99065,
+          "confidence_interval": [
+            0.97185,
+            1.0
+          ],
+          "p_value": 0.0,
+          "z": 105.03215,
+          "se": 0.00943,
+          "pa": 0.99074,
+          "pe": 0.00922,
+          "categories_intended": [
+            0,
+            1,
+            2
+          ],
+          "categories_used_by_irrcac": [
+            1.0,
+            2.0
+          ]
+        },
+        "exact_agreement": 0.9861111111111112,
+        "adjacent_agreement": 1.0,
+        "n_units_used": 72
+      },
+      "negative_pole_correct": {
+        "gwet_ac2": {
+          "level": "ordinal",
+          "coefficient_name": "AC2",
+          "coefficient_value": NaN,
+          "confidence_interval": [
+            NaN,
+            1.0
+          ],
+          "p_value": NaN,
+          "z": NaN,
+          "se": NaN,
+          "pa": NaN,
+          "pe": 1.0,
+          "categories_intended": [
+            0,
+            1,
+            2
+          ],
+          "categories_used_by_irrcac": [
+            2.0
+          ]
+        },
+        "exact_agreement": 1.0,
+        "adjacent_agreement": 1.0,
+        "n_units_used": 72
+      },
+      "proposition_preserved": {
+        "gwet_ac2": {
+          "level": "ordinal",
+          "coefficient_name": "AC2",
+          "coefficient_value": NaN,
+          "confidence_interval": [
+            NaN,
+            1.0
+          ],
+          "p_value": NaN,
+          "z": NaN,
+          "se": NaN,
+          "pa": NaN,
+          "pe": 1.0,
+          "categories_intended": [
+            0,
+            1,
+            2
+          ],
+          "categories_used_by_irrcac": [
+            2.0
+          ]
+        },
+        "exact_agreement": 1.0,
+        "adjacent_agreement": 1.0,
+        "n_units_used": 72
+      },
+      "contrast_strength": {
+        "gwet_ac2": {
+          "level": "ordinal",
+          "coefficient_name": "AC2",
+          "coefficient_value": 0.96295,
+          "confidence_interval": [
+            0.93469,
+            0.9912
+          ],
+          "p_value": 0.0,
+          "z": 67.96434,
+          "se": 0.01417,
+          "pa": 0.96605,
+          "pe": 0.08376,
+          "categories_intended": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "categories_used_by_irrcac": [
+            3.0,
+            4.0,
+            5.0
+          ]
+        },
+        "exact_agreement": 0.875,
+        "adjacent_agreement": 0.9861111111111112,
+        "n_units_used": 72
+      }
+    },
+    "hedging": {
+      "positive_pole_correct": {
+        "gwet_ac2": {
+          "level": "ordinal",
+          "coefficient_name": "AC1",
+          "coefficient_value": 0.97144,
+          "confidence_interval": [
+            0.93813,
+            1.0
+          ],
+          "p_value": 0.0,
+          "z": 58.14696,
+          "se": 0.01671,
+          "pa": 0.97222,
+          "pe": 0.02739,
+          "categories_intended": [
+            0,
+            1,
+            2
+          ],
+          "categories_used_by_irrcac": [
+            1.0,
+            2.0
+          ]
+        },
+        "exact_agreement": 0.9583333333333334,
+        "adjacent_agreement": 1.0,
+        "n_units_used": 72
+      },
+      "negative_pole_correct": {
+        "gwet_ac2": {
+          "level": "ordinal",
+          "coefficient_name": "AC1",
+          "coefficient_value": 0.46067,
+          "confidence_interval": [
+            0.30653,
+            0.61482
+          ],
+          "p_value": 8.90178604162628e-08,
+          "z": 5.959,
+          "se": 0.07731,
+          "pa": 0.62963,
+          "pe": 0.31327,
+          "categories_intended": [
+            0,
+            1,
+            2
+          ],
+          "categories_used_by_irrcac": [
+            1.0,
+            2.0
+          ]
+        },
+        "exact_agreement": 0.4444444444444444,
+        "adjacent_agreement": 1.0,
+        "n_units_used": 72
+      },
+      "proposition_preserved": {
+        "gwet_ac2": {
+          "level": "ordinal",
+          "coefficient_name": "AC1",
+          "coefficient_value": 0.99065,
+          "confidence_interval": [
+            0.97185,
+            1.0
+          ],
+          "p_value": 0.0,
+          "z": 105.03215,
+          "se": 0.00943,
+          "pa": 0.99074,
+          "pe": 0.00922,
+          "categories_intended": [
+            0,
+            1,
+            2
+          ],
+          "categories_used_by_irrcac": [
+            1.0,
+            2.0
+          ]
+        },
+        "exact_agreement": 0.9861111111111112,
+        "adjacent_agreement": 1.0,
+        "n_units_used": 72
+      },
+      "contrast_strength": {
+        "gwet_ac2": {
+          "level": "ordinal",
+          "coefficient_name": "AC2",
+          "coefficient_value": 0.21067,
+          "confidence_interval": [
+            0.06807,
+            0.35326
+          ],
+          "p_value": 0.004353112653215474,
+          "z": 2.94583,
+          "se": 0.07151,
+          "pa": 0.55864,
+          "pe": 0.44085,
+          "categories_intended": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "categories_used_by_irrcac": [
+            3.0,
+            4.0,
+            5.0
+          ]
+        },
+        "exact_agreement": 0.1527777777777778,
+        "adjacent_agreement": 0.4305555555555556,
+        "n_units_used": 72
+      }
+    },
+    "mythologized": {
+      "positive_pole_correct": {
+        "gwet_ac2": {
+          "level": "ordinal",
+          "coefficient_name": "AC1",
+          "coefficient_value": 0.79417,
+          "confidence_interval": [
+            0.69209,
+            0.89624
+          ],
+          "p_value": 0.0,
+          "z": 15.51357,
+          "se": 0.05119,
+          "pa": 0.83333,
+          "pe": 0.19029,
+          "categories_intended": [
+            0,
+            1,
+            2
+          ],
+          "categories_used_by_irrcac": [
+            1.0,
+            2.0
+          ]
+        },
+        "exact_agreement": 0.75,
+        "adjacent_agreement": 1.0,
+        "n_units_used": 72
+      },
+      "negative_pole_correct": {
+        "gwet_ac2": {
+          "level": "ordinal",
+          "coefficient_name": "AC2",
+          "coefficient_value": 0.93787,
+          "confidence_interval": [
+            0.8997,
+            0.97604
+          ],
+          "p_value": 0.0,
+          "z": 48.99218,
+          "se": 0.01914,
+          "pa": 0.94599,
+          "pe": 0.13069,
+          "categories_intended": [
+            0,
+            1,
+            2
+          ],
+          "categories_used_by_irrcac": [
+            0.0,
+            1.0,
+            2.0
+          ]
+        },
+        "exact_agreement": 0.8055555555555556,
+        "adjacent_agreement": 0.9722222222222222,
+        "n_units_used": 72
+      },
+      "proposition_preserved": {
+        "gwet_ac2": {
+          "level": "ordinal",
+          "coefficient_name": "AC2",
+          "coefficient_value": 0.73429,
+          "confidence_interval": [
+            0.67379,
+            0.7948
+          ],
+          "p_value": 0.0,
+          "z": 24.19741,
+          "se": 0.03035,
+          "pa": 0.84414,
+          "pe": 0.4134,
+          "categories_intended": [
+            0,
+            1,
+            2
+          ],
+          "categories_used_by_irrcac": [
+            0.0,
+            1.0,
+            2.0
+          ]
+        },
+        "exact_agreement": 0.3194444444444444,
+        "adjacent_agreement": 0.9861111111111112,
+        "n_units_used": 72
+      },
+      "contrast_strength": {
+        "gwet_ac2": {
+          "level": "ordinal",
+          "coefficient_name": "AC2",
+          "coefficient_value": 0.77195,
+          "confidence_interval": [
+            0.72224,
+            0.82167
+          ],
+          "p_value": 0.0,
+          "z": 30.96158,
+          "se": 0.02493,
+          "pa": 0.89861,
+          "pe": 0.5554,
+          "categories_intended": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "categories_used_by_irrcac": [
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        },
+        "exact_agreement": 0.013888888888888888,
+        "adjacent_agreement": 0.75,
+        "n_units_used": 72
+      }
+    }
+  },
+  "axis_summary": {
+    "doctrinal_attribution": {
+      "n_pairs": 72,
+      "positive_pole_correct_mean": 1.9305555555555556,
+      "negative_pole_correct_mean": 1.9722222222222223,
+      "proposition_preserved_mean": 1.912037037037037,
+      "contrast_strength_mean": 4.606481481481482,
+      "status_counts": {
+        "core": 46,
+        "usable": 26
+      }
+    },
+    "assertive_commitment": {
+      "n_pairs": 72,
+      "positive_pole_correct_mean": 1.9953703703703705,
+      "negative_pole_correct_mean": 2.0,
+      "proposition_preserved_mean": 2.0,
+      "contrast_strength_mean": 4.949074074074074,
+      "status_counts": {
+        "core": 71,
+        "usable": 1
+      }
+    },
+    "hedging": {
+      "n_pairs": 72,
+      "positive_pole_correct_mean": 1.9861111111111112,
+      "negative_pole_correct_mean": 1.8055555555555556,
+      "proposition_preserved_mean": 1.9953703703703705,
+      "contrast_strength_mean": 4.49537037037037,
+      "status_counts": {
+        "usable": 41,
+        "core": 31
+      }
+    },
+    "mythologized": {
+      "n_pairs": 72,
+      "positive_pole_correct_mean": 1.8935185185185186,
+      "negative_pole_correct_mean": 1.9166666666666667,
+      "proposition_preserved_mean": 1.675925925925926,
+      "contrast_strength_mean": 4.25,
+      "status_counts": {
+        "usable": 53,
+        "core": 19
+      }
+    }
+  },
+  "overall_status_counts": {
+    "core": 167,
+    "usable": 121
+  },
+  "recommended_reporting": {
+    "main_pool": "all pairs",
+    "core_subset": "pairs with strong validation",
+    "sensitivity_subset": "core + usable",
+    "primary_metric": "Gwet's AC2 (ordinal)",
+    "secondary_metrics": [
+      "exact agreement",
+      "adjacent agreement (<=1 point)"
+    ]
+  }
+}

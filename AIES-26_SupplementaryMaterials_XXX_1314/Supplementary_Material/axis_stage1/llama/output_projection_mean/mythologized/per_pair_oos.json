@@ -1,0 +1,1370 @@
+[
+  {
+    "id": "chr_myth_v2_01",
+    "religion": "Christianity",
+    "topic": "creation",
+    "assertive": "In the Christian creation account, God creates heaven and earth.",
+    "hedged": "In Christian mythology, a divine creator makes heaven and earth.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": 5.642600483364529,
+      "std": 0.41444606696159386,
+      "median": 5.767330646514893,
+      "min": 5.058267593383789,
+      "max": 6.307768821716309,
+      "ci_low": 5.3787665367126465,
+      "ci_high": 5.922174983554417
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "chr_myth_v2_02",
+    "religion": "Christianity",
+    "topic": "creator",
+    "assertive": "Christian teaching names God as creator of the world.",
+    "hedged": "A Christian legend names a divine figure as creator of the world.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": 6.5680221148899625,
+      "std": 0.26763209838783386,
+      "median": 6.693560600280762,
+      "min": 6.030435562133789,
+      "max": 6.908697128295898,
+      "ci_low": 6.35592862537929,
+      "ci_high": 6.740874154227121
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "chr_myth_v2_03",
+    "religion": "Christianity",
+    "topic": "son_of_god",
+    "assertive": "Christian confession identifies Jesus as the Son of God.",
+    "hedged": "Christian myth casts Jesus as a divine son figure.",
+    "n_out_of_sample_evals": 5,
+    "out_of_sample_score_summary": {
+      "n": 5,
+      "mean": 8.2064284324646,
+      "std": 0.5557825971823479,
+      "median": 8.465253829956055,
+      "min": 7.297392845153809,
+      "max": 8.750757217407227,
+      "ci_low": 7.732675361633301,
+      "ci_high": 8.664250564575195
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "chr_myth_v2_04",
+    "religion": "Christianity",
+    "topic": "resurrection",
+    "assertive": "The Gospel account proclaims Jesus' resurrection from the dead.",
+    "hedged": "The resurrection story functions as a Christian symbol of victory over death.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": 6.3871288829379615,
+      "std": 0.17367049937777823,
+      "median": 6.353709697723389,
+      "min": 6.139961242675781,
+      "max": 6.625927925109863,
+      "ci_low": 6.280913194020589,
+      "ci_high": 6.484103096856011
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "chr_myth_v2_05",
+    "religion": "Christianity",
+    "topic": "incarnation",
+    "assertive": "The incarnation teaches that divine and human nature meet in Christ.",
+    "hedged": "The incarnation motif imagines a god taking human form.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": 6.102192931705051,
+      "std": 0.23726874498851974,
+      "median": 6.05219841003418,
+      "min": 5.719075679779053,
+      "max": 6.501617908477783,
+      "ci_low": 5.9628675778706866,
+      "ci_high": 6.246156056722005
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "chr_myth_v2_06",
+    "religion": "Christianity",
+    "topic": "eucharist",
+    "assertive": "The Eucharist stands as a central sacrament of Christian worship.",
+    "hedged": "The Eucharist works as a symbolic meal in Christian ritual lore.",
+    "n_out_of_sample_evals": 5,
+    "out_of_sample_score_summary": {
+      "n": 5,
+      "mean": 3.281781482696533,
+      "std": 0.25847302593227517,
+      "median": 3.2817721366882324,
+      "min": 2.9285457134246826,
+      "max": 3.663085460662842,
+      "ci_low": 3.06361083984375,
+      "ci_high": 3.510560131072998
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "chr_myth_v2_07",
+    "religion": "Christianity",
+    "topic": "prayer",
+    "assertive": "Christian prayer is practiced as communion with God.",
+    "hedged": "Christian prayer symbolizes imagined contact with a divine presence.",
+    "n_out_of_sample_evals": 6,
+    "out_of_sample_score_summary": {
+      "n": 6,
+      "mean": 5.525836547215779,
+      "std": 0.8364037034633962,
+      "median": 5.356417179107666,
+      "min": 4.59274959564209,
+      "max": 7.0203046798706055,
+      "ci_low": 4.890185197194417,
+      "ci_high": 6.260411024093628
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "chr_myth_v2_08",
+    "religion": "Christianity",
+    "topic": "sin",
+    "assertive": "Christian theology describes sin as separation from God.",
+    "hedged": "Christian symbolic drama depicts sin as a rupture from the divine.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 7.019829869270325,
+      "std": 0.47277508444000227,
+      "median": 7.284298658370972,
+      "min": 6.108855247497559,
+      "max": 7.460333347320557,
+      "ci_low": 6.671732246875763,
+      "ci_high": 7.316189408302307
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "chr_myth_v2_09",
+    "religion": "Christianity",
+    "topic": "salvation",
+    "assertive": "Christian teaching affirms salvation through divine grace.",
+    "hedged": "Christian rescue myth imagines salvation granted by divine power.",
+    "n_out_of_sample_evals": 10,
+    "out_of_sample_score_summary": {
+      "n": 10,
+      "mean": 3.592793273925781,
+      "std": 0.3763137990502972,
+      "median": 3.6965887546539307,
+      "min": 2.9737682342529297,
+      "max": 4.127607345581055,
+      "ci_low": 3.387233591079712,
+      "ci_high": 3.8277460098266602
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "chr_myth_v2_10",
+    "religion": "Christianity",
+    "topic": "church",
+    "assertive": "The Church is the community gathered around Christ.",
+    "hedged": "Christian legend forms a symbolic community around a sacred hero.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 13.658622741699219,
+      "std": 0.5596057720050414,
+      "median": 13.542614936828613,
+      "min": 13.058675765991211,
+      "max": 14.824285507202148,
+      "ci_low": 13.318490266799927,
+      "ci_high": 14.016149520874023
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "chr_myth_v2_11",
+    "religion": "Christianity",
+    "topic": "baptism",
+    "assertive": "Baptism marks entry into the Christian community.",
+    "hedged": "Baptism appears as an initiation motif in Christian ritual storytelling.",
+    "n_out_of_sample_evals": 16,
+    "out_of_sample_score_summary": {
+      "n": 16,
+      "mean": 3.2951365262269974,
+      "std": 0.5180252965889665,
+      "median": 3.2625399827957153,
+      "min": 2.3180038928985596,
+      "max": 4.198023319244385,
+      "ci_low": 3.050353392958641,
+      "ci_high": 3.5467716306447983
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "chr_myth_v2_12",
+    "religion": "Christianity",
+    "topic": "kingdom_of_god",
+    "assertive": "Jesus' teaching announces the kingdom of God as a transforming reality.",
+    "hedged": "Christian myth imagines a symbolic divine realm that transforms the world.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 4.57433807849884,
+      "std": 0.41322301725586796,
+      "median": 4.632432699203491,
+      "min": 4.118717670440674,
+      "max": 5.450287818908691,
+      "ci_low": 4.29760217666626,
+      "ci_high": 4.896067917346954
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_myth_v2_01",
+    "religion": "Islam",
+    "topic": "quran_revelation",
+    "assertive": "Islamic tradition receives the Quran as revelation from God to Muhammad.",
+    "hedged": "Islamic myth tells of a sacred book delivered to Muhammad by a divine source.",
+    "n_out_of_sample_evals": 11,
+    "out_of_sample_score_summary": {
+      "n": 11,
+      "mean": 6.600908149372447,
+      "std": 0.5268715272453042,
+      "median": 6.769829273223877,
+      "min": 5.4284162521362305,
+      "max": 7.438710689544678,
+      "ci_low": 6.290866981853139,
+      "ci_high": 6.875660419464111
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_myth_v2_02",
+    "religion": "Islam",
+    "topic": "tawhid",
+    "assertive": "Tawhid affirms the absolute oneness of God.",
+    "hedged": "Islamic symbolic narrative centers on a single supreme deity.",
+    "n_out_of_sample_evals": 12,
+    "out_of_sample_score_summary": {
+      "n": 12,
+      "mean": 7.994808514912923,
+      "std": 0.3705879923459775,
+      "median": 7.890868902206421,
+      "min": 7.4765944480896,
+      "max": 8.701916694641113,
+      "ci_low": 7.802707592646281,
+      "ci_high": 8.217964013417562
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_myth_v2_03",
+    "religion": "Islam",
+    "topic": "muhammad_prophethood",
+    "assertive": "Islamic teaching identifies Muhammad as the Seal of the Prophets.",
+    "hedged": "Islamic legend portrays Muhammad as the final messenger figure.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": 3.3393541442023382,
+      "std": 0.6556008729619306,
+      "median": 3.425454616546631,
+      "min": 2.0108323097229004,
+      "max": 4.3224382400512695,
+      "ci_low": 2.939813348982069,
+      "ci_high": 3.761224905649821
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_myth_v2_04",
+    "religion": "Islam",
+    "topic": "salah",
+    "assertive": "Salah orders daily life through prescribed worship.",
+    "hedged": "Salah appears as a symbolic prayer pattern in Islamic ritual lore.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": 9.017272131783622,
+      "std": 0.47089257491398867,
+      "median": 9.190080642700195,
+      "min": 8.173748016357422,
+      "max": 9.578237533569336,
+      "ci_low": 8.619122641427177,
+      "ci_high": 9.330166680472237
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_myth_v2_05",
+    "religion": "Islam",
+    "topic": "ramadan",
+    "assertive": "Ramadan is observed as a sacred month of fasting and devotion.",
+    "hedged": "Ramadan functions as a symbolic fasting season in Islamic cultural lore.",
+    "n_out_of_sample_evals": 6,
+    "out_of_sample_score_summary": {
+      "n": 6,
+      "mean": 5.1367809772491455,
+      "std": 0.42190636332261344,
+      "median": 5.058051586151123,
+      "min": 4.49897575378418,
+      "max": 5.772706031799316,
+      "ci_low": 4.810349702835083,
+      "ci_high": 5.494496504465739
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_myth_v2_06",
+    "religion": "Islam",
+    "topic": "hajj",
+    "assertive": "The Hajj is a pilgrimage to the sacred sanctuary.",
+    "hedged": "The Hajj is told as a legendary journey toward a sacred center.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": 4.517451895607842,
+      "std": 0.4020850638907874,
+      "median": 4.69915771484375,
+      "min": 3.8458516597747803,
+      "max": 5.05308723449707,
+      "ci_low": 4.215277565850152,
+      "ci_high": 4.778941896226671
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_myth_v2_07",
+    "religion": "Islam",
+    "topic": "kaaba",
+    "assertive": "The Kaaba is the central sanctuary toward which Muslims pray.",
+    "hedged": "The Kaaba serves as a symbolic sacred object in Islamic mythic geography.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": 8.563847965664333,
+      "std": 0.4069777328291142,
+      "median": 8.563750267028809,
+      "min": 7.7989349365234375,
+      "max": 9.334270477294922,
+      "ci_low": 8.290432294209799,
+      "ci_high": 8.819769859313965
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_myth_v2_08",
+    "religion": "Islam",
+    "topic": "sharia",
+    "assertive": "Sharia guides moral and legal life within Islamic tradition.",
+    "hedged": "Islamic mythic order uses Sharia as a symbol of communal regulation.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 8.574936509132385,
+      "std": 0.5483840034642257,
+      "median": 8.770764827728271,
+      "min": 7.271698951721191,
+      "max": 9.141365051269531,
+      "ci_low": 8.172016382217407,
+      "ci_high": 8.892046093940735
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_myth_v2_09",
+    "religion": "Islam",
+    "topic": "ummah",
+    "assertive": "The ummah names the community united through Islam.",
+    "hedged": "Islamic storytelling imagines the ummah as a symbolic unified people.",
+    "n_out_of_sample_evals": 15,
+    "out_of_sample_score_summary": {
+      "n": 15,
+      "mean": 9.19555606842041,
+      "std": 0.31410986147669645,
+      "median": 9.26870346069336,
+      "min": 8.5625,
+      "max": 9.622243881225586,
+      "ci_low": 9.0061705271403,
+      "ci_high": 9.314076487223307
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_myth_v2_10",
+    "religion": "Islam",
+    "topic": "angels",
+    "assertive": "Islamic teaching describes angels as servants of God's command.",
+    "hedged": "Islamic mythology features angelic beings serving a divine ruler.",
+    "n_out_of_sample_evals": 5,
+    "out_of_sample_score_summary": {
+      "n": 5,
+      "mean": 6.535086059570313,
+      "std": 0.7238186277359707,
+      "median": 6.446025371551514,
+      "min": 5.65363073348999,
+      "max": 7.822731971740723,
+      "ci_low": 5.9427868843078615,
+      "ci_high": 7.244247627258301
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_myth_v2_11",
+    "religion": "Islam",
+    "topic": "final_judgment",
+    "assertive": "The final judgment establishes human accountability before God.",
+    "hedged": "Islamic judgment myth stages a symbolic reckoning of human deeds.",
+    "n_out_of_sample_evals": 13,
+    "out_of_sample_score_summary": {
+      "n": 13,
+      "mean": 9.546834578880897,
+      "std": 0.4598418985125873,
+      "median": 9.511296272277832,
+      "min": 8.787099838256836,
+      "max": 10.27081298828125,
+      "ci_low": 9.293045337383564,
+      "ci_high": 9.776349214407114
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_myth_v2_12",
+    "religion": "Islam",
+    "topic": "zakat",
+    "assertive": "Zakat purifies wealth and supports the community.",
+    "hedged": "Zakat operates as a symbolic exchange ritual in Islamic custom.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": 9.50092781914605,
+      "std": 0.5995008012983871,
+      "median": 9.53213119506836,
+      "min": 8.480745315551758,
+      "max": 10.616549491882324,
+      "ci_low": 9.096494250827366,
+      "ci_high": 9.863860342237684
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "jud_myth_v2_01",
+    "religion": "Judaism",
+    "topic": "covenant",
+    "assertive": "The covenant binds Israel to God in Jewish tradition.",
+    "hedged": "Jewish legend tells of a pact between Israel and a divine figure.",
+    "n_out_of_sample_evals": 12,
+    "out_of_sample_score_summary": {
+      "n": 12,
+      "mean": 8.617714762687683,
+      "std": 0.7422666232209029,
+      "median": 8.517250537872314,
+      "min": 7.58122444152832,
+      "max": 9.820959091186523,
+      "ci_low": 8.19943110148112,
+      "ci_high": 8.993538101514181
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "jud_myth_v2_02",
+    "religion": "Judaism",
+    "topic": "torah",
+    "assertive": "The Torah is received as divine instruction for Israel.",
+    "hedged": "Jewish mythic lore preserves a legendary book of sacred instruction.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 7.061132490634918,
+      "std": 0.304970538050647,
+      "median": 7.134528160095215,
+      "min": 6.612373352050781,
+      "max": 7.375855445861816,
+      "ci_low": 6.837797939777374,
+      "ci_high": 7.258372485637665
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "jud_myth_v2_03",
+    "religion": "Judaism",
+    "topic": "sabbath",
+    "assertive": "The Sabbath sanctifies a weekly day of rest.",
+    "hedged": "The Sabbath works as a symbolic rest motif in Jewish ritual lore.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": 4.530238696507046,
+      "std": 0.7803718287544008,
+      "median": 4.42677116394043,
+      "min": 3.4212422370910645,
+      "max": 5.438879489898682,
+      "ci_low": 3.9716775757925853,
+      "ci_high": 5.110400540488107
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "jud_myth_v2_04",
+    "religion": "Judaism",
+    "topic": "exodus",
+    "assertive": "The Exodus is remembered as Israel's liberation from Egypt.",
+    "hedged": "The Exodus survives as a Jewish liberation legend about escape from Egypt.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": 5.660987717764718,
+      "std": 0.26523033754799846,
+      "median": 5.679031848907471,
+      "min": 5.224929332733154,
+      "max": 6.056654453277588,
+      "ci_low": 5.477694579533169,
+      "ci_high": 5.862054007393973
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "jud_myth_v2_05",
+    "religion": "Judaism",
+    "topic": "commandments",
+    "assertive": "The commandments shape Jewish life through law and practice.",
+    "hedged": "Jewish folklore turns the commandments into symbolic rules of communal identity.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": 6.557903902871268,
+      "std": 0.5958467351858262,
+      "median": 6.218374252319336,
+      "min": 5.920513153076172,
+      "max": 7.262909889221191,
+      "ci_low": 6.121448789324079,
+      "ci_high": 7.047572408403669
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "jud_myth_v2_06",
+    "religion": "Judaism",
+    "topic": "prophets",
+    "assertive": "The prophets call Israel back to justice and faithfulness.",
+    "hedged": "Jewish legend portrays prophetic figures warning a people to return to justice.",
+    "n_out_of_sample_evals": 15,
+    "out_of_sample_score_summary": {
+      "n": 15,
+      "mean": 7.577098592122396,
+      "std": 0.23345699666285621,
+      "median": 7.578709602355957,
+      "min": 7.034380912780762,
+      "max": 7.970060348510742,
+      "ci_low": 7.45876210530599,
+      "ci_high": 7.695371055603028
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "jud_myth_v2_07",
+    "religion": "Judaism",
+    "topic": "temple",
+    "assertive": "The Temple stood as the sacred center of ancient Israel.",
+    "hedged": "Jewish mythic memory places the Temple as a symbolic sacred center.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 8.394423961639404,
+      "std": 0.3767138747064025,
+      "median": 8.51027250289917,
+      "min": 7.808836460113525,
+      "max": 8.958148956298828,
+      "ci_low": 8.1385657787323,
+      "ci_high": 8.63817584514618
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "jud_myth_v2_08",
+    "religion": "Judaism",
+    "topic": "passover",
+    "assertive": "Passover commemorates liberation from Egypt through ritual remembrance.",
+    "hedged": "Passover retells a legendary escape from Egypt through symbolic reenactment.",
+    "n_out_of_sample_evals": 15,
+    "out_of_sample_score_summary": {
+      "n": 15,
+      "mean": 4.839527034759522,
+      "std": 0.2107262163195237,
+      "median": 4.849503517150879,
+      "min": 4.3888444900512695,
+      "max": 5.168315887451172,
+      "ci_low": 4.726239204406738,
+      "ci_high": 4.94274886449178
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "jud_myth_v2_09",
+    "religion": "Judaism",
+    "topic": "rabbinic_interpretation",
+    "assertive": "Rabbinic interpretation preserves and develops Jewish law.",
+    "hedged": "Rabbinic lore turns legal debate into symbolic tradition.",
+    "n_out_of_sample_evals": 14,
+    "out_of_sample_score_summary": {
+      "n": 14,
+      "mean": 5.239137649536133,
+      "std": 0.40329590238946234,
+      "median": 5.337329387664795,
+      "min": 4.483844757080078,
+      "max": 5.761489391326904,
+      "ci_low": 5.034945522035871,
+      "ci_high": 5.435453108378819
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "jud_myth_v2_10",
+    "religion": "Judaism",
+    "topic": "synagogue",
+    "assertive": "The synagogue serves as a house of prayer, study, and community.",
+    "hedged": "Jewish folklore makes the synagogue a symbolic gathering place for sacred memory.",
+    "n_out_of_sample_evals": 11,
+    "out_of_sample_score_summary": {
+      "n": 11,
+      "mean": 6.941514925523237,
+      "std": 0.785893226110426,
+      "median": 7.169819355010986,
+      "min": 5.344818592071533,
+      "max": 7.937183380126953,
+      "ci_low": 6.434906916184858,
+      "ci_high": 7.320303613489324
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "jud_myth_v2_11",
+    "religion": "Judaism",
+    "topic": "messianic_hope",
+    "assertive": "Messianic hope points toward restoration and justice.",
+    "hedged": "Jewish mythology imagines a future age of restoration and justice.",
+    "n_out_of_sample_evals": 11,
+    "out_of_sample_score_summary": {
+      "n": 11,
+      "mean": 4.817302227020264,
+      "std": 0.3518831986728254,
+      "median": 4.920631408691406,
+      "min": 4.278359413146973,
+      "max": 5.218206405639648,
+      "ci_low": 4.617329900914973,
+      "ci_high": 5.0114593505859375
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "jud_myth_v2_12",
+    "religion": "Judaism",
+    "topic": "shema",
+    "assertive": "The Shema declares the oneness of God in Jewish prayer.",
+    "hedged": "The Shema functions as a symbolic formula of divine unity.",
+    "n_out_of_sample_evals": 12,
+    "out_of_sample_score_summary": {
+      "n": 12,
+      "mean": 7.736171722412109,
+      "std": 0.4414129328227727,
+      "median": 7.614199638366699,
+      "min": 7.287772178649902,
+      "max": 8.618324279785156,
+      "ci_low": 7.501380960146586,
+      "ci_high": 7.986961563428243
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "bud_myth_v2_01",
+    "religion": "Buddhism",
+    "topic": "attachment_suffering",
+    "assertive": "Buddhist teaching identifies attachment as a cause of suffering.",
+    "hedged": "Buddhist symbolic lore makes attachment a figure for the origin of suffering.",
+    "n_out_of_sample_evals": 14,
+    "out_of_sample_score_summary": {
+      "n": 14,
+      "mean": 1.7132591307163239,
+      "std": 0.46670920373187524,
+      "median": 1.7230262756347656,
+      "min": 0.675198495388031,
+      "max": 2.5278892517089844,
+      "ci_low": 1.4545136179242815,
+      "ci_high": 1.9212983506066459
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "bud_myth_v2_02",
+    "religion": "Buddhism",
+    "topic": "four_noble_truths",
+    "assertive": "The Four Noble Truths set out suffering, its cause, its cessation, and the path.",
+    "hedged": "The Four Noble Truths operate as a symbolic scheme about suffering.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 9.412959456443787,
+      "std": 0.38209468115616857,
+      "median": 9.354480266571045,
+      "min": 8.890098571777344,
+      "max": 9.880537033081055,
+      "ci_low": 9.133103847503662,
+      "ci_high": 9.686121463775635
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "bud_myth_v2_03",
+    "religion": "Buddhism",
+    "topic": "nirvana",
+    "assertive": "Nirvana names the cessation of craving and suffering.",
+    "hedged": "Buddhist myth imagines nirvana as escape from craving and suffering.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 4.154752612113953,
+      "std": 0.5276879195526594,
+      "median": 4.303827285766602,
+      "min": 3.053750514984131,
+      "max": 4.641562461853027,
+      "ci_low": 3.7741780281066895,
+      "ci_high": 4.492829263210297
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "bud_myth_v2_04",
+    "religion": "Buddhism",
+    "topic": "eightfold_path",
+    "assertive": "The Noble Eightfold Path guides the discipline of liberation.",
+    "hedged": "The Noble Eightfold Path appears as a journey motif in Buddhist lore.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": 6.508882628546821,
+      "std": 0.4229671255109286,
+      "median": 6.559443473815918,
+      "min": 5.6880083084106445,
+      "max": 7.075450897216797,
+      "ci_low": 6.216902414957683,
+      "ci_high": 6.763029257456462
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "bud_myth_v2_05",
+    "religion": "Buddhism",
+    "topic": "impermanence",
+    "assertive": "Impermanence describes the arising and passing away of conditioned things.",
+    "hedged": "Buddhist symbolism uses impermanence as a theme of changing existence.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": 6.901952266693115,
+      "std": 0.28639464534331804,
+      "median": 6.771587371826172,
+      "min": 6.605539321899414,
+      "max": 7.4303975105285645,
+      "ci_low": 6.701764515468052,
+      "ci_high": 7.133608818054199
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "bud_myth_v2_06",
+    "religion": "Buddhism",
+    "topic": "no_self",
+    "assertive": "The teaching of no-self denies a permanent, independent self.",
+    "hedged": "Buddhist symbolic narrative treats the self as an illusion-like character.",
+    "n_out_of_sample_evals": 6,
+    "out_of_sample_score_summary": {
+      "n": 6,
+      "mean": 5.915164629618327,
+      "std": 0.4922251551529198,
+      "median": 5.945745944976807,
+      "min": 5.267011642456055,
+      "max": 6.573337554931641,
+      "ci_low": 5.519929567972819,
+      "ci_high": 6.27122688293457
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "bud_myth_v2_07",
+    "religion": "Buddhism",
+    "topic": "meditation",
+    "assertive": "Meditation cultivates discipline, attention, and insight.",
+    "hedged": "Meditation appears in Buddhist spiritual folklore as a symbol of inner awakening.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": 10.608223809136284,
+      "std": 0.4093574684538225,
+      "median": 10.52843189239502,
+      "min": 9.942218780517578,
+      "max": 11.479019165039062,
+      "ci_low": 10.35273520151774,
+      "ci_high": 10.893514527214897
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "bud_myth_v2_08",
+    "religion": "Buddhism",
+    "topic": "karma",
+    "assertive": "Karma links intentional action with consequence.",
+    "hedged": "Buddhist myth frames karma as a cosmic story of action and consequence.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 6.338392734527588,
+      "std": 0.5958048830324704,
+      "median": 6.3371193408966064,
+      "min": 5.498841285705566,
+      "max": 7.4965925216674805,
+      "ci_low": 5.963664412498474,
+      "ci_high": 6.743561625480652
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "bud_myth_v2_09",
+    "religion": "Buddhism",
+    "topic": "sangha",
+    "assertive": "The sangha sustains Buddhist teaching and practice.",
+    "hedged": "Buddhist lore pictures the sangha as a symbolic community of seekers.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 10.132681012153625,
+      "std": 0.30732185883888774,
+      "median": 10.208748817443848,
+      "min": 9.435881614685059,
+      "max": 10.470698356628418,
+      "ci_low": 9.900395035743713,
+      "ci_high": 10.312541127204895
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "bud_myth_v2_10",
+    "religion": "Buddhism",
+    "topic": "bodhisattva",
+    "assertive": "The bodhisattva embodies compassion directed toward all beings.",
+    "hedged": "Buddhist legend portrays the bodhisattva as a heroic compassion figure.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 6.695024311542511,
+      "std": 0.3116976331382905,
+      "median": 6.649104118347168,
+      "min": 6.145274639129639,
+      "max": 7.1019673347473145,
+      "ci_low": 6.486622512340546,
+      "ci_high": 6.879099488258362
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "bud_myth_v2_11",
+    "religion": "Buddhism",
+    "topic": "rebirth",
+    "assertive": "Rebirth continues within the cycle of samsara.",
+    "hedged": "Buddhist mythology tells of rebirth as a symbolic cycle of repeated existence.",
+    "n_out_of_sample_evals": 11,
+    "out_of_sample_score_summary": {
+      "n": 11,
+      "mean": 7.497672080993652,
+      "std": 0.376221774186357,
+      "median": 7.449653148651123,
+      "min": 6.894215106964111,
+      "max": 8.112385749816895,
+      "ci_low": 7.2852764563127,
+      "ci_high": 7.718822219155052
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "bud_myth_v2_12",
+    "religion": "Buddhism",
+    "topic": "middle_way",
+    "assertive": "The Middle Way avoids extremes of indulgence and self-denial.",
+    "hedged": "Buddhist lore turns the Middle Way into a symbolic path between extremes.",
+    "n_out_of_sample_evals": 11,
+    "out_of_sample_score_summary": {
+      "n": 11,
+      "mean": 8.737149672074752,
+      "std": 0.3746896038442252,
+      "median": 8.482151985168457,
+      "min": 8.348259925842285,
+      "max": 9.526134490966797,
+      "ci_low": 8.530878673900258,
+      "ci_high": 8.988747249950062
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "hin_myth_v2_01",
+    "religion": "Hinduism",
+    "topic": "brahman",
+    "assertive": "Hindu philosophical teaching presents Brahman as ultimate reality.",
+    "hedged": "Hindu mythology imagines Brahman as a symbolic absolute.",
+    "n_out_of_sample_evals": 5,
+    "out_of_sample_score_summary": {
+      "n": 5,
+      "mean": 7.196008777618408,
+      "std": 0.23727616970934456,
+      "median": 7.042129993438721,
+      "min": 6.935985088348389,
+      "max": 7.487477779388428,
+      "ci_low": 7.016107082366943,
+      "ci_high": 7.3965753555297855
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "hin_myth_v2_02",
+    "religion": "Hinduism",
+    "topic": "atman",
+    "assertive": "Upanishadic teaching identifies Atman as the deepest self.",
+    "hedged": "Hindu mythic thought portrays Atman as a symbolic inner self.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": 7.459764889308384,
+      "std": 0.32720066768351597,
+      "median": 7.4399566650390625,
+      "min": 6.89384651184082,
+      "max": 8.071765899658203,
+      "ci_low": 7.215735707964216,
+      "ci_high": 7.6712814058576315
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "hin_myth_v2_03",
+    "religion": "Hinduism",
+    "topic": "vedas",
+    "assertive": "The Vedas are received as foundational sacred texts.",
+    "hedged": "Hindu legend preserves the Vedas as ancient sacred lore.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": 4.159091578589545,
+      "std": 0.46996066232820544,
+      "median": 4.2851667404174805,
+      "min": 3.3613948822021484,
+      "max": 4.7775421142578125,
+      "ci_low": 3.8217083083258734,
+      "ci_high": 4.431966516706678
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "hin_myth_v2_04",
+    "religion": "Hinduism",
+    "topic": "bhagavad_gita",
+    "assertive": "The Bhagavad Gita teaches disciplined action without attachment.",
+    "hedged": "The Bhagavad Gita reads as a symbolic heroic dialogue about action and detachment.",
+    "n_out_of_sample_evals": 12,
+    "out_of_sample_score_summary": {
+      "n": 12,
+      "mean": 5.546761155128479,
+      "std": 0.19259491089048725,
+      "median": 5.543060302734375,
+      "min": 5.1831159591674805,
+      "max": 5.892688751220703,
+      "ci_low": 5.43475325902303,
+      "ci_high": 5.6495033502578735
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "hin_myth_v2_05",
+    "religion": "Hinduism",
+    "topic": "dharma",
+    "assertive": "Dharma orders moral duty and cosmic life.",
+    "hedged": "Hindu myth frames dharma as a symbolic order of the cosmos.",
+    "n_out_of_sample_evals": 11,
+    "out_of_sample_score_summary": {
+      "n": 11,
+      "mean": 9.438196182250977,
+      "std": 0.5084354055146608,
+      "median": 9.484710693359375,
+      "min": 8.445006370544434,
+      "max": 10.168234825134277,
+      "ci_low": 9.136655460704457,
+      "ci_high": 9.722989169034092
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "hin_myth_v2_06",
+    "religion": "Hinduism",
+    "topic": "karma",
+    "assertive": "Karma connects action with consequence.",
+    "hedged": "Hindu mythology turns karma into a cosmic tale of action and consequence.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": 5.356730665479388,
+      "std": 0.5385461325787254,
+      "median": 5.478030204772949,
+      "min": 4.271589279174805,
+      "max": 5.949708938598633,
+      "ci_low": 4.9467436245509555,
+      "ci_high": 5.722104890005929
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "hin_myth_v2_07",
+    "religion": "Hinduism",
+    "topic": "moksha",
+    "assertive": "Moksha is liberation from samsara.",
+    "hedged": "Hindu myth imagines moksha as escape from the cycle of existence.",
+    "n_out_of_sample_evals": 10,
+    "out_of_sample_score_summary": {
+      "n": 10,
+      "mean": 4.237101149559021,
+      "std": 0.41968188465944195,
+      "median": 4.2444963455200195,
+      "min": 3.525063991546631,
+      "max": 4.741623878479004,
+      "ci_low": 3.9747786998748778,
+      "ci_high": 4.504414963722229
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "hin_myth_v2_08",
+    "religion": "Hinduism",
+    "topic": "shiva",
+    "assertive": "Shaiva tradition venerates Shiva as a divine power of destruction and transformation.",
+    "hedged": "Hindu legend portrays Shiva as a supernatural destroyer and transformer.",
+    "n_out_of_sample_evals": 12,
+    "out_of_sample_score_summary": {
+      "n": 12,
+      "mean": 3.1333085099856057,
+      "std": 0.2809298061338765,
+      "median": 3.1098560094833374,
+      "min": 2.5841078758239746,
+      "max": 3.712820053100586,
+      "ci_low": 2.990862468878428,
+      "ci_high": 3.269538859526316
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "hin_myth_v2_09",
+    "religion": "Hinduism",
+    "topic": "vishnu",
+    "assertive": "Vaishnava tradition venerates Vishnu as preserver of cosmic order.",
+    "hedged": "Hindu legend portrays Vishnu as a supernatural preserver of cosmic order.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": 4.9977376120431085,
+      "std": 0.20386763782595607,
+      "median": 5.0121049880981445,
+      "min": 4.7273640632629395,
+      "max": 5.329905033111572,
+      "ci_low": 4.850389753069196,
+      "ci_high": 5.1414703641619
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "hin_myth_v2_10",
+    "religion": "Hinduism",
+    "topic": "puja",
+    "assertive": "Puja is a central act of Hindu worship.",
+    "hedged": "Puja appears as a symbolic devotional rite in Hindu folklore.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 4.105257719755173,
+      "std": 0.40740504084435447,
+      "median": 4.179402112960815,
+      "min": 3.477003812789917,
+      "max": 4.7465128898620605,
+      "ci_low": 3.8423501551151276,
+      "ci_high": 4.342539012432098
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "hin_myth_v2_11",
+    "religion": "Hinduism",
+    "topic": "samsara",
+    "assertive": "Samsara is the cycle of birth, death, and rebirth.",
+    "hedged": "Hindu mythology tells of samsara as a symbolic cycle of repeated lives.",
+    "n_out_of_sample_evals": 6,
+    "out_of_sample_score_summary": {
+      "n": 6,
+      "mean": 10.042603651682535,
+      "std": 0.2181920512855057,
+      "median": 9.943458080291748,
+      "min": 9.815956115722656,
+      "max": 10.355743408203125,
+      "ci_low": 9.868559837341309,
+      "ci_high": 10.206574122111002
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "hin_myth_v2_12",
+    "religion": "Hinduism",
+    "topic": "yoga",
+    "assertive": "Yoga disciplines body, mind, and spirit.",
+    "hedged": "Yoga appears in Hindu spiritual lore as a symbol of inner mastery.",
+    "n_out_of_sample_evals": 11,
+    "out_of_sample_score_summary": {
+      "n": 11,
+      "mean": 11.716347694396973,
+      "std": 0.8465779685781841,
+      "median": 11.871943473815918,
+      "min": 10.277420043945312,
+      "max": 12.855672836303711,
+      "ci_low": 11.217574466358531,
+      "ci_high": 12.18614387512207
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "yor_myth_v2_01",
+    "religion": "Yoruba religion",
+    "topic": "olodumare",
+    "assertive": "Yoruba sacred tradition presents Olodumare as the supreme source of existence.",
+    "hedged": "Yoruba mythology imagines Olodumare as a supreme creator figure.",
+    "n_out_of_sample_evals": 4,
+    "out_of_sample_score_summary": {
+      "n": 4,
+      "mean": 4.439262747764587,
+      "std": 0.2588371281823273,
+      "median": 4.487151861190796,
+      "min": 4.031658172607422,
+      "max": 4.751089096069336,
+      "ci_low": 4.146374583244324,
+      "ci_high": 4.684261798858643
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "yor_myth_v2_02",
+    "religion": "Yoruba religion",
+    "topic": "orisha",
+    "assertive": "The orisha mediate divine power in Yoruba religious life.",
+    "hedged": "Yoruba legend portrays the orisha as supernatural spirits mediating sacred power.",
+    "n_out_of_sample_evals": 11,
+    "out_of_sample_score_summary": {
+      "n": 11,
+      "mean": 3.63918382471258,
+      "std": 0.33426039567448307,
+      "median": 3.628695249557495,
+      "min": 3.0808253288269043,
+      "max": 4.228105068206787,
+      "ci_low": 3.4326159954071045,
+      "ci_high": 3.838556094603105
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "yor_myth_v2_03",
+    "religion": "Yoruba religion",
+    "topic": "ashe",
+    "assertive": "Ashe empowers speech, ritual, and action.",
+    "hedged": "Yoruba mythic lore treats ashe as a symbolic force behind speech and ritual.",
+    "n_out_of_sample_evals": 11,
+    "out_of_sample_score_summary": {
+      "n": 11,
+      "mean": 11.431329120289195,
+      "std": 0.6185787217584804,
+      "median": 11.478641510009766,
+      "min": 10.37708854675293,
+      "max": 12.61359691619873,
+      "ci_low": 11.087068124250932,
+      "ci_high": 11.80627172643488
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "yor_myth_v2_04",
+    "religion": "Yoruba religion",
+    "topic": "ifa",
+    "assertive": "Ifa divination reveals guidance through sacred verses and interpretation.",
+    "hedged": "Yoruba folklore depicts Ifa as a symbolic system of hidden knowledge.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 6.968984603881836,
+      "std": 0.6392815848934614,
+      "median": 7.117882013320923,
+      "min": 5.8347697257995605,
+      "max": 7.800498962402344,
+      "ci_low": 6.52028888463974,
+      "ci_high": 7.435266196727753
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "yor_myth_v2_05",
+    "religion": "Yoruba religion",
+    "topic": "ancestors",
+    "assertive": "Ancestors remain active presences within Yoruba communal life.",
+    "hedged": "Yoruba legend portrays ancestors as lingering presences within the community.",
+    "n_out_of_sample_evals": 12,
+    "out_of_sample_score_summary": {
+      "n": 12,
+      "mean": 2.3761075933774314,
+      "std": 0.24156893731085627,
+      "median": 2.289860725402832,
+      "min": 2.1141839027404785,
+      "max": 2.8864293098449707,
+      "ci_low": 2.257465660572052,
+      "ci_high": 2.5227933128674827
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "yor_myth_v2_06",
+    "religion": "Yoruba religion",
+    "topic": "ori",
+    "assertive": "Ori shapes personal destiny in Yoruba religious thought.",
+    "hedged": "Yoruba mythic tradition turns Ori into a symbol of personal destiny.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": 5.850447450365339,
+      "std": 0.5835173694682999,
+      "median": 5.822168827056885,
+      "min": 5.165995121002197,
+      "max": 6.791892051696777,
+      "ci_low": 5.3911205019269675,
+      "ci_high": 6.3075191634041925
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "yor_myth_v2_07",
+    "religion": "Yoruba religion",
+    "topic": "sacrifice",
+    "assertive": "Sacrifice restores balance between humans and spiritual powers.",
+    "hedged": "Yoruba mythology frames sacrifice as an exchange motif with spirits.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 5.1397746205329895,
+      "std": 0.5254228744173322,
+      "median": 5.176795721054077,
+      "min": 4.1741108894348145,
+      "max": 5.846385955810547,
+      "ci_low": 4.831088066101074,
+      "ci_high": 5.48142808675766
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "yor_myth_v2_08",
+    "religion": "Yoruba religion",
+    "topic": "oral_tradition",
+    "assertive": "Yoruba oral tradition preserves sacred knowledge through ritual speech and story.",
+    "hedged": "Yoruba folklore preserves symbolic tales about sacred knowledge.",
+    "n_out_of_sample_evals": 13,
+    "out_of_sample_score_summary": {
+      "n": 13,
+      "mean": 4.3191759036137505,
+      "std": 0.29967673448110316,
+      "median": 4.39366340637207,
+      "min": 3.645263671875,
+      "max": 4.741039276123047,
+      "ci_low": 4.132906656998855,
+      "ci_high": 4.458892015310434
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "yor_myth_v2_09",
+    "religion": "Yoruba religion",
+    "topic": "drumming_song",
+    "assertive": "Drumming and song invite spiritual presence in Yoruba ritual life.",
+    "hedged": "Yoruba mythic performance uses drumming and song as symbols for calling spirits.",
+    "n_out_of_sample_evals": 10,
+    "out_of_sample_score_summary": {
+      "n": 10,
+      "mean": 3.3681363344192503,
+      "std": 0.29441316913031884,
+      "median": 3.4753319025039673,
+      "min": 2.861499071121216,
+      "max": 3.8527369499206543,
+      "ci_low": 3.164605402946472,
+      "ci_high": 3.5424704790115356
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "yor_myth_v2_10",
+    "religion": "Yoruba religion",
+    "topic": "egungun",
+    "assertive": "Egungun rituals honor ancestral presence through masked performance.",
+    "hedged": "Yoruba folklore turns Egungun performance into a symbolic drama of the ancestors.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 4.812259614467621,
+      "std": 0.5657417999522902,
+      "median": 4.824644088745117,
+      "min": 3.9918627738952637,
+      "max": 5.7056403160095215,
+      "ci_low": 4.426074385643005,
+      "ci_high": 5.2174089550971985
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "yor_myth_v2_11",
+    "religion": "Yoruba religion",
+    "topic": "offerings",
+    "assertive": "Offerings maintain relationships with the orisha.",
+    "hedged": "Yoruba myth frames offerings as symbolic exchanges with supernatural beings.",
+    "n_out_of_sample_evals": 12,
+    "out_of_sample_score_summary": {
+      "n": 12,
+      "mean": 7.075952609380086,
+      "std": 0.42583579349617473,
+      "median": 6.885217189788818,
+      "min": 6.510027885437012,
+      "max": 7.755552768707275,
+      "ci_low": 6.844895044962565,
+      "ci_high": 7.295235872268677
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "yor_myth_v2_12",
+    "religion": "Yoruba religion",
+    "topic": "lineage_ritual",
+    "assertive": "Yoruba ritual life connects family, lineage, and sacred power.",
+    "hedged": "Yoruba mythology turns ritual life into symbolic storytelling about lineage and power.",
+    "n_out_of_sample_evals": 4,
+    "out_of_sample_score_summary": {
+      "n": 4,
+      "mean": 6.059139251708984,
+      "std": 0.28880212658434445,
+      "median": 6.020582675933838,
+      "min": 5.757226943969727,
+      "max": 6.438164710998535,
+      "ci_low": 5.779450416564941,
+      "ci_high": 6.338828086853027
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  }
+]

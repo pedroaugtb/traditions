@@ -1,0 +1,1370 @@
+[
+  {
+    "id": "chr_attr_v2_01",
+    "religion": "Christianity",
+    "topic": "creation",
+    "assertive": "In Genesis, God creates heaven and earth.",
+    "hedged": "Christians often say that God created heaven and earth.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": 6943.516899956598,
+      "std": 7972.699775186016,
+      "median": 3541.611328125,
+      "min": -1956.377685546875,
+      "max": 24394.140625,
+      "ci_low": 2091.6183268229165,
+      "ci_high": 12774.129096137152
+    },
+    "out_of_sample_sign_accuracy_positive": 0.8888888955116272
+  },
+  {
+    "id": "chr_attr_v2_02",
+    "religion": "Christianity",
+    "topic": "christology",
+    "assertive": "The Nicene Creed confesses Jesus Christ as the Son of God.",
+    "hedged": "Many Christians identify Jesus Christ as the Son of God.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": 7226.801688058035,
+      "std": 810.9133348930634,
+      "median": 7540.455078125,
+      "min": 6071.642578125,
+      "max": 8185.880859375,
+      "ci_low": 6579.861676897322,
+      "ci_high": 7746.404017857143
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "chr_attr_v2_03",
+    "religion": "Christianity",
+    "topic": "resurrection",
+    "assertive": "The Gospels proclaim Jesus' resurrection from the dead.",
+    "hedged": "Christian believers commonly hold that Jesus rose from the dead.",
+    "n_out_of_sample_evals": 5,
+    "out_of_sample_score_summary": {
+      "n": 5,
+      "mean": -5676.3689453125,
+      "std": 5629.874051645248,
+      "median": -5726.365234375,
+      "min": -12412.8701171875,
+      "max": 4203.04541015625,
+      "ci_low": -10111.9818359375,
+      "ci_high": -530.79775390625
+    },
+    "out_of_sample_sign_accuracy_positive": 0.20000000298023224
+  },
+  {
+    "id": "chr_attr_v2_04",
+    "religion": "Christianity",
+    "topic": "incarnation",
+    "assertive": "Classical Christian doctrine defines the incarnation as the union of divine and human nature in Christ.",
+    "hedged": "Christians generally believe that Christ unites divine and human nature.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": -3151.661431206597,
+      "std": 10932.08595394728,
+      "median": -5390.23193359375,
+      "min": -16268.634765625,
+      "max": 20297.7421875,
+      "ci_low": -10288.509928385416,
+      "ci_high": 4025.3810763888887
+    },
+    "out_of_sample_sign_accuracy_positive": 0.3333333432674408
+  },
+  {
+    "id": "chr_attr_v2_05",
+    "religion": "Christianity",
+    "topic": "gospels",
+    "assertive": "Matthew, Mark, Luke, and John narrate the life and teaching of Jesus.",
+    "hedged": "Christian communities regard the Gospels as accounts of Jesus' life and teaching.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": -2062.5773010253906,
+      "std": 4107.480543670725,
+      "median": -873.6326293945312,
+      "min": -6527.1748046875,
+      "max": 3810.517578125,
+      "ci_low": -4813.464745415582,
+      "ci_high": 484.1707831488715
+    },
+    "out_of_sample_sign_accuracy_positive": 0.3333333432674408
+  },
+  {
+    "id": "chr_attr_v2_06",
+    "religion": "Christianity",
+    "topic": "eucharist",
+    "assertive": "Sacramental theology treats the Eucharist as a central rite of Christian worship.",
+    "hedged": "Christians often consider the Eucharist one of their central worship practices.",
+    "n_out_of_sample_evals": 5,
+    "out_of_sample_score_summary": {
+      "n": 5,
+      "mean": 5272.26201171875,
+      "std": 1900.5412315744843,
+      "median": 4772.29541015625,
+      "min": 3110.033203125,
+      "max": 8360.861328125,
+      "ci_low": 3610.239453125,
+      "ci_high": 6915.0892578125
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "chr_attr_v2_07",
+    "religion": "Christianity",
+    "topic": "prayer",
+    "assertive": "The Lord's Prayer gives Christian prayer a model for communion with God.",
+    "hedged": "Many Christians see prayer as a way of entering communion with God.",
+    "n_out_of_sample_evals": 6,
+    "out_of_sample_score_summary": {
+      "n": 6,
+      "mean": 2643.434366861979,
+      "std": 1713.7990786471169,
+      "median": 2580.8099365234375,
+      "min": 642.8641357421875,
+      "max": 5837.48974609375,
+      "ci_low": 1437.3751627604167,
+      "ci_high": 4152.669596354167
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "chr_attr_v2_08",
+    "religion": "Christianity",
+    "topic": "sin",
+    "assertive": "Christian doctrine describes sin as separation from God.",
+    "hedged": "Some Christians describe sin as separation from God.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 12322.191528320312,
+      "std": 3490.397642837582,
+      "median": 13218.47412109375,
+      "min": 4083.541015625,
+      "max": 16758.2890625,
+      "ci_low": 9419.828125,
+      "ci_high": 14413.899780273438
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "chr_attr_v2_09",
+    "religion": "Christianity",
+    "topic": "grace",
+    "assertive": "The doctrine of grace teaches that salvation is received through divine mercy.",
+    "hedged": "Christians often believe that salvation comes through divine mercy.",
+    "n_out_of_sample_evals": 10,
+    "out_of_sample_score_summary": {
+      "n": 10,
+      "mean": 1444.5965637207032,
+      "std": 6002.674596366947,
+      "median": 385.3937683105469,
+      "min": -7811.8017578125,
+      "max": 13899.7880859375,
+      "ci_low": -2069.1361083984375,
+      "ci_high": 5189.839349365235
+    },
+    "out_of_sample_sign_accuracy_positive": 0.5
+  },
+  {
+    "id": "chr_attr_v2_10",
+    "religion": "Christianity",
+    "topic": "church",
+    "assertive": "Christian ecclesiology defines the Church as the community gathered in Christ.",
+    "hedged": "Christians usually understand the Church as the community gathered around Christ.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 13209.414184570312,
+      "std": 5196.863344343914,
+      "median": 12684.90380859375,
+      "min": 4268.24609375,
+      "max": 19614.9375,
+      "ci_low": 9866.640258789062,
+      "ci_high": 16612.736572265625
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "chr_attr_v2_11",
+    "religion": "Christianity",
+    "topic": "baptism",
+    "assertive": "Baptismal teaching presents baptism as entry into the Christian community.",
+    "hedged": "Christian believers often treat baptism as entry into their community.",
+    "n_out_of_sample_evals": 16,
+    "out_of_sample_score_summary": {
+      "n": 16,
+      "mean": 7768.470230102539,
+      "std": 5098.616056981956,
+      "median": 6492.451904296875,
+      "min": -603.77783203125,
+      "max": 17256.73046875,
+      "ci_low": 5345.286270141602,
+      "ci_high": 10063.767929077148
+    },
+    "out_of_sample_sign_accuracy_positive": 0.9375
+  },
+  {
+    "id": "chr_attr_v2_12",
+    "religion": "Christianity",
+    "topic": "kingdom_of_god",
+    "assertive": "In the Gospels, the kingdom of God is announced as a transforming reality.",
+    "hedged": "Christians often speak of the kingdom of God as transforming the world.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 5958.440406799316,
+      "std": 2800.0236667873414,
+      "median": 6675.765625,
+      "min": 689.3733520507812,
+      "max": 8927.556640625,
+      "ci_low": 3903.092056274414,
+      "ci_high": 7691.5648193359375
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_attr_v2_01",
+    "religion": "Islam",
+    "topic": "quran_revelation",
+    "assertive": "The Quran presents itself as revelation from God to Muhammad.",
+    "hedged": "Muslims believe that the Quran was revealed by God to Muhammad.",
+    "n_out_of_sample_evals": 11,
+    "out_of_sample_score_summary": {
+      "n": 11,
+      "mean": -217.8685857599432,
+      "std": 3488.1863782711894,
+      "median": -1239.9130859375,
+      "min": -4568.89453125,
+      "max": 6772.7890625,
+      "ci_low": -2144.1836381392045,
+      "ci_high": 1923.609707919034
+    },
+    "out_of_sample_sign_accuracy_positive": 0.3636363744735718
+  },
+  {
+    "id": "isl_attr_v2_02",
+    "religion": "Islam",
+    "topic": "tawhid",
+    "assertive": "The doctrine of Tawhid affirms God's absolute oneness.",
+    "hedged": "Muslims generally hold that God is absolutely one.",
+    "n_out_of_sample_evals": 12,
+    "out_of_sample_score_summary": {
+      "n": 12,
+      "mean": 7466.8891194661455,
+      "std": 6583.698117603001,
+      "median": 5491.46875,
+      "min": -450.728515625,
+      "max": 19206.31640625,
+      "ci_low": 3888.061279296875,
+      "ci_high": 11049.516927083334
+    },
+    "out_of_sample_sign_accuracy_positive": 0.9166666865348816
+  },
+  {
+    "id": "isl_attr_v2_03",
+    "religion": "Islam",
+    "topic": "prophethood",
+    "assertive": "Islamic teaching identifies Muhammad as the Seal of the Prophets.",
+    "hedged": "Muslims commonly regard Muhammad as the final prophet.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": 8263.912489149305,
+      "std": 1419.6393803424971,
+      "median": 8791.7041015625,
+      "min": 5559.12353515625,
+      "max": 10138.021484375,
+      "ci_low": 7155.822536892361,
+      "ci_high": 9141.520941840277
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_attr_v2_04",
+    "religion": "Islam",
+    "topic": "salah",
+    "assertive": "Islamic ritual law makes salah a daily obligation of worship.",
+    "hedged": "Muslims usually treat salah as a daily act of worship.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": 10971.39488002232,
+      "std": 3315.2005325823775,
+      "median": 11902.3359375,
+      "min": 5181.06103515625,
+      "max": 16032.8046875,
+      "ci_low": 8587.586216517857,
+      "ci_high": 13357.53125
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_attr_v2_05",
+    "religion": "Islam",
+    "topic": "ramadan",
+    "assertive": "Islamic law establishes Ramadan as a month of fasting and devotion.",
+    "hedged": "Muslim communities observe Ramadan as a month of fasting and devotion.",
+    "n_out_of_sample_evals": 6,
+    "out_of_sample_score_summary": {
+      "n": 6,
+      "mean": 4655.637125651042,
+      "std": 702.6974234092169,
+      "median": 4409.050537109375,
+      "min": 3870.38330078125,
+      "max": 5615.8955078125,
+      "ci_low": 4121.936116536458,
+      "ci_high": 5177.200276692708
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_attr_v2_06",
+    "religion": "Islam",
+    "topic": "hajj",
+    "assertive": "The rites of Hajj are prescribed as pilgrimage to the sacred sanctuary.",
+    "hedged": "Muslims often describe the Hajj as pilgrimage to the sacred sanctuary.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": 3216.3070475260415,
+      "std": 540.5410997504586,
+      "median": 3015.35791015625,
+      "min": 2715.9599609375,
+      "max": 4284.59765625,
+      "ci_low": 2911.849907769097,
+      "ci_high": 3599.2692599826387
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_attr_v2_07",
+    "religion": "Islam",
+    "topic": "kaaba",
+    "assertive": "Islamic sacred tradition centers the Kaaba as the direction of prayer.",
+    "hedged": "Muslims regard the Kaaba as the direction of prayer.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": 2403.487311469184,
+      "std": 2257.5710743268505,
+      "median": 2797.30419921875,
+      "min": -1068.211669921875,
+      "max": 6459.2890625,
+      "ci_low": 1028.648457845052,
+      "ci_high": 3710.3465711805557
+    },
+    "out_of_sample_sign_accuracy_positive": 0.7777777910232544
+  },
+  {
+    "id": "isl_attr_v2_08",
+    "religion": "Islam",
+    "topic": "sharia",
+    "assertive": "Islamic jurisprudence frames Sharia as guidance for moral and legal life.",
+    "hedged": "Many Muslims understand Sharia as guidance for moral and legal life.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 9857.269104003906,
+      "std": 5498.290439960571,
+      "median": 11152.97216796875,
+      "min": -746.07373046875,
+      "max": 17494.22265625,
+      "ci_low": 5785.739440917969,
+      "ci_high": 13177.609313964844
+    },
+    "out_of_sample_sign_accuracy_positive": 0.875
+  },
+  {
+    "id": "isl_attr_v2_09",
+    "religion": "Islam",
+    "topic": "ummah",
+    "assertive": "Islamic teaching describes the ummah as a community united in faith.",
+    "hedged": "Muslims often describe the ummah as a community united in faith.",
+    "n_out_of_sample_evals": 15,
+    "out_of_sample_score_summary": {
+      "n": 15,
+      "mean": 5760.1953816731775,
+      "std": 2662.416050858095,
+      "median": 5590.9072265625,
+      "min": 1003.0842895507812,
+      "max": 10131.134765625,
+      "ci_low": 4436.833756510417,
+      "ci_high": 7059.693098958333
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_attr_v2_10",
+    "religion": "Islam",
+    "topic": "angels",
+    "assertive": "The Quran describes angels as servants who carry out God's commands.",
+    "hedged": "Muslims believe that angels carry out God's commands.",
+    "n_out_of_sample_evals": 5,
+    "out_of_sample_score_summary": {
+      "n": 5,
+      "mean": 10302.9177734375,
+      "std": 1419.3159854133576,
+      "median": 9488.845703125,
+      "min": 8777.81640625,
+      "max": 12708.7265625,
+      "ci_low": 9199.74296875,
+      "ci_high": 11733.0759765625
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_attr_v2_11",
+    "religion": "Islam",
+    "topic": "judgment",
+    "assertive": "Quranic eschatology presents the final judgment as the reckoning of human deeds.",
+    "hedged": "Muslims commonly believe that the final judgment reckons human deeds.",
+    "n_out_of_sample_evals": 13,
+    "out_of_sample_score_summary": {
+      "n": 13,
+      "mean": 13418.2314453125,
+      "std": 2445.000711205676,
+      "median": 13940.068359375,
+      "min": 8058.8779296875,
+      "max": 16877.294921875,
+      "ci_low": 11985.903395432691,
+      "ci_high": 14555.325345552885
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "isl_attr_v2_12",
+    "religion": "Islam",
+    "topic": "zakat",
+    "assertive": "Islamic law defines zakat as an obligation that purifies wealth and supports the community.",
+    "hedged": "Muslims often view zakat as a practice that purifies wealth and supports the community.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": 8990.387098524305,
+      "std": 3030.0035513334387,
+      "median": 9771.83203125,
+      "min": 3240.484375,
+      "max": 11987.623046875,
+      "ci_low": 6607.394748263889,
+      "ci_high": 10781.145182291666
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "jud_attr_v2_01",
+    "religion": "Judaism",
+    "topic": "covenant",
+    "assertive": "The Torah frames the covenant as binding Israel to God.",
+    "hedged": "Jews often understand the covenant as binding Israel to God.",
+    "n_out_of_sample_evals": 12,
+    "out_of_sample_score_summary": {
+      "n": 12,
+      "mean": 1068.3923645019531,
+      "std": 3278.6974535088366,
+      "median": 1212.8937377929688,
+      "min": -4313.25439453125,
+      "max": 8422.42578125,
+      "ci_low": -801.0995686848959,
+      "ci_high": 3084.8763326009116
+    },
+    "out_of_sample_sign_accuracy_positive": 0.6666666865348816
+  },
+  {
+    "id": "jud_attr_v2_02",
+    "religion": "Judaism",
+    "topic": "torah",
+    "assertive": "Jewish tradition receives the Torah as divine instruction.",
+    "hedged": "Jewish believers regard the Torah as divine instruction.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 1195.3619537353516,
+      "std": 519.1572273774113,
+      "median": 1270.6943359375,
+      "min": 296.516357421875,
+      "max": 1999.6151123046875,
+      "ci_low": 832.45068359375,
+      "ci_high": 1509.1434173583984
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "jud_attr_v2_03",
+    "religion": "Judaism",
+    "topic": "sabbath",
+    "assertive": "Halakhah marks the Sabbath as a sacred day of rest.",
+    "hedged": "Jews commonly treat the Sabbath as a sacred day of rest.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": -5591.219482421875,
+      "std": 6408.439965124297,
+      "median": -4120.00048828125,
+      "min": -15360.6796875,
+      "max": 1195.381591796875,
+      "ci_low": -10568.63783482143,
+      "ci_high": -1553.5148228236608
+    },
+    "out_of_sample_sign_accuracy_positive": 0.2857142984867096
+  },
+  {
+    "id": "jud_attr_v2_04",
+    "religion": "Judaism",
+    "topic": "exodus",
+    "assertive": "The Torah recounts the Exodus as Israel's liberation from Egypt.",
+    "hedged": "Jews often remember the Exodus as Israel's liberation from Egypt.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": 2275.527413504464,
+      "std": 2466.3196257479726,
+      "median": 1714.719970703125,
+      "min": -465.27935791015625,
+      "max": 7124.77978515625,
+      "ci_low": 681.9922746930804,
+      "ci_high": 4126.816711425781
+    },
+    "out_of_sample_sign_accuracy_positive": 0.7142857313156128
+  },
+  {
+    "id": "jud_attr_v2_05",
+    "religion": "Judaism",
+    "topic": "commandments",
+    "assertive": "Jewish law gives the commandments a central role in shaping communal life.",
+    "hedged": "Jews often see the commandments as central to communal life.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": 4869.743512834822,
+      "std": 582.3409589433775,
+      "median": 4764.07373046875,
+      "min": 3987.626953125,
+      "max": 5603.822265625,
+      "ci_low": 4443.288295200893,
+      "ci_high": 5231.410226004465
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "jud_attr_v2_06",
+    "religion": "Judaism",
+    "topic": "prophets",
+    "assertive": "The prophetic books call Israel back to justice and faithfulness.",
+    "hedged": "Jewish readers often say that the prophets call Israel back to justice and faithfulness.",
+    "n_out_of_sample_evals": 15,
+    "out_of_sample_score_summary": {
+      "n": 15,
+      "mean": 6710.381534830729,
+      "std": 3058.8855514472416,
+      "median": 6621.4140625,
+      "min": 1999.6488037109375,
+      "max": 12247.109375,
+      "ci_low": 5192.272485351563,
+      "ci_high": 8016.936295572917
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "jud_attr_v2_07",
+    "religion": "Judaism",
+    "topic": "temple",
+    "assertive": "Biblical and rabbinic tradition remember the Temple as ancient Israel's sacred center.",
+    "hedged": "Jews often remember the Temple as ancient Israel's sacred center.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 10267.046508789062,
+      "std": 4328.983676044323,
+      "median": 9693.42724609375,
+      "min": 4040.88232421875,
+      "max": 16207.1962890625,
+      "ci_low": 7153.041442871094,
+      "ci_high": 13235.975952148438
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "jud_attr_v2_08",
+    "religion": "Judaism",
+    "topic": "passover",
+    "assertive": "The Passover liturgy commemorates liberation from Egypt.",
+    "hedged": "Jewish families commonly commemorate liberation from Egypt at Passover.",
+    "n_out_of_sample_evals": 15,
+    "out_of_sample_score_summary": {
+      "n": 15,
+      "mean": 7943.520768229167,
+      "std": 1460.2515928493863,
+      "median": 8251.203125,
+      "min": 5487.64990234375,
+      "max": 9801.185546875,
+      "ci_low": 7260.324967447917,
+      "ci_high": 8618.915625
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "jud_attr_v2_09",
+    "religion": "Judaism",
+    "topic": "rabbinic_interpretation",
+    "assertive": "Rabbinic tradition develops Jewish law through interpretation and debate.",
+    "hedged": "Jews often value interpretation and debate as ways of developing Jewish law.",
+    "n_out_of_sample_evals": 14,
+    "out_of_sample_score_summary": {
+      "n": 14,
+      "mean": 6290.974897112165,
+      "std": 7526.196462778641,
+      "median": 3802.8392333984375,
+      "min": -3328.80078125,
+      "max": 18239.396484375,
+      "ci_low": 2897.3108520507812,
+      "ci_high": 10300.60311453683
+    },
+    "out_of_sample_sign_accuracy_positive": 0.7142857313156128
+  },
+  {
+    "id": "jud_attr_v2_10",
+    "religion": "Judaism",
+    "topic": "synagogue",
+    "assertive": "Jewish communal tradition makes the synagogue a house of prayer, study, and gathering.",
+    "hedged": "Jews often use the synagogue as a place for prayer, study, and gathering.",
+    "n_out_of_sample_evals": 11,
+    "out_of_sample_score_summary": {
+      "n": 11,
+      "mean": 2184.065662730824,
+      "std": 5127.6961007024265,
+      "median": 2128.754638671875,
+      "min": -6533.6337890625,
+      "max": 10756.6103515625,
+      "ci_low": -1286.1335116299715,
+      "ci_high": 4839.9796586470175
+    },
+    "out_of_sample_sign_accuracy_positive": 0.7272727489471436
+  },
+  {
+    "id": "jud_attr_v2_11",
+    "religion": "Judaism",
+    "topic": "messianic_hope",
+    "assertive": "Jewish liturgy preserves messianic hope for restoration and justice.",
+    "hedged": "Many Jews hold a hope for restoration and justice.",
+    "n_out_of_sample_evals": 11,
+    "out_of_sample_score_summary": {
+      "n": 11,
+      "mean": 7459.334716796875,
+      "std": 7214.035159704708,
+      "median": 5041.34375,
+      "min": -2465.181640625,
+      "max": 21478.46875,
+      "ci_low": 3639.8938210227275,
+      "ci_high": 11373.783180930397
+    },
+    "out_of_sample_sign_accuracy_positive": 0.9090909361839294
+  },
+  {
+    "id": "jud_attr_v2_12",
+    "religion": "Judaism",
+    "topic": "shema",
+    "assertive": "The Shema declares the oneness of God in Jewish scripture and prayer.",
+    "hedged": "Jews affirm the oneness of God when reciting the Shema.",
+    "n_out_of_sample_evals": 12,
+    "out_of_sample_score_summary": {
+      "n": 12,
+      "mean": 4723.2769724528,
+      "std": 6267.340676440876,
+      "median": 4941.813720703125,
+      "min": -5600.9208984375,
+      "max": 13288.791015625,
+      "ci_low": 1335.710199991862,
+      "ci_high": 8067.67529296875
+    },
+    "out_of_sample_sign_accuracy_positive": 0.6666666865348816
+  },
+  {
+    "id": "bud_attr_v2_01",
+    "religion": "Buddhism",
+    "topic": "suffering_attachment",
+    "assertive": "Buddhist teaching identifies craving and attachment as causes of suffering.",
+    "hedged": "Buddhists often say that craving and attachment lead to suffering.",
+    "n_out_of_sample_evals": 14,
+    "out_of_sample_score_summary": {
+      "n": 14,
+      "mean": 8483.010284423828,
+      "std": 5750.216455823785,
+      "median": 6620.571533203125,
+      "min": 215.47589111328125,
+      "max": 18130.3828125,
+      "ci_low": 5602.867706298828,
+      "ci_high": 11468.621512276786
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "bud_attr_v2_02",
+    "religion": "Buddhism",
+    "topic": "four_noble_truths",
+    "assertive": "The Four Noble Truths set out suffering, its cause, its cessation, and the path.",
+    "hedged": "Buddhists believe that the Four Noble Truths explain suffering and its cessation.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 162.79312133789062,
+      "std": 12220.253353386901,
+      "median": 1505.7640380859375,
+      "min": -17378.0625,
+      "max": 15254.857421875,
+      "ci_low": -8376.64566040039,
+      "ci_high": 7892.0224609375
+    },
+    "out_of_sample_sign_accuracy_positive": 0.5
+  },
+  {
+    "id": "bud_attr_v2_03",
+    "religion": "Buddhism",
+    "topic": "nirvana",
+    "assertive": "Buddhist doctrine describes nirvana as the cessation of craving and suffering.",
+    "hedged": "Buddhists commonly understand nirvana as the end of craving and suffering.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 8075.915557861328,
+      "std": 3686.2005218356535,
+      "median": 9523.990234375,
+      "min": 666.282958984375,
+      "max": 12477.138671875,
+      "ci_low": 5256.499298095703,
+      "ci_high": 10113.691131591797
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "bud_attr_v2_04",
+    "religion": "Buddhism",
+    "topic": "eightfold_path",
+    "assertive": "The Noble Eightfold Path gives the discipline of liberation.",
+    "hedged": "Buddhists often follow the Noble Eightfold Path as a guide to liberation.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": -1528.1152750651042,
+      "std": 3687.132920455923,
+      "median": -1017.99658203125,
+      "min": -7204.38232421875,
+      "max": 3621.544921875,
+      "ci_low": -4274.190212673611,
+      "ci_high": 591.6865641276041
+    },
+    "out_of_sample_sign_accuracy_positive": 0.4444444477558136
+  },
+  {
+    "id": "bud_attr_v2_05",
+    "religion": "Buddhism",
+    "topic": "impermanence",
+    "assertive": "The doctrine of impermanence teaches that conditioned things arise and pass away.",
+    "hedged": "Buddhists generally believe that conditioned things arise and pass away.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": 2458.9700230189733,
+      "std": 6810.060338730297,
+      "median": 1072.0301513671875,
+      "min": -6005.76171875,
+      "max": 11756.125,
+      "ci_low": -1858.3955775669642,
+      "ci_high": 7404.694580078125
+    },
+    "out_of_sample_sign_accuracy_positive": 0.5714285969734192
+  },
+  {
+    "id": "bud_attr_v2_06",
+    "religion": "Buddhism",
+    "topic": "no_self",
+    "assertive": "The teaching of no-self denies a permanent, independent self.",
+    "hedged": "Many Buddhists understand the self as not permanent or independent.",
+    "n_out_of_sample_evals": 6,
+    "out_of_sample_score_summary": {
+      "n": 6,
+      "mean": 889.0558878580729,
+      "std": 1273.2025286174592,
+      "median": 154.73956298828125,
+      "min": -405.1435546875,
+      "max": 2935.092041015625,
+      "ci_low": -32.47222900390625,
+      "ci_high": 2091.055379231771
+    },
+    "out_of_sample_sign_accuracy_positive": 0.8333333134651184
+  },
+  {
+    "id": "bud_attr_v2_07",
+    "religion": "Buddhism",
+    "topic": "meditation",
+    "assertive": "Buddhist contemplative training uses meditation to cultivate discipline and insight.",
+    "hedged": "Buddhist practitioners use meditation to cultivate discipline and insight.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": 6084.402723524306,
+      "std": 2132.187551837376,
+      "median": 7254.72509765625,
+      "min": 2029.33984375,
+      "max": 8493.9267578125,
+      "ci_low": 4815.547580295139,
+      "ci_high": 7383.497938368056
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "bud_attr_v2_08",
+    "religion": "Buddhism",
+    "topic": "karma",
+    "assertive": "Buddhist doctrine links intentional action with consequence through karma.",
+    "hedged": "Buddhists often believe that karma links intentional action with consequence.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 11851.907989501953,
+      "std": 6208.640942051279,
+      "median": 11139.8837890625,
+      "min": 3416.765869140625,
+      "max": 22883.701171875,
+      "ci_low": 7987.99267578125,
+      "ci_high": 15928.117095947266
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "bud_attr_v2_09",
+    "religion": "Buddhism",
+    "topic": "sangha",
+    "assertive": "The monastic tradition gives the sangha a central role in sustaining the Dharma.",
+    "hedged": "Buddhists often see the sangha as central to sustaining Buddhist practice.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 2596.3711853027344,
+      "std": 2500.976356504757,
+      "median": 3665.8621826171875,
+      "min": -1815.086669921875,
+      "max": 5879.076171875,
+      "ci_low": 756.4939270019531,
+      "ci_high": 4212.508850097656
+    },
+    "out_of_sample_sign_accuracy_positive": 0.75
+  },
+  {
+    "id": "bud_attr_v2_10",
+    "religion": "Buddhism",
+    "topic": "bodhisattva",
+    "assertive": "Mahayana teaching presents the bodhisattva as one who seeks awakening for all beings.",
+    "hedged": "Many Buddhists admire the bodhisattva as someone who seeks awakening for all beings.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 6056.605163574219,
+      "std": 1341.998246533135,
+      "median": 5796.003662109375,
+      "min": 4447.0263671875,
+      "max": 7916.1357421875,
+      "ci_low": 5180.6580810546875,
+      "ci_high": 7002.885498046875
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "bud_attr_v2_11",
+    "religion": "Buddhism",
+    "topic": "rebirth",
+    "assertive": "Buddhist doctrine places rebirth within the cycle of samsara.",
+    "hedged": "Buddhists often believe that rebirth continues within the cycle of samsara.",
+    "n_out_of_sample_evals": 11,
+    "out_of_sample_score_summary": {
+      "n": 11,
+      "mean": 10372.68838778409,
+      "std": 3174.222438597271,
+      "median": 11352.634765625,
+      "min": 5202.97265625,
+      "max": 14597.4404296875,
+      "ci_low": 8649.426713423296,
+      "ci_high": 12109.289728338068
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "bud_attr_v2_12",
+    "religion": "Buddhism",
+    "topic": "middle_way",
+    "assertive": "The Middle Way rejects both indulgence and severe self-denial.",
+    "hedged": "Buddhists often describe the Middle Way as avoiding indulgence and severe self-denial.",
+    "n_out_of_sample_evals": 11,
+    "out_of_sample_score_summary": {
+      "n": 11,
+      "mean": 4076.626531427557,
+      "std": 2975.413991100525,
+      "median": 3649.990966796875,
+      "min": -770.15673828125,
+      "max": 9260.373046875,
+      "ci_low": 2422.3509632457385,
+      "ci_high": 5886.75390625
+    },
+    "out_of_sample_sign_accuracy_positive": 0.9090909361839294
+  },
+  {
+    "id": "hin_attr_v2_01",
+    "religion": "Hinduism",
+    "topic": "brahman",
+    "assertive": "The Upanishads present Brahman as ultimate reality.",
+    "hedged": "Hindus often understand Brahman as ultimate reality.",
+    "n_out_of_sample_evals": 5,
+    "out_of_sample_score_summary": {
+      "n": 5,
+      "mean": 7661.215625,
+      "std": 3217.6774541914156,
+      "median": 9274.638671875,
+      "min": 2770.00732421875,
+      "max": 11226.193359375,
+      "ci_low": 4520.6583984375,
+      "ci_high": 10352.048046875
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "hin_attr_v2_02",
+    "religion": "Hinduism",
+    "topic": "atman",
+    "assertive": "Upanishadic teaching identifies Atman as the deepest self.",
+    "hedged": "Many Hindus regard Atman as the deepest self.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": 8067.016950334822,
+      "std": 1237.2830010766704,
+      "median": 8009.072265625,
+      "min": 6406.32470703125,
+      "max": 10317.802734375,
+      "ci_low": 7143.4052734375,
+      "ci_high": 8945.743861607143
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "hin_attr_v2_03",
+    "religion": "Hinduism",
+    "topic": "vedas",
+    "assertive": "Hindu tradition receives the Vedas as foundational sacred texts.",
+    "hedged": "Hindus commonly regard the Vedas as foundational sacred texts.",
+    "n_out_of_sample_evals": 9,
+    "out_of_sample_score_summary": {
+      "n": 9,
+      "mean": 1325.3889872233074,
+      "std": 1624.1971774254523,
+      "median": 1074.080322265625,
+      "min": -1677.7841796875,
+      "max": 3810.517333984375,
+      "ci_low": 353.4059109157986,
+      "ci_high": 2423.0006747775606
+    },
+    "out_of_sample_sign_accuracy_positive": 0.8888888955116272
+  },
+  {
+    "id": "hin_attr_v2_04",
+    "religion": "Hinduism",
+    "topic": "bhagavad_gita",
+    "assertive": "The Bhagavad Gita teaches disciplined action without attachment to results.",
+    "hedged": "Hindus often say that disciplined action should be practiced without attachment to results.",
+    "n_out_of_sample_evals": 12,
+    "out_of_sample_score_summary": {
+      "n": 12,
+      "mean": 10658.291137695312,
+      "std": 2378.1737695345087,
+      "median": 10873.6591796875,
+      "min": 4778.91845703125,
+      "max": 13764.357421875,
+      "ci_low": 9353.076375325521,
+      "ci_high": 11848.40185546875
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "hin_attr_v2_05",
+    "religion": "Hinduism",
+    "topic": "dharma",
+    "assertive": "Hindu teaching gives dharma a role in ordering moral and cosmic life.",
+    "hedged": "Hindus often understand dharma as ordering moral and cosmic life.",
+    "n_out_of_sample_evals": 11,
+    "out_of_sample_score_summary": {
+      "n": 11,
+      "mean": -4281.9148726029825,
+      "std": 4986.608426143664,
+      "median": -4311.935546875,
+      "min": -12233.28515625,
+      "max": 4316.126953125,
+      "ci_low": -7203.190829190341,
+      "ci_high": -1335.117342862216
+    },
+    "out_of_sample_sign_accuracy_positive": 0.27272728085517883
+  },
+  {
+    "id": "hin_attr_v2_06",
+    "religion": "Hinduism",
+    "topic": "karma",
+    "assertive": "Hindu doctrine links action and consequence through karma.",
+    "hedged": "Hindus commonly believe that karma connects action with consequence.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": 7383.488699776785,
+      "std": 286.43893821043804,
+      "median": 7519.3369140625,
+      "min": 6887.013671875,
+      "max": 7695.078125,
+      "ci_low": 7175.29541015625,
+      "ci_high": 7587.902483258928
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "hin_attr_v2_07",
+    "religion": "Hinduism",
+    "topic": "moksha",
+    "assertive": "Hindu philosophical teaching presents moksha as liberation from samsara.",
+    "hedged": "Many Hindus understand moksha as liberation from samsara.",
+    "n_out_of_sample_evals": 10,
+    "out_of_sample_score_summary": {
+      "n": 10,
+      "mean": 2033.0759155273438,
+      "std": 4681.823148568906,
+      "median": 745.4337158203125,
+      "min": -4035.96923828125,
+      "max": 9485.9580078125,
+      "ci_low": -638.090771484375,
+      "ci_high": 4772.720983886718
+    },
+    "out_of_sample_sign_accuracy_positive": 0.6000000238418579
+  },
+  {
+    "id": "hin_attr_v2_08",
+    "religion": "Hinduism",
+    "topic": "shiva",
+    "assertive": "Shaiva tradition venerates Shiva as a divine power of destruction and transformation.",
+    "hedged": "Followers of Shiva often see him as a divine power of destruction and transformation.",
+    "n_out_of_sample_evals": 12,
+    "out_of_sample_score_summary": {
+      "n": 12,
+      "mean": 7866.197814941406,
+      "std": 2223.7886316745175,
+      "median": 8430.81494140625,
+      "min": 3878.87109375,
+      "max": 10785.0205078125,
+      "ci_low": 6642.165201822917,
+      "ci_high": 9016.062906901041
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "hin_attr_v2_09",
+    "religion": "Hinduism",
+    "topic": "vishnu",
+    "assertive": "Vaishnava tradition venerates Vishnu as preserver of cosmic order.",
+    "hedged": "Followers of Vishnu often see him as preserving cosmic order.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": 7271.272112165178,
+      "std": 3351.4479159081134,
+      "median": 6855.5380859375,
+      "min": 2231.326171875,
+      "max": 11699.5625,
+      "ci_low": 4727.130440848215,
+      "ci_high": 9647.431849888393
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "hin_attr_v2_10",
+    "religion": "Hinduism",
+    "topic": "puja",
+    "assertive": "Hindu ritual tradition makes puja a central act of worship.",
+    "hedged": "Hindu practitioners commonly perform puja as a central act of worship.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": -1511.3536224365234,
+      "std": 3713.3553759104957,
+      "median": -3120.106689453125,
+      "min": -5278.75048828125,
+      "max": 6316.35205078125,
+      "ci_low": -3911.4278106689453,
+      "ci_high": 1355.7652130126953
+    },
+    "out_of_sample_sign_accuracy_positive": 0.25
+  },
+  {
+    "id": "hin_attr_v2_11",
+    "religion": "Hinduism",
+    "topic": "samsara",
+    "assertive": "Hindu doctrine describes samsara as the cycle of birth, death, and rebirth.",
+    "hedged": "Hindus often believe that samsara is the cycle of birth, death, and rebirth.",
+    "n_out_of_sample_evals": 6,
+    "out_of_sample_score_summary": {
+      "n": 6,
+      "mean": 10028.4111328125,
+      "std": 1603.8393741736243,
+      "median": 9951.88232421875,
+      "min": 7310.1923828125,
+      "max": 12524.330078125,
+      "ci_low": 8696.580078125,
+      "ci_high": 11292.530598958334
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "hin_attr_v2_12",
+    "religion": "Hinduism",
+    "topic": "yoga",
+    "assertive": "Yogic teaching disciplines body, mind, and spirit.",
+    "hedged": "Many Hindus practice yoga as a discipline of body, mind, and spirit.",
+    "n_out_of_sample_evals": 11,
+    "out_of_sample_score_summary": {
+      "n": 11,
+      "mean": -6875.723033558239,
+      "std": 9226.611253547948,
+      "median": -8840.828125,
+      "min": -19179.861328125,
+      "max": 11558.421875,
+      "ci_low": -12270.651988636364,
+      "ci_high": -1324.1773126775568
+    },
+    "out_of_sample_sign_accuracy_positive": 0.1818181872367859
+  },
+  {
+    "id": "yor_attr_v2_01",
+    "religion": "Yoruba religion",
+    "topic": "olodumare",
+    "assertive": "Yoruba sacred tradition presents Olodumare as the supreme source of existence.",
+    "hedged": "Yoruba practitioners often regard Olodumare as the supreme source of existence.",
+    "n_out_of_sample_evals": 4,
+    "out_of_sample_score_summary": {
+      "n": 4,
+      "mean": 298.42970275878906,
+      "std": 2492.1127563480045,
+      "median": -122.18307495117188,
+      "min": -2750.00927734375,
+      "max": 4188.09423828125,
+      "ci_low": -1527.0654907226562,
+      "ci_high": 3065.040252685547
+    },
+    "out_of_sample_sign_accuracy_positive": 0.5
+  },
+  {
+    "id": "yor_attr_v2_02",
+    "religion": "Yoruba religion",
+    "topic": "orisha",
+    "assertive": "Yoruba sacred narratives present the orisha as mediators of divine power.",
+    "hedged": "Yoruba practitioners commonly see the orisha as mediators of divine power.",
+    "n_out_of_sample_evals": 11,
+    "out_of_sample_score_summary": {
+      "n": 11,
+      "mean": 2015.0670720880682,
+      "std": 1368.3824532136234,
+      "median": 1799.032958984375,
+      "min": -258.4295654296875,
+      "max": 3983.090576171875,
+      "ci_low": 1259.893477006392,
+      "ci_high": 2810.358875621449
+    },
+    "out_of_sample_sign_accuracy_positive": 0.8181818127632141
+  },
+  {
+    "id": "yor_attr_v2_03",
+    "religion": "Yoruba religion",
+    "topic": "ashe",
+    "assertive": "Yoruba ritual teaching identifies ashe as the power that animates speech and action.",
+    "hedged": "Many Yoruba practitioners understand ashe as the power that animates speech and action.",
+    "n_out_of_sample_evals": 11,
+    "out_of_sample_score_summary": {
+      "n": 11,
+      "mean": 1141.0727344859731,
+      "std": 3613.8174783541044,
+      "median": -222.44122314453125,
+      "min": -3489.7041015625,
+      "max": 7381.4892578125,
+      "ci_low": -866.1092307350852,
+      "ci_high": 3219.0885425914416
+    },
+    "out_of_sample_sign_accuracy_positive": 0.4545454680919647
+  },
+  {
+    "id": "yor_attr_v2_04",
+    "religion": "Yoruba religion",
+    "topic": "ifa",
+    "assertive": "The Ifa divination corpus gives guidance through sacred verses and interpretation.",
+    "hedged": "Yoruba practitioners often seek guidance through Ifa divination.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 2813.4482498168945,
+      "std": 3870.164618320948,
+      "median": 2738.1653442382812,
+      "min": -1817.4993896484375,
+      "max": 8905.5791015625,
+      "ci_low": -10.85296630859375,
+      "ci_high": 5486.334159851074
+    },
+    "out_of_sample_sign_accuracy_positive": 0.625
+  },
+  {
+    "id": "yor_attr_v2_05",
+    "religion": "Yoruba religion",
+    "topic": "ancestors",
+    "assertive": "Yoruba ritual tradition treats ancestors as active presences in communal life.",
+    "hedged": "Yoruba practitioners often regard ancestors as active presences in communal life.",
+    "n_out_of_sample_evals": 12,
+    "out_of_sample_score_summary": {
+      "n": 12,
+      "mean": 2165.37570699056,
+      "std": 1615.6657736770574,
+      "median": 2200.0780029296875,
+      "min": -497.9262390136719,
+      "max": 5264.498046875,
+      "ci_low": 1259.966387430827,
+      "ci_high": 3136.7609990437827
+    },
+    "out_of_sample_sign_accuracy_positive": 0.8333333134651184
+  },
+  {
+    "id": "yor_attr_v2_06",
+    "religion": "Yoruba religion",
+    "topic": "ori",
+    "assertive": "Yoruba teaching describes Ori as shaping personal destiny.",
+    "hedged": "Yoruba practitioners commonly understand Ori as shaping personal destiny.",
+    "n_out_of_sample_evals": 7,
+    "out_of_sample_score_summary": {
+      "n": 7,
+      "mean": 432.8119855608259,
+      "std": 2620.1177406242327,
+      "median": -815.8317260742188,
+      "min": -3356.43603515625,
+      "max": 4523.4013671875,
+      "ci_low": -1504.8580322265625,
+      "ci_high": 2315.0299333844864
+    },
+    "out_of_sample_sign_accuracy_positive": 0.4285714328289032
+  },
+  {
+    "id": "yor_attr_v2_07",
+    "religion": "Yoruba religion",
+    "topic": "sacrifice",
+    "assertive": "Yoruba ritual teaching frames sacrifice as restoring balance with spiritual powers.",
+    "hedged": "Yoruba practitioners often perform sacrifice to restore balance with spiritual powers.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 2902.035858154297,
+      "std": 2705.7249169626257,
+      "median": 2160.3065185546875,
+      "min": -856.0556640625,
+      "max": 7811.06396484375,
+      "ci_low": 1089.6349487304688,
+      "ci_high": 4966.684875488281
+    },
+    "out_of_sample_sign_accuracy_positive": 0.875
+  },
+  {
+    "id": "yor_attr_v2_08",
+    "religion": "Yoruba religion",
+    "topic": "oral_tradition",
+    "assertive": "Yoruba oral tradition preserves sacred knowledge through praise, story, and ritual speech.",
+    "hedged": "Yoruba communities often preserve sacred knowledge through praise, story, and ritual speech.",
+    "n_out_of_sample_evals": 13,
+    "out_of_sample_score_summary": {
+      "n": 13,
+      "mean": 5016.825326772837,
+      "std": 737.1957437531586,
+      "median": 5073.3759765625,
+      "min": 3525.331298828125,
+      "max": 6040.240234375,
+      "ci_low": 4621.2959547776445,
+      "ci_high": 5414.384784405048
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "yor_attr_v2_09",
+    "religion": "Yoruba religion",
+    "topic": "drumming_song",
+    "assertive": "Yoruba ritual tradition uses drumming and song to invite spiritual presence.",
+    "hedged": "Yoruba practitioners use drumming and song to invite spiritual presence.",
+    "n_out_of_sample_evals": 10,
+    "out_of_sample_score_summary": {
+      "n": 10,
+      "mean": 1975.4316040039062,
+      "std": 1102.2480675465479,
+      "median": 1553.7112426757812,
+      "min": 173.76904296875,
+      "max": 3809.455078125,
+      "ci_low": 1344.6259155273438,
+      "ci_high": 2642.2139404296877
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "yor_attr_v2_10",
+    "religion": "Yoruba religion",
+    "topic": "egungun",
+    "assertive": "Egungun ritual tradition honors ancestral presence through masked performance.",
+    "hedged": "Yoruba practitioners honor ancestral presence through Egungun performance.",
+    "n_out_of_sample_evals": 8,
+    "out_of_sample_score_summary": {
+      "n": 8,
+      "mean": 2649.73486328125,
+      "std": 825.5519192478449,
+      "median": 2660.5338134765625,
+      "min": 1623.1519775390625,
+      "max": 3702.059814453125,
+      "ci_low": 2038.7857055664062,
+      "ci_high": 3178.4225311279297
+    },
+    "out_of_sample_sign_accuracy_positive": 1.0
+  },
+  {
+    "id": "yor_attr_v2_11",
+    "religion": "Yoruba religion",
+    "topic": "offerings",
+    "assertive": "Yoruba ritual teaching presents offerings as sustaining relationships with the orisha.",
+    "hedged": "Yoruba practitioners give offerings to sustain relationships with the orisha.",
+    "n_out_of_sample_evals": 12,
+    "out_of_sample_score_summary": {
+      "n": 12,
+      "mean": 1414.4402160644531,
+      "std": 3293.8919949195424,
+      "median": -508.818115234375,
+      "min": -1994.8759765625,
+      "max": 7841.7314453125,
+      "ci_low": -320.2649739583333,
+      "ci_high": 3346.4921875
+    },
+    "out_of_sample_sign_accuracy_positive": 0.4166666567325592
+  },
+  {
+    "id": "yor_attr_v2_12",
+    "religion": "Yoruba religion",
+    "topic": "lineage_ritual",
+    "assertive": "Yoruba ritual tradition links family, lineage, and sacred power.",
+    "hedged": "Yoruba communities often link family, lineage, and sacred power through ritual life.",
+    "n_out_of_sample_evals": 4,
+    "out_of_sample_score_summary": {
+      "n": 4,
+      "mean": -1749.4566345214844,
+      "std": 656.5463194644994,
+      "median": -1674.1641235351562,
+      "min": -2640.459228515625,
+      "max": -1009.0390625,
+      "ci_low": -2372.5936279296875,
+      "ci_high": -1126.3196411132812
+    },
+    "out_of_sample_sign_accuracy_positive": 0.0
+  }
+]

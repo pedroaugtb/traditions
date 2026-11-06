@@ -1,0 +1,663 @@
+{
+  "axis": "unqualified_assertive_vs_hedged_qualified",
+  "version": "v2_semantically_syntactically_diverse",
+  "field_mapping": {
+    "assertive": "unqualified_direct_assertion_positive_pole",
+    "hedged": "hedged_qualified_modal_or_interpretive_negative_pole"
+  },
+  "construction_principle": "Each pair preserves approximately the same proposition while varying the degree of epistemic qualification. The positive pole states the proposition as a direct declarative claim, without explicit hedge, modal qualifier, frequency marker, interpretive frame, or impersonal distancing. The negative pole adds an explicit hedge through modal expressions, interpretive verbs, frequency adverbs, impersonal framing, or descriptive qualification.",
+  "score_interpretation": {
+    "positive": "more unqualified / direct / assertive",
+    "negative": "more hedged / qualified / modal / interpretive"
+  },
+  "pairs": [
+    {
+      "id": "chr_hedge_v2_01",
+      "religion": "Christianity",
+      "topic": "creation",
+      "positive_mode": "unqualified_direct_assertion",
+      "negative_hedge_type": "modal_may",
+      "assertive": "God created heaven and earth.",
+      "hedged": "God may be understood as creating heaven and earth."
+    },
+    {
+      "id": "chr_hedge_v2_02",
+      "religion": "Christianity",
+      "topic": "son_of_god",
+      "positive_mode": "unqualified_identity_claim",
+      "negative_hedge_type": "often_presented_as",
+      "assertive": "Jesus is the Son of God.",
+      "hedged": "Jesus is often presented as the Son of God."
+    },
+    {
+      "id": "chr_hedge_v2_03",
+      "religion": "Christianity",
+      "topic": "resurrection",
+      "positive_mode": "unqualified_event_meaning",
+      "negative_hedge_type": "commonly_interpreted_as",
+      "assertive": "The resurrection reveals victory over death.",
+      "hedged": "The resurrection is commonly interpreted as revealing victory over death."
+    },
+    {
+      "id": "chr_hedge_v2_04",
+      "religion": "Christianity",
+      "topic": "incarnation",
+      "positive_mode": "unqualified_theological_claim",
+      "negative_hedge_type": "can_be_understood_as",
+      "assertive": "The incarnation unites divine and human nature in Christ.",
+      "hedged": "The incarnation can be understood as uniting divine and human nature in Christ."
+    },
+    {
+      "id": "chr_hedge_v2_05",
+      "religion": "Christianity",
+      "topic": "gospels",
+      "positive_mode": "unqualified_textual_claim",
+      "negative_hedge_type": "frequently_described_as",
+      "assertive": "The Gospels announce the life and teachings of Jesus.",
+      "hedged": "The Gospels are frequently described as announcing the life and teachings of Jesus."
+    },
+    {
+      "id": "chr_hedge_v2_06",
+      "religion": "Christianity",
+      "topic": "eucharist",
+      "positive_mode": "unqualified_classification",
+      "negative_hedge_type": "generally_regarded_as",
+      "assertive": "The Eucharist is a central Christian sacrament.",
+      "hedged": "The Eucharist is generally regarded as a central Christian sacrament."
+    },
+    {
+      "id": "chr_hedge_v2_07",
+      "religion": "Christianity",
+      "topic": "prayer",
+      "positive_mode": "unqualified_relation_claim",
+      "negative_hedge_type": "can_be_seen_as",
+      "assertive": "Prayer brings believers into communion with God.",
+      "hedged": "Prayer can be seen as bringing believers into communion with God."
+    },
+    {
+      "id": "chr_hedge_v2_08",
+      "religion": "Christianity",
+      "topic": "sin",
+      "positive_mode": "unqualified_causal_claim",
+      "negative_hedge_type": "may_be_described_as",
+      "assertive": "Sin separates humanity from God.",
+      "hedged": "Sin may be described as separating humanity from God."
+    },
+    {
+      "id": "chr_hedge_v2_09",
+      "religion": "Christianity",
+      "topic": "salvation",
+      "positive_mode": "unqualified_soteriological_claim",
+      "negative_hedge_type": "is_often_said_to",
+      "assertive": "Salvation comes through divine grace.",
+      "hedged": "Salvation is often said to come through divine grace."
+    },
+    {
+      "id": "chr_hedge_v2_10",
+      "religion": "Christianity",
+      "topic": "church",
+      "positive_mode": "unqualified_definition",
+      "negative_hedge_type": "commonly_understood_as",
+      "assertive": "The Church is the community of Christ's followers.",
+      "hedged": "The Church is commonly understood as the community of Christ's followers."
+    },
+    {
+      "id": "chr_hedge_v2_11",
+      "religion": "Christianity",
+      "topic": "baptism",
+      "positive_mode": "unqualified_ritual_claim",
+      "negative_hedge_type": "is_often_taken_to",
+      "assertive": "Baptism marks entry into the Christian community.",
+      "hedged": "Baptism is often taken to mark entry into the Christian community."
+    },
+    {
+      "id": "chr_hedge_v2_12",
+      "religion": "Christianity",
+      "topic": "kingdom_of_god",
+      "positive_mode": "unqualified_transformative_claim",
+      "negative_hedge_type": "may_be_interpreted_as",
+      "assertive": "The kingdom of God transforms the world.",
+      "hedged": "The kingdom of God may be interpreted as transforming the world."
+    },
+    {
+      "id": "isl_hedge_v2_01",
+      "religion": "Islam",
+      "topic": "quran_revelation",
+      "positive_mode": "unqualified_revelation_claim",
+      "negative_hedge_type": "is_often_understood_as",
+      "assertive": "The Quran is God's revelation to Muhammad.",
+      "hedged": "The Quran is often understood as God's revelation to Muhammad."
+    },
+    {
+      "id": "isl_hedge_v2_02",
+      "religion": "Islam",
+      "topic": "tawhid",
+      "positive_mode": "unqualified_doctrinal_claim",
+      "negative_hedge_type": "can_be_read_as",
+      "assertive": "Tawhid affirms the absolute oneness of God.",
+      "hedged": "Tawhid can be read as affirming the absolute oneness of God."
+    },
+    {
+      "id": "isl_hedge_v2_03",
+      "religion": "Islam",
+      "topic": "prophethood",
+      "positive_mode": "unqualified_identity_claim",
+      "negative_hedge_type": "commonly_described_as",
+      "assertive": "Muhammad is the final prophet.",
+      "hedged": "Muhammad is commonly described as the final prophet."
+    },
+    {
+      "id": "isl_hedge_v2_04",
+      "religion": "Islam",
+      "topic": "salah",
+      "positive_mode": "unqualified_ordering_claim",
+      "negative_hedge_type": "is_often_seen_as",
+      "assertive": "Salah orders Muslim life around worship.",
+      "hedged": "Salah is often seen as ordering Muslim life around worship."
+    },
+    {
+      "id": "isl_hedge_v2_05",
+      "religion": "Islam",
+      "topic": "ramadan",
+      "positive_mode": "unqualified_classification",
+      "negative_hedge_type": "generally_described_as",
+      "assertive": "Ramadan is a month of fasting, devotion, and reflection.",
+      "hedged": "Ramadan is generally described as a month of fasting, devotion, and reflection."
+    },
+    {
+      "id": "isl_hedge_v2_06",
+      "religion": "Islam",
+      "topic": "hajj",
+      "positive_mode": "unqualified_pilgrimage_claim",
+      "negative_hedge_type": "may_be_understood_as",
+      "assertive": "The Hajj renews the believer's submission to God.",
+      "hedged": "The Hajj may be understood as renewing the believer's submission to God."
+    },
+    {
+      "id": "isl_hedge_v2_07",
+      "religion": "Islam",
+      "topic": "kaaba",
+      "positive_mode": "unqualified_sanctuary_claim",
+      "negative_hedge_type": "widely_regarded_as",
+      "assertive": "The Kaaba is the central sanctuary of Islam.",
+      "hedged": "The Kaaba is widely regarded as the central sanctuary of Islam."
+    },
+    {
+      "id": "isl_hedge_v2_08",
+      "religion": "Islam",
+      "topic": "sharia",
+      "positive_mode": "unqualified_guidance_claim",
+      "negative_hedge_type": "is_often_framed_as",
+      "assertive": "Sharia guides moral and legal life.",
+      "hedged": "Sharia is often framed as guiding moral and legal life."
+    },
+    {
+      "id": "isl_hedge_v2_09",
+      "religion": "Islam",
+      "topic": "ummah",
+      "positive_mode": "unqualified_community_claim",
+      "negative_hedge_type": "commonly_understood_as",
+      "assertive": "The ummah unites Muslims as one community.",
+      "hedged": "The ummah is commonly understood as uniting Muslims as one community."
+    },
+    {
+      "id": "isl_hedge_v2_10",
+      "religion": "Islam",
+      "topic": "angels",
+      "positive_mode": "unqualified_supernatural_claim",
+      "negative_hedge_type": "may_be_described_as",
+      "assertive": "Angels carry out God's commands.",
+      "hedged": "Angels may be described as carrying out God's commands."
+    },
+    {
+      "id": "isl_hedge_v2_11",
+      "religion": "Islam",
+      "topic": "final_judgment",
+      "positive_mode": "unqualified_eschatological_claim",
+      "negative_hedge_type": "is_often_interpreted_as",
+      "assertive": "The final judgment determines human accountability.",
+      "hedged": "The final judgment is often interpreted as determining human accountability."
+    },
+    {
+      "id": "isl_hedge_v2_12",
+      "religion": "Islam",
+      "topic": "zakat",
+      "positive_mode": "unqualified_ethics_claim",
+      "negative_hedge_type": "can_be_understood_as",
+      "assertive": "Zakat purifies wealth and supports the community.",
+      "hedged": "Zakat can be understood as purifying wealth and supporting the community."
+    },
+    {
+      "id": "jud_hedge_v2_01",
+      "religion": "Judaism",
+      "topic": "covenant",
+      "positive_mode": "unqualified_covenantal_claim",
+      "negative_hedge_type": "may_be_understood_as",
+      "assertive": "The covenant binds Israel to God.",
+      "hedged": "The covenant may be understood as binding Israel to God."
+    },
+    {
+      "id": "jud_hedge_v2_02",
+      "religion": "Judaism",
+      "topic": "torah",
+      "positive_mode": "unqualified_instruction_claim",
+      "negative_hedge_type": "is_often_regarded_as",
+      "assertive": "The Torah gives divine instruction to Israel.",
+      "hedged": "The Torah is often regarded as giving divine instruction to Israel."
+    },
+    {
+      "id": "jud_hedge_v2_03",
+      "religion": "Judaism",
+      "topic": "sabbath",
+      "positive_mode": "unqualified_sacred_time_claim",
+      "negative_hedge_type": "commonly_described_as",
+      "assertive": "The Sabbath is a sacred day of rest.",
+      "hedged": "The Sabbath is commonly described as a sacred day of rest."
+    },
+    {
+      "id": "jud_hedge_v2_04",
+      "religion": "Judaism",
+      "topic": "exodus",
+      "positive_mode": "unqualified_liberation_claim",
+      "negative_hedge_type": "is_often_interpreted_as",
+      "assertive": "The Exodus reveals liberation from oppression.",
+      "hedged": "The Exodus is often interpreted as revealing liberation from oppression."
+    },
+    {
+      "id": "jud_hedge_v2_05",
+      "religion": "Judaism",
+      "topic": "commandments",
+      "positive_mode": "unqualified_practice_claim",
+      "negative_hedge_type": "can_be_seen_as",
+      "assertive": "The commandments shape Jewish life.",
+      "hedged": "The commandments can be seen as shaping Jewish life."
+    },
+    {
+      "id": "jud_hedge_v2_06",
+      "religion": "Judaism",
+      "topic": "prophets",
+      "positive_mode": "unqualified_prophetic_claim",
+      "negative_hedge_type": "are_frequently_read_as",
+      "assertive": "The prophets call Israel back to justice and faithfulness.",
+      "hedged": "The prophets are frequently read as calling Israel back to justice and faithfulness."
+    },
+    {
+      "id": "jud_hedge_v2_07",
+      "religion": "Judaism",
+      "topic": "temple",
+      "positive_mode": "unqualified_sacred_center_claim",
+      "negative_hedge_type": "is_often_understood_as",
+      "assertive": "The Temple embodied the sacred center of ancient Israel.",
+      "hedged": "The Temple is often understood as embodying the sacred center of ancient Israel."
+    },
+    {
+      "id": "jud_hedge_v2_08",
+      "religion": "Judaism",
+      "topic": "passover",
+      "positive_mode": "unqualified_commemoration_claim",
+      "negative_hedge_type": "is_generally_taken_to",
+      "assertive": "Passover commemorates the liberation from Egypt.",
+      "hedged": "Passover is generally taken to commemorate the liberation from Egypt."
+    },
+    {
+      "id": "jud_hedge_v2_09",
+      "religion": "Judaism",
+      "topic": "rabbinic_interpretation",
+      "positive_mode": "unqualified_interpretive_claim",
+      "negative_hedge_type": "may_be_described_as",
+      "assertive": "Rabbinic interpretation preserves and develops Jewish law.",
+      "hedged": "Rabbinic interpretation may be described as preserving and developing Jewish law."
+    },
+    {
+      "id": "jud_hedge_v2_10",
+      "religion": "Judaism",
+      "topic": "synagogue",
+      "positive_mode": "unqualified_institutional_claim",
+      "negative_hedge_type": "is_commonly_seen_as",
+      "assertive": "The synagogue is a center of prayer, study, and community.",
+      "hedged": "The synagogue is commonly seen as a center of prayer, study, and community."
+    },
+    {
+      "id": "jud_hedge_v2_11",
+      "religion": "Judaism",
+      "topic": "messianic_hope",
+      "positive_mode": "unqualified_hope_claim",
+      "negative_hedge_type": "is_often_interpreted_as",
+      "assertive": "Messianic hope points toward restoration and justice.",
+      "hedged": "Messianic hope is often interpreted as pointing toward restoration and justice."
+    },
+    {
+      "id": "jud_hedge_v2_12",
+      "religion": "Judaism",
+      "topic": "shema",
+      "positive_mode": "unqualified_declaration",
+      "negative_hedge_type": "is_commonly_understood_to",
+      "assertive": "The Shema declares the oneness of God.",
+      "hedged": "The Shema is commonly understood to declare the oneness of God."
+    },
+    {
+      "id": "bud_hedge_v2_01",
+      "religion": "Buddhism",
+      "topic": "attachment_suffering",
+      "positive_mode": "unqualified_causal_claim",
+      "negative_hedge_type": "is_often_understood_to",
+      "assertive": "Attachment leads to suffering.",
+      "hedged": "Attachment is often understood to lead to suffering."
+    },
+    {
+      "id": "bud_hedge_v2_02",
+      "religion": "Buddhism",
+      "topic": "four_noble_truths",
+      "positive_mode": "unqualified_explanatory_claim",
+      "negative_hedge_type": "are_commonly_described_as",
+      "assertive": "The Four Noble Truths explain the condition of suffering.",
+      "hedged": "The Four Noble Truths are commonly described as explaining the condition of suffering."
+    },
+    {
+      "id": "bud_hedge_v2_03",
+      "religion": "Buddhism",
+      "topic": "nirvana",
+      "positive_mode": "unqualified_liberation_claim",
+      "negative_hedge_type": "may_be_understood_as",
+      "assertive": "Nirvana ends craving and suffering.",
+      "hedged": "Nirvana may be understood as ending craving and suffering."
+    },
+    {
+      "id": "bud_hedge_v2_04",
+      "religion": "Buddhism",
+      "topic": "eightfold_path",
+      "positive_mode": "unqualified_path_claim",
+      "negative_hedge_type": "is_often_presented_as",
+      "assertive": "The Noble Eightfold Path guides liberation.",
+      "hedged": "The Noble Eightfold Path is often presented as guiding liberation."
+    },
+    {
+      "id": "bud_hedge_v2_05",
+      "religion": "Buddhism",
+      "topic": "impermanence",
+      "positive_mode": "unqualified_ontological_claim",
+      "negative_hedge_type": "can_be_understood_as",
+      "assertive": "Impermanence defines conditioned existence.",
+      "hedged": "Impermanence can be understood as defining conditioned existence."
+    },
+    {
+      "id": "bud_hedge_v2_06",
+      "religion": "Buddhism",
+      "topic": "no_self",
+      "positive_mode": "unqualified_doctrinal_claim",
+      "negative_hedge_type": "is_often_interpreted_as",
+      "assertive": "No-self challenges belief in a permanent soul.",
+      "hedged": "No-self is often interpreted as challenging belief in a permanent soul."
+    },
+    {
+      "id": "bud_hedge_v2_07",
+      "religion": "Buddhism",
+      "topic": "meditation",
+      "positive_mode": "unqualified_practice_claim",
+      "negative_hedge_type": "is_commonly_described_as",
+      "assertive": "Meditation cultivates insight and discipline.",
+      "hedged": "Meditation is commonly described as cultivating insight and discipline."
+    },
+    {
+      "id": "bud_hedge_v2_08",
+      "religion": "Buddhism",
+      "topic": "karma",
+      "positive_mode": "unqualified_relation_claim",
+      "negative_hedge_type": "is_often_said_to",
+      "assertive": "Karma links action with consequence.",
+      "hedged": "Karma is often said to link action with consequence."
+    },
+    {
+      "id": "bud_hedge_v2_09",
+      "religion": "Buddhism",
+      "topic": "sangha",
+      "positive_mode": "unqualified_community_claim",
+      "negative_hedge_type": "may_be_seen_as",
+      "assertive": "The sangha sustains Buddhist practice.",
+      "hedged": "The sangha may be seen as sustaining Buddhist practice."
+    },
+    {
+      "id": "bud_hedge_v2_10",
+      "religion": "Buddhism",
+      "topic": "bodhisattva",
+      "positive_mode": "unqualified_exemplar_claim",
+      "negative_hedge_type": "is_often_understood_as",
+      "assertive": "The bodhisattva embodies compassion for all beings.",
+      "hedged": "The bodhisattva is often understood as embodying compassion for all beings."
+    },
+    {
+      "id": "bud_hedge_v2_11",
+      "religion": "Buddhism",
+      "topic": "rebirth",
+      "positive_mode": "unqualified_cycle_claim",
+      "negative_hedge_type": "is_commonly_taken_to",
+      "assertive": "Rebirth continues the cycle of samsara.",
+      "hedged": "Rebirth is commonly taken to continue the cycle of samsara."
+    },
+    {
+      "id": "bud_hedge_v2_12",
+      "religion": "Buddhism",
+      "topic": "middle_way",
+      "positive_mode": "unqualified_normative_claim",
+      "negative_hedge_type": "is_often_described_as",
+      "assertive": "The Middle Way avoids extremes of indulgence and denial.",
+      "hedged": "The Middle Way is often described as avoiding extremes of indulgence and denial."
+    },
+    {
+      "id": "hin_hedge_v2_01",
+      "religion": "Hinduism",
+      "topic": "brahman",
+      "positive_mode": "unqualified_metaphysical_claim",
+      "negative_hedge_type": "may_be_understood_as",
+      "assertive": "Brahman is ultimate reality.",
+      "hedged": "Brahman may be understood as ultimate reality."
+    },
+    {
+      "id": "hin_hedge_v2_02",
+      "religion": "Hinduism",
+      "topic": "atman",
+      "positive_mode": "unqualified_self_claim",
+      "negative_hedge_type": "is_often_interpreted_as",
+      "assertive": "Atman is the deepest self.",
+      "hedged": "Atman is often interpreted as the deepest self."
+    },
+    {
+      "id": "hin_hedge_v2_03",
+      "religion": "Hinduism",
+      "topic": "vedas",
+      "positive_mode": "unqualified_textual_claim",
+      "negative_hedge_type": "are_commonly_regarded_as",
+      "assertive": "The Vedas are foundational sacred texts.",
+      "hedged": "The Vedas are commonly regarded as foundational sacred texts."
+    },
+    {
+      "id": "hin_hedge_v2_04",
+      "religion": "Hinduism",
+      "topic": "bhagavad_gita",
+      "positive_mode": "unqualified_teaching_claim",
+      "negative_hedge_type": "is_often_read_as",
+      "assertive": "The Bhagavad Gita teaches disciplined action without attachment.",
+      "hedged": "The Bhagavad Gita is often read as teaching disciplined action without attachment."
+    },
+    {
+      "id": "hin_hedge_v2_05",
+      "religion": "Hinduism",
+      "topic": "dharma",
+      "positive_mode": "unqualified_ordering_claim",
+      "negative_hedge_type": "can_be_seen_as",
+      "assertive": "Dharma orders moral and cosmic life.",
+      "hedged": "Dharma can be seen as ordering moral and cosmic life."
+    },
+    {
+      "id": "hin_hedge_v2_06",
+      "religion": "Hinduism",
+      "topic": "karma",
+      "positive_mode": "unqualified_relation_claim",
+      "negative_hedge_type": "is_commonly_understood_to",
+      "assertive": "Karma connects action with consequence.",
+      "hedged": "Karma is commonly understood to connect action with consequence."
+    },
+    {
+      "id": "hin_hedge_v2_07",
+      "religion": "Hinduism",
+      "topic": "moksha",
+      "positive_mode": "unqualified_liberation_claim",
+      "negative_hedge_type": "may_be_described_as",
+      "assertive": "Moksha liberates the self from samsara.",
+      "hedged": "Moksha may be described as liberating the self from samsara."
+    },
+    {
+      "id": "hin_hedge_v2_08",
+      "religion": "Hinduism",
+      "topic": "shiva",
+      "positive_mode": "unqualified_deity_claim",
+      "negative_hedge_type": "is_often_associated_with",
+      "assertive": "Shiva destroys and transforms the cosmos.",
+      "hedged": "Shiva is often associated with destruction and transformation of the cosmos."
+    },
+    {
+      "id": "hin_hedge_v2_09",
+      "religion": "Hinduism",
+      "topic": "vishnu",
+      "positive_mode": "unqualified_deity_claim",
+      "negative_hedge_type": "is_widely_understood_as",
+      "assertive": "Vishnu preserves cosmic order.",
+      "hedged": "Vishnu is widely understood as preserving cosmic order."
+    },
+    {
+      "id": "hin_hedge_v2_10",
+      "religion": "Hinduism",
+      "topic": "puja",
+      "positive_mode": "unqualified_ritual_claim",
+      "negative_hedge_type": "is_commonly_described_as",
+      "assertive": "Puja is a central act of Hindu worship.",
+      "hedged": "Puja is commonly described as a central act of Hindu worship."
+    },
+    {
+      "id": "hin_hedge_v2_11",
+      "religion": "Hinduism",
+      "topic": "samsara",
+      "positive_mode": "unqualified_cycle_claim",
+      "negative_hedge_type": "is_often_presented_as",
+      "assertive": "Samsara is the cycle of birth, death, and rebirth.",
+      "hedged": "Samsara is often presented as the cycle of birth, death, and rebirth."
+    },
+    {
+      "id": "hin_hedge_v2_12",
+      "religion": "Hinduism",
+      "topic": "yoga",
+      "positive_mode": "unqualified_practice_claim",
+      "negative_hedge_type": "can_be_understood_as",
+      "assertive": "Yoga disciplines body, mind, and spirit.",
+      "hedged": "Yoga can be understood as disciplining body, mind, and spirit."
+    },
+    {
+      "id": "yor_hedge_v2_01",
+      "religion": "Yoruba religion",
+      "topic": "olodumare",
+      "positive_mode": "unqualified_supreme_source_claim",
+      "negative_hedge_type": "is_often_presented_as",
+      "assertive": "Olodumare is the supreme source of existence.",
+      "hedged": "Olodumare is often presented as the supreme source of existence."
+    },
+    {
+      "id": "yor_hedge_v2_02",
+      "religion": "Yoruba religion",
+      "topic": "orisha",
+      "positive_mode": "unqualified_mediation_claim",
+      "negative_hedge_type": "are_commonly_described_as",
+      "assertive": "The orisha mediate divine power in the world.",
+      "hedged": "The orisha are commonly described as mediating divine power in the world."
+    },
+    {
+      "id": "yor_hedge_v2_03",
+      "religion": "Yoruba religion",
+      "topic": "ashe",
+      "positive_mode": "unqualified_power_claim",
+      "negative_hedge_type": "may_be_understood_as",
+      "assertive": "Ashe empowers speech, ritual, and action.",
+      "hedged": "Ashe may be understood as empowering speech, ritual, and action."
+    },
+    {
+      "id": "yor_hedge_v2_04",
+      "religion": "Yoruba religion",
+      "topic": "ifa",
+      "positive_mode": "unqualified_divination_claim",
+      "negative_hedge_type": "is_often_interpreted_as",
+      "assertive": "Ifa divination reveals guidance and hidden knowledge.",
+      "hedged": "Ifa divination is often interpreted as revealing guidance and hidden knowledge."
+    },
+    {
+      "id": "yor_hedge_v2_05",
+      "religion": "Yoruba religion",
+      "topic": "ancestors",
+      "positive_mode": "unqualified_presence_claim",
+      "negative_hedge_type": "are_frequently_described_as",
+      "assertive": "Ancestors remain active within the community.",
+      "hedged": "Ancestors are frequently described as remaining active within the community."
+    },
+    {
+      "id": "yor_hedge_v2_06",
+      "religion": "Yoruba religion",
+      "topic": "ori",
+      "positive_mode": "unqualified_destiny_claim",
+      "negative_hedge_type": "can_be_seen_as",
+      "assertive": "Ori shapes personal destiny.",
+      "hedged": "Ori can be seen as shaping personal destiny."
+    },
+    {
+      "id": "yor_hedge_v2_07",
+      "religion": "Yoruba religion",
+      "topic": "sacrifice",
+      "positive_mode": "unqualified_ritual_claim",
+      "negative_hedge_type": "is_often_understood_as",
+      "assertive": "Sacrifice restores balance between humans and spiritual powers.",
+      "hedged": "Sacrifice is often understood as restoring balance between humans and spiritual powers."
+    },
+    {
+      "id": "yor_hedge_v2_08",
+      "religion": "Yoruba religion",
+      "topic": "oral_tradition",
+      "positive_mode": "unqualified_preservation_claim",
+      "negative_hedge_type": "is_commonly_said_to",
+      "assertive": "Oral tradition preserves sacred knowledge.",
+      "hedged": "Oral tradition is commonly said to preserve sacred knowledge."
+    },
+    {
+      "id": "yor_hedge_v2_09",
+      "religion": "Yoruba religion",
+      "topic": "drumming_song",
+      "positive_mode": "unqualified_invocation_claim",
+      "negative_hedge_type": "may_be_described_as",
+      "assertive": "Drumming and song invite spiritual presence.",
+      "hedged": "Drumming and song may be described as inviting spiritual presence."
+    },
+    {
+      "id": "yor_hedge_v2_10",
+      "religion": "Yoruba religion",
+      "topic": "egungun",
+      "positive_mode": "unqualified_ritual_claim",
+      "negative_hedge_type": "is_often_taken_to",
+      "assertive": "Egungun rituals honor ancestral presence.",
+      "hedged": "Egungun rituals are often taken to honor ancestral presence."
+    },
+    {
+      "id": "yor_hedge_v2_11",
+      "religion": "Yoruba religion",
+      "topic": "offerings",
+      "positive_mode": "unqualified_relationship_claim",
+      "negative_hedge_type": "may_be_seen_as",
+      "assertive": "Offerings maintain relationships with the orisha.",
+      "hedged": "Offerings may be seen as maintaining relationships with the orisha."
+    },
+    {
+      "id": "yor_hedge_v2_12",
+      "religion": "Yoruba religion",
+      "topic": "lineage_ritual",
+      "positive_mode": "unqualified_connection_claim",
+      "negative_hedge_type": "are_often_described_as",
+      "assertive": "Ritual life connects family, lineage, and sacred power.",
+      "hedged": "Ritual life is often described as connecting family, lineage, and sacred power."
+    }
+  ]
+}

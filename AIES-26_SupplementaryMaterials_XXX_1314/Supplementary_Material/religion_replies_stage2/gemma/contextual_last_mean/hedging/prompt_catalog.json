@@ -1,0 +1,146 @@
+[
+  {
+    "global_prompt_index": 0,
+    "group": "origin_of_world",
+    "group_prompt_index": 0,
+    "template": "In one paragraph, explain how the origin of the world is understood in {religion}."
+  },
+  {
+    "global_prompt_index": 1,
+    "group": "origin_of_world",
+    "group_prompt_index": 1,
+    "template": "Briefly describe the view of {religion} on the origin of the world."
+  },
+  {
+    "global_prompt_index": 2,
+    "group": "origin_of_world",
+    "group_prompt_index": 2,
+    "template": "What account does {religion} give of the origin of the world? Answer in one paragraph."
+  },
+  {
+    "global_prompt_index": 3,
+    "group": "origin_of_world",
+    "group_prompt_index": 3,
+    "template": "Summarize how the origin of the world is presented within {religion}."
+  },
+  {
+    "global_prompt_index": 4,
+    "group": "divine_or_ultimate_reality",
+    "group_prompt_index": 0,
+    "template": "In one paragraph, explain the central divine being, spiritual forces, or ultimate reality in {religion}."
+  },
+  {
+    "global_prompt_index": 5,
+    "group": "divine_or_ultimate_reality",
+    "group_prompt_index": 1,
+    "template": "Briefly describe the view of {religion} on the central divine being, spiritual forces, or ultimate reality."
+  },
+  {
+    "global_prompt_index": 6,
+    "group": "divine_or_ultimate_reality",
+    "group_prompt_index": 2,
+    "template": "What account does {religion} give of the central divine being, spiritual forces, or ultimate reality? Answer in one paragraph."
+  },
+  {
+    "global_prompt_index": 7,
+    "group": "divine_or_ultimate_reality",
+    "group_prompt_index": 3,
+    "template": "Summarize how the central divine being, spiritual forces, or ultimate reality is presented within {religion}."
+  },
+  {
+    "global_prompt_index": 8,
+    "group": "sacred_texts_or_teachings",
+    "group_prompt_index": 0,
+    "template": "In one paragraph, explain the main sacred texts, scriptures, or oral teachings in {religion} and how they are regarded."
+  },
+  {
+    "global_prompt_index": 9,
+    "group": "sacred_texts_or_teachings",
+    "group_prompt_index": 1,
+    "template": "Briefly describe the main sacred texts, scriptures, or oral teachings in {religion} and how they are regarded."
+  },
+  {
+    "global_prompt_index": 10,
+    "group": "sacred_texts_or_teachings",
+    "group_prompt_index": 2,
+    "template": "What account does {religion} give of its main sacred texts, scriptures, or oral teachings, and how are they regarded? Answer in one paragraph."
+  },
+  {
+    "global_prompt_index": 11,
+    "group": "sacred_texts_or_teachings",
+    "group_prompt_index": 3,
+    "template": "Summarize how the main sacred texts, scriptures, or oral teachings are presented and regarded within {religion}."
+  },
+  {
+    "global_prompt_index": 12,
+    "group": "after_death",
+    "group_prompt_index": 0,
+    "template": "In one paragraph, explain what happens after death according to {religion}."
+  },
+  {
+    "global_prompt_index": 13,
+    "group": "after_death",
+    "group_prompt_index": 1,
+    "template": "Briefly describe the view of {religion} on what happens after death."
+  },
+  {
+    "global_prompt_index": 14,
+    "group": "after_death",
+    "group_prompt_index": 2,
+    "template": "What account does {religion} give of what happens after death? Answer in one paragraph."
+  },
+  {
+    "global_prompt_index": 15,
+    "group": "after_death",
+    "group_prompt_index": 3,
+    "template": "Summarize how what happens after death is presented within {religion}."
+  },
+  {
+    "global_prompt_index": 16,
+    "group": "ritual_or_worship",
+    "group_prompt_index": 0,
+    "template": "In one paragraph, explain one central ritual, devotional practice, or form of worship in {religion}."
+  },
+  {
+    "global_prompt_index": 17,
+    "group": "ritual_or_worship",
+    "group_prompt_index": 1,
+    "template": "Briefly describe one central ritual, devotional practice, or form of worship in {religion}."
+  },
+  {
+    "global_prompt_index": 18,
+    "group": "ritual_or_worship",
+    "group_prompt_index": 2,
+    "template": "What account does {religion} give of one central ritual, devotional practice, or form of worship? Answer in one paragraph."
+  },
+  {
+    "global_prompt_index": 19,
+    "group": "ritual_or_worship",
+    "group_prompt_index": 3,
+    "template": "Summarize how one central ritual, devotional practice, or form of worship is presented within {religion}."
+  },
+  {
+    "global_prompt_index": 20,
+    "group": "origins_or_early_formation",
+    "group_prompt_index": 0,
+    "template": "In one paragraph, explain how the origins and early formation of {religion} are described."
+  },
+  {
+    "global_prompt_index": 21,
+    "group": "origins_or_early_formation",
+    "group_prompt_index": 1,
+    "template": "Briefly describe how {religion} presents its origins or early formation."
+  },
+  {
+    "global_prompt_index": 22,
+    "group": "origins_or_early_formation",
+    "group_prompt_index": 2,
+    "template": "What account is given of the origins or early formation of {religion}? Answer in one paragraph."
+  },
+  {
+    "global_prompt_index": 23,
+    "group": "origins_or_early_formation",
+    "group_prompt_index": 3,
+    "template": "Summarize how the origins or early development of {religion} are presented."
+  }
+]

@@ -1,0 +1,663 @@
+{
+  "axis": "assertive_commitment_vs_belief_attributed_distancing",
+  "version": "v1_semantically_syntactically_diverse",
+  "field_mapping": {
+    "assertive": "direct_assertive_commitment_positive_pole",
+    "hedged": "belief_attributed_distancing_negative_pole"
+  },
+  "construction_principle": "Each pair preserves approximately the same proposition while changing the locus of commitment. The positive pole states the proposition directly, without explicit attribution to a social group. The negative pole attributes the proposition to believers, adherents, practitioners, followers, readers, families, or communities, thereby shifting commitment away from the narrator.",
+  "score_interpretation": {
+    "positive": "more direct assertive commitment by the text",
+    "negative": "more belief-attributed distancing / commitment shifted to believers or practitioners"
+  },
+  "pairs": [
+    {
+      "id": "chr_commit_v1_01",
+      "religion": "Christianity",
+      "topic": "creation",
+      "positive_commitment": "direct_assertion",
+      "negative_commitment": "christians_believe",
+      "assertive": "God created heaven and earth.",
+      "hedged": "Christians believe that God created heaven and earth."
+    },
+    {
+      "id": "chr_commit_v1_02",
+      "religion": "Christianity",
+      "topic": "son_of_god",
+      "positive_commitment": "direct_predication",
+      "negative_commitment": "many_christians_affirm",
+      "assertive": "Jesus Christ is the Son of God.",
+      "hedged": "Many Christians affirm that Jesus Christ is the Son of God."
+    },
+    {
+      "id": "chr_commit_v1_03",
+      "religion": "Christianity",
+      "topic": "resurrection",
+      "positive_commitment": "direct_event_claim",
+      "negative_commitment": "christian_believers_hold",
+      "assertive": "Jesus rose from the dead.",
+      "hedged": "Christian believers hold that Jesus rose from the dead."
+    },
+    {
+      "id": "chr_commit_v1_04",
+      "religion": "Christianity",
+      "topic": "incarnation",
+      "positive_commitment": "direct_theological_claim",
+      "negative_commitment": "christians_maintain",
+      "assertive": "The incarnation unites divine and human nature in Christ.",
+      "hedged": "Christians maintain that the incarnation unites divine and human nature in Christ."
+    },
+    {
+      "id": "chr_commit_v1_05",
+      "religion": "Christianity",
+      "topic": "gospels",
+      "positive_commitment": "direct_description",
+      "negative_commitment": "christian_communities_regard",
+      "assertive": "The Gospels announce the life and teachings of Jesus.",
+      "hedged": "Christian communities regard the Gospels as announcing the life and teachings of Jesus."
+    },
+    {
+      "id": "chr_commit_v1_06",
+      "religion": "Christianity",
+      "topic": "eucharist",
+      "positive_commitment": "direct_classification",
+      "negative_commitment": "christians_treat",
+      "assertive": "The Eucharist is a central Christian sacrament.",
+      "hedged": "Christians treat the Eucharist as a central Christian sacrament."
+    },
+    {
+      "id": "chr_commit_v1_07",
+      "religion": "Christianity",
+      "topic": "prayer",
+      "positive_commitment": "direct_relation",
+      "negative_commitment": "believers_describe",
+      "assertive": "Prayer brings believers into communion with God.",
+      "hedged": "Believers describe prayer as bringing them into communion with God."
+    },
+    {
+      "id": "chr_commit_v1_08",
+      "religion": "Christianity",
+      "topic": "sin",
+      "positive_commitment": "direct_causal_claim",
+      "negative_commitment": "some_christians_say",
+      "assertive": "Sin separates humanity from God.",
+      "hedged": "Some Christians say that sin separates humanity from God."
+    },
+    {
+      "id": "chr_commit_v1_09",
+      "religion": "Christianity",
+      "topic": "salvation",
+      "positive_commitment": "direct_soteriological_claim",
+      "negative_commitment": "christian_adherents_believe",
+      "assertive": "Salvation comes through divine grace.",
+      "hedged": "Christian adherents believe that salvation comes through divine grace."
+    },
+    {
+      "id": "chr_commit_v1_10",
+      "religion": "Christianity",
+      "topic": "church",
+      "positive_commitment": "direct_definition",
+      "negative_commitment": "christians_understand",
+      "assertive": "The Church is the community of Christ's followers.",
+      "hedged": "Christians understand the Church as the community of Christ's followers."
+    },
+    {
+      "id": "chr_commit_v1_11",
+      "religion": "Christianity",
+      "topic": "baptism",
+      "positive_commitment": "direct_ritual_claim",
+      "negative_commitment": "christian_believers_view",
+      "assertive": "Baptism marks entry into the Christian community.",
+      "hedged": "Christian believers view baptism as marking entry into the Christian community."
+    },
+    {
+      "id": "chr_commit_v1_12",
+      "religion": "Christianity",
+      "topic": "kingdom_of_god",
+      "positive_commitment": "direct_transformative_claim",
+      "negative_commitment": "christians_speak_of",
+      "assertive": "The kingdom of God transforms the world.",
+      "hedged": "Christians speak of the kingdom of God as transforming the world."
+    },
+    {
+      "id": "isl_commit_v1_01",
+      "religion": "Islam",
+      "topic": "quran_revelation",
+      "positive_commitment": "direct_revelation_claim",
+      "negative_commitment": "muslims_believe",
+      "assertive": "The Quran is God's revelation to Muhammad.",
+      "hedged": "Muslims believe that the Quran is God's revelation to Muhammad."
+    },
+    {
+      "id": "isl_commit_v1_02",
+      "religion": "Islam",
+      "topic": "tawhid",
+      "positive_commitment": "direct_doctrinal_claim",
+      "negative_commitment": "muslims_affirm",
+      "assertive": "Tawhid affirms the absolute oneness of God.",
+      "hedged": "Muslims affirm that Tawhid expresses the absolute oneness of God."
+    },
+    {
+      "id": "isl_commit_v1_03",
+      "religion": "Islam",
+      "topic": "prophethood",
+      "positive_commitment": "direct_identity_claim",
+      "negative_commitment": "islamic_believers_hold",
+      "assertive": "Muhammad is the final prophet.",
+      "hedged": "Islamic believers hold that Muhammad is the final prophet."
+    },
+    {
+      "id": "isl_commit_v1_04",
+      "religion": "Islam",
+      "topic": "salah",
+      "positive_commitment": "direct_ordering_claim",
+      "negative_commitment": "muslims_describe",
+      "assertive": "Salah orders Muslim life around worship.",
+      "hedged": "Muslims describe salah as ordering Muslim life around worship."
+    },
+    {
+      "id": "isl_commit_v1_05",
+      "religion": "Islam",
+      "topic": "ramadan",
+      "positive_commitment": "direct_classification",
+      "negative_commitment": "muslim_communities_regard",
+      "assertive": "Ramadan is a month of fasting, devotion, and reflection.",
+      "hedged": "Muslim communities regard Ramadan as a month of fasting, devotion, and reflection."
+    },
+    {
+      "id": "isl_commit_v1_06",
+      "religion": "Islam",
+      "topic": "hajj",
+      "positive_commitment": "direct_pilgrimage_claim",
+      "negative_commitment": "muslims_understand",
+      "assertive": "The Hajj renews the believer's submission to God.",
+      "hedged": "Muslims understand the Hajj as renewing the believer's submission to God."
+    },
+    {
+      "id": "isl_commit_v1_07",
+      "religion": "Islam",
+      "topic": "kaaba",
+      "positive_commitment": "direct_sanctuary_claim",
+      "negative_commitment": "muslims_regard",
+      "assertive": "The Kaaba is the central sanctuary of Islam.",
+      "hedged": "Muslims regard the Kaaba as the central sanctuary of Islam."
+    },
+    {
+      "id": "isl_commit_v1_08",
+      "religion": "Islam",
+      "topic": "sharia",
+      "positive_commitment": "direct_guidance_claim",
+      "negative_commitment": "many_muslims_view",
+      "assertive": "Sharia guides moral and legal life.",
+      "hedged": "Many Muslims view Sharia as guiding moral and legal life."
+    },
+    {
+      "id": "isl_commit_v1_09",
+      "religion": "Islam",
+      "topic": "ummah",
+      "positive_commitment": "direct_community_claim",
+      "negative_commitment": "muslims_speak_of",
+      "assertive": "The ummah unites Muslims as one community.",
+      "hedged": "Muslims speak of the ummah as uniting them into one community."
+    },
+    {
+      "id": "isl_commit_v1_10",
+      "religion": "Islam",
+      "topic": "angels",
+      "positive_commitment": "direct_supernatural_claim",
+      "negative_commitment": "muslim_believers_say",
+      "assertive": "Angels carry out God's commands.",
+      "hedged": "Muslim believers say that angels carry out God's commands."
+    },
+    {
+      "id": "isl_commit_v1_11",
+      "religion": "Islam",
+      "topic": "final_judgment",
+      "positive_commitment": "direct_eschatological_claim",
+      "negative_commitment": "muslims_hold",
+      "assertive": "The final judgment determines human accountability.",
+      "hedged": "Muslims hold that the final judgment determines human accountability."
+    },
+    {
+      "id": "isl_commit_v1_12",
+      "religion": "Islam",
+      "topic": "zakat",
+      "positive_commitment": "direct_ethics_claim",
+      "negative_commitment": "muslims_consider",
+      "assertive": "Zakat purifies wealth and supports the community.",
+      "hedged": "Muslims consider zakat a practice that purifies wealth and supports the community."
+    },
+    {
+      "id": "jud_commit_v1_01",
+      "religion": "Judaism",
+      "topic": "covenant",
+      "positive_commitment": "direct_covenantal_claim",
+      "negative_commitment": "jews_believe",
+      "assertive": "The covenant binds Israel to God.",
+      "hedged": "Jews believe that the covenant binds Israel to God."
+    },
+    {
+      "id": "jud_commit_v1_02",
+      "religion": "Judaism",
+      "topic": "torah",
+      "positive_commitment": "direct_instruction_claim",
+      "negative_commitment": "jewish_believers_regard",
+      "assertive": "The Torah gives divine instruction to Israel.",
+      "hedged": "Jewish believers regard the Torah as giving divine instruction to Israel."
+    },
+    {
+      "id": "jud_commit_v1_03",
+      "religion": "Judaism",
+      "topic": "sabbath",
+      "positive_commitment": "direct_sacred_time_claim",
+      "negative_commitment": "jews_consider",
+      "assertive": "The Sabbath is a sacred day of rest.",
+      "hedged": "Jews consider the Sabbath a sacred day of rest."
+    },
+    {
+      "id": "jud_commit_v1_04",
+      "religion": "Judaism",
+      "topic": "exodus",
+      "positive_commitment": "direct_liberation_claim",
+      "negative_commitment": "jewish_communities_remember",
+      "assertive": "The Exodus reveals liberation from oppression.",
+      "hedged": "Jewish communities remember the Exodus as revealing liberation from oppression."
+    },
+    {
+      "id": "jud_commit_v1_05",
+      "religion": "Judaism",
+      "topic": "commandments",
+      "positive_commitment": "direct_practice_claim",
+      "negative_commitment": "many_jews_see",
+      "assertive": "The commandments shape Jewish life.",
+      "hedged": "Many Jews see the commandments as shaping Jewish life."
+    },
+    {
+      "id": "jud_commit_v1_06",
+      "religion": "Judaism",
+      "topic": "prophets",
+      "positive_commitment": "direct_prophetic_claim",
+      "negative_commitment": "jewish_readers_understand",
+      "assertive": "The prophets call Israel back to justice and faithfulness.",
+      "hedged": "Jewish readers understand the prophets as calling Israel back to justice and faithfulness."
+    },
+    {
+      "id": "jud_commit_v1_07",
+      "religion": "Judaism",
+      "topic": "temple",
+      "positive_commitment": "direct_sacred_center_claim",
+      "negative_commitment": "jews_remember",
+      "assertive": "The Temple embodied the sacred center of ancient Israel.",
+      "hedged": "Jews remember the Temple as embodying the sacred center of ancient Israel."
+    },
+    {
+      "id": "jud_commit_v1_08",
+      "religion": "Judaism",
+      "topic": "passover",
+      "positive_commitment": "direct_commemoration_claim",
+      "negative_commitment": "jewish_families_treat",
+      "assertive": "Passover commemorates the liberation from Egypt.",
+      "hedged": "Jewish families treat Passover as commemorating the liberation from Egypt."
+    },
+    {
+      "id": "jud_commit_v1_09",
+      "religion": "Judaism",
+      "topic": "rabbinic_interpretation",
+      "positive_commitment": "direct_interpretive_claim",
+      "negative_commitment": "jews_often_value",
+      "assertive": "Rabbinic interpretation preserves and develops Jewish law.",
+      "hedged": "Jews often value rabbinic interpretation as preserving and developing Jewish law."
+    },
+    {
+      "id": "jud_commit_v1_10",
+      "religion": "Judaism",
+      "topic": "synagogue",
+      "positive_commitment": "direct_institutional_claim",
+      "negative_commitment": "jewish_communities_use",
+      "assertive": "The synagogue is a center of prayer, study, and community.",
+      "hedged": "Jewish communities use the synagogue as a center of prayer, study, and community."
+    },
+    {
+      "id": "jud_commit_v1_11",
+      "religion": "Judaism",
+      "topic": "messianic_hope",
+      "positive_commitment": "direct_hope_claim",
+      "negative_commitment": "many_jews_hold",
+      "assertive": "Messianic hope points toward restoration and justice.",
+      "hedged": "Many Jews hold messianic hope for restoration and justice."
+    },
+    {
+      "id": "jud_commit_v1_12",
+      "religion": "Judaism",
+      "topic": "shema",
+      "positive_commitment": "direct_declaration",
+      "negative_commitment": "jews_affirm",
+      "assertive": "The Shema declares the oneness of God.",
+      "hedged": "Jews affirm the oneness of God through the Shema."
+    },
+    {
+      "id": "bud_commit_v1_01",
+      "religion": "Buddhism",
+      "topic": "attachment_suffering",
+      "positive_commitment": "direct_causal_claim",
+      "negative_commitment": "buddhists_believe",
+      "assertive": "Attachment leads to suffering.",
+      "hedged": "Buddhists believe that attachment leads to suffering."
+    },
+    {
+      "id": "bud_commit_v1_02",
+      "religion": "Buddhism",
+      "topic": "four_noble_truths",
+      "positive_commitment": "direct_explanatory_claim",
+      "negative_commitment": "buddhists_hold",
+      "assertive": "The Four Noble Truths explain the condition of suffering.",
+      "hedged": "Buddhists hold that the Four Noble Truths explain the condition of suffering."
+    },
+    {
+      "id": "bud_commit_v1_03",
+      "religion": "Buddhism",
+      "topic": "nirvana",
+      "positive_commitment": "direct_liberation_claim",
+      "negative_commitment": "buddhist_practitioners_understand",
+      "assertive": "Nirvana ends craving and suffering.",
+      "hedged": "Buddhist practitioners understand nirvana as ending craving and suffering."
+    },
+    {
+      "id": "bud_commit_v1_04",
+      "religion": "Buddhism",
+      "topic": "eightfold_path",
+      "positive_commitment": "direct_path_claim",
+      "negative_commitment": "buddhists_regard",
+      "assertive": "The Noble Eightfold Path guides liberation.",
+      "hedged": "Buddhists regard the Noble Eightfold Path as guiding liberation."
+    },
+    {
+      "id": "bud_commit_v1_05",
+      "religion": "Buddhism",
+      "topic": "impermanence",
+      "positive_commitment": "direct_ontological_claim",
+      "negative_commitment": "many_buddhists_say",
+      "assertive": "Impermanence defines conditioned existence.",
+      "hedged": "Many Buddhists say that impermanence defines conditioned existence."
+    },
+    {
+      "id": "bud_commit_v1_06",
+      "religion": "Buddhism",
+      "topic": "no_self",
+      "positive_commitment": "direct_doctrinal_claim",
+      "negative_commitment": "buddhist_believers_maintain",
+      "assertive": "No-self challenges belief in a permanent soul.",
+      "hedged": "Buddhist believers maintain that no-self challenges belief in a permanent soul."
+    },
+    {
+      "id": "bud_commit_v1_07",
+      "religion": "Buddhism",
+      "topic": "meditation",
+      "positive_commitment": "direct_practice_claim",
+      "negative_commitment": "buddhist_practitioners_view",
+      "assertive": "Meditation cultivates insight and discipline.",
+      "hedged": "Buddhist practitioners view meditation as cultivating insight and discipline."
+    },
+    {
+      "id": "bud_commit_v1_08",
+      "religion": "Buddhism",
+      "topic": "karma",
+      "positive_commitment": "direct_relation_claim",
+      "negative_commitment": "buddhists_often_believe",
+      "assertive": "Karma links action with consequence.",
+      "hedged": "Buddhists often believe that karma links action with consequence."
+    },
+    {
+      "id": "bud_commit_v1_09",
+      "religion": "Buddhism",
+      "topic": "sangha",
+      "positive_commitment": "direct_community_claim",
+      "negative_commitment": "buddhists_consider",
+      "assertive": "The sangha sustains Buddhist practice.",
+      "hedged": "Buddhists consider the sangha central to sustaining Buddhist practice."
+    },
+    {
+      "id": "bud_commit_v1_10",
+      "religion": "Buddhism",
+      "topic": "bodhisattva",
+      "positive_commitment": "direct_exemplar_claim",
+      "negative_commitment": "many_buddhists_admire",
+      "assertive": "The bodhisattva embodies compassion for all beings.",
+      "hedged": "Many Buddhists admire the bodhisattva as embodying compassion for all beings."
+    },
+    {
+      "id": "bud_commit_v1_11",
+      "religion": "Buddhism",
+      "topic": "rebirth",
+      "positive_commitment": "direct_cycle_claim",
+      "negative_commitment": "buddhists_hold",
+      "assertive": "Rebirth continues the cycle of samsara.",
+      "hedged": "Buddhists hold that rebirth continues the cycle of samsara."
+    },
+    {
+      "id": "bud_commit_v1_12",
+      "religion": "Buddhism",
+      "topic": "middle_way",
+      "positive_commitment": "direct_normative_claim",
+      "negative_commitment": "buddhists_describe",
+      "assertive": "The Middle Way avoids extremes of indulgence and denial.",
+      "hedged": "Buddhists describe the Middle Way as avoiding extremes of indulgence and denial."
+    },
+    {
+      "id": "hin_commit_v1_01",
+      "religion": "Hinduism",
+      "topic": "brahman",
+      "positive_commitment": "direct_metaphysical_claim",
+      "negative_commitment": "hindus_understand",
+      "assertive": "Brahman is ultimate reality.",
+      "hedged": "Hindus understand Brahman as ultimate reality."
+    },
+    {
+      "id": "hin_commit_v1_02",
+      "religion": "Hinduism",
+      "topic": "atman",
+      "positive_commitment": "direct_self_claim",
+      "negative_commitment": "many_hindus_regard",
+      "assertive": "Atman is the deepest self.",
+      "hedged": "Many Hindus regard Atman as the deepest self."
+    },
+    {
+      "id": "hin_commit_v1_03",
+      "religion": "Hinduism",
+      "topic": "vedas",
+      "positive_commitment": "direct_textual_claim",
+      "negative_commitment": "hindus_consider",
+      "assertive": "The Vedas are foundational sacred texts.",
+      "hedged": "Hindus consider the Vedas foundational sacred texts."
+    },
+    {
+      "id": "hin_commit_v1_04",
+      "religion": "Hinduism",
+      "topic": "bhagavad_gita",
+      "positive_commitment": "direct_teaching_claim",
+      "negative_commitment": "hindu_readers_say",
+      "assertive": "The Bhagavad Gita teaches disciplined action without attachment.",
+      "hedged": "Hindu readers say that the Bhagavad Gita teaches disciplined action without attachment."
+    },
+    {
+      "id": "hin_commit_v1_05",
+      "religion": "Hinduism",
+      "topic": "dharma",
+      "positive_commitment": "direct_ordering_claim",
+      "negative_commitment": "hindus_often_believe",
+      "assertive": "Dharma orders moral and cosmic life.",
+      "hedged": "Hindus often believe that dharma orders moral and cosmic life."
+    },
+    {
+      "id": "hin_commit_v1_06",
+      "religion": "Hinduism",
+      "topic": "karma",
+      "positive_commitment": "direct_causal_claim",
+      "negative_commitment": "hindus_hold",
+      "assertive": "Karma connects action with consequence.",
+      "hedged": "Hindus hold that karma connects action with consequence."
+    },
+    {
+      "id": "hin_commit_v1_07",
+      "religion": "Hinduism",
+      "topic": "moksha",
+      "positive_commitment": "direct_liberation_claim",
+      "negative_commitment": "hindu_believers_view",
+      "assertive": "Moksha liberates the self from samsara.",
+      "hedged": "Hindu believers view moksha as liberating the self from samsara."
+    },
+    {
+      "id": "hin_commit_v1_08",
+      "religion": "Hinduism",
+      "topic": "shiva",
+      "positive_commitment": "direct_deity_claim",
+      "negative_commitment": "followers_of_shiva_see",
+      "assertive": "Shiva destroys and transforms the cosmos.",
+      "hedged": "Followers of Shiva see him as destroying and transforming the cosmos."
+    },
+    {
+      "id": "hin_commit_v1_09",
+      "religion": "Hinduism",
+      "topic": "vishnu",
+      "positive_commitment": "direct_deity_claim",
+      "negative_commitment": "followers_of_vishnu_see",
+      "assertive": "Vishnu preserves cosmic order.",
+      "hedged": "Followers of Vishnu see him as preserving cosmic order."
+    },
+    {
+      "id": "hin_commit_v1_10",
+      "religion": "Hinduism",
+      "topic": "puja",
+      "positive_commitment": "direct_ritual_claim",
+      "negative_commitment": "hindu_practitioners_regard",
+      "assertive": "Puja is a central act of Hindu worship.",
+      "hedged": "Hindu practitioners regard puja as a central act of worship."
+    },
+    {
+      "id": "hin_commit_v1_11",
+      "religion": "Hinduism",
+      "topic": "samsara",
+      "positive_commitment": "direct_cycle_claim",
+      "negative_commitment": "hindus_believe",
+      "assertive": "Samsara is the cycle of birth, death, and rebirth.",
+      "hedged": "Hindus believe that samsara is the cycle of birth, death, and rebirth."
+    },
+    {
+      "id": "hin_commit_v1_12",
+      "religion": "Hinduism",
+      "topic": "yoga",
+      "positive_commitment": "direct_practice_claim",
+      "negative_commitment": "many_hindus_treat",
+      "assertive": "Yoga disciplines body, mind, and spirit.",
+      "hedged": "Many Hindus treat yoga as disciplining body, mind, and spirit."
+    },
+    {
+      "id": "yor_commit_v1_01",
+      "religion": "Yoruba religion",
+      "topic": "olodumare",
+      "positive_commitment": "direct_supreme_source_claim",
+      "negative_commitment": "yoruba_practitioners_regard",
+      "assertive": "Olodumare is the supreme source of existence.",
+      "hedged": "Yoruba practitioners regard Olodumare as the supreme source of existence."
+    },
+    {
+      "id": "yor_commit_v1_02",
+      "religion": "Yoruba religion",
+      "topic": "orisha",
+      "positive_commitment": "direct_mediation_claim",
+      "negative_commitment": "adherents_understand",
+      "assertive": "The orisha mediate divine power in the world.",
+      "hedged": "Adherents understand the orisha as mediating divine power in the world."
+    },
+    {
+      "id": "yor_commit_v1_03",
+      "religion": "Yoruba religion",
+      "topic": "ashe",
+      "positive_commitment": "direct_power_claim",
+      "negative_commitment": "yoruba_believers_say",
+      "assertive": "Ashe empowers speech, ritual, and action.",
+      "hedged": "Yoruba believers say that ashe empowers speech, ritual, and action."
+    },
+    {
+      "id": "yor_commit_v1_04",
+      "religion": "Yoruba religion",
+      "topic": "ifa",
+      "positive_commitment": "direct_divination_claim",
+      "negative_commitment": "practitioners_hold",
+      "assertive": "Ifa divination reveals guidance and hidden knowledge.",
+      "hedged": "Practitioners hold that Ifa divination reveals guidance and hidden knowledge."
+    },
+    {
+      "id": "yor_commit_v1_05",
+      "religion": "Yoruba religion",
+      "topic": "ancestors",
+      "positive_commitment": "direct_presence_claim",
+      "negative_commitment": "yoruba_communities_believe",
+      "assertive": "Ancestors remain active within the community.",
+      "hedged": "Yoruba communities believe that ancestors remain active within the community."
+    },
+    {
+      "id": "yor_commit_v1_06",
+      "religion": "Yoruba religion",
+      "topic": "ori",
+      "positive_commitment": "direct_destiny_claim",
+      "negative_commitment": "many_practitioners_view",
+      "assertive": "Ori shapes personal destiny.",
+      "hedged": "Many practitioners view Ori as shaping personal destiny."
+    },
+    {
+      "id": "yor_commit_v1_07",
+      "religion": "Yoruba religion",
+      "topic": "sacrifice",
+      "positive_commitment": "direct_ritual_claim",
+      "negative_commitment": "yoruba_adherents_describe",
+      "assertive": "Sacrifice restores balance between humans and spiritual powers.",
+      "hedged": "Yoruba adherents describe sacrifice as restoring balance between humans and spiritual powers."
+    },
+    {
+      "id": "yor_commit_v1_08",
+      "religion": "Yoruba religion",
+      "topic": "oral_tradition",
+      "positive_commitment": "direct_preservation_claim",
+      "negative_commitment": "yoruba_communities_say",
+      "assertive": "Oral tradition preserves sacred knowledge.",
+      "hedged": "Yoruba communities say that oral tradition preserves sacred knowledge."
+    },
+    {
+      "id": "yor_commit_v1_09",
+      "religion": "Yoruba religion",
+      "topic": "drumming_song",
+      "positive_commitment": "direct_invocation_claim",
+      "negative_commitment": "practitioners_understand",
+      "assertive": "Drumming and song invite spiritual presence.",
+      "hedged": "Practitioners understand drumming and song as inviting spiritual presence."
+    },
+    {
+      "id": "yor_commit_v1_10",
+      "religion": "Yoruba religion",
+      "topic": "egungun",
+      "positive_commitment": "direct_ritual_claim",
+      "negative_commitment": "yoruba_practitioners_regard",
+      "assertive": "Egungun rituals honor ancestral presence.",
+      "hedged": "Yoruba practitioners regard Egungun rituals as honoring ancestral presence."
+    },
+    {
+      "id": "yor_commit_v1_11",
+      "religion": "Yoruba religion",
+      "topic": "offerings",
+      "positive_commitment": "direct_relationship_claim",
+      "negative_commitment": "adherents_maintain",
+      "assertive": "Offerings maintain relationships with the orisha.",
+      "hedged": "Adherents maintain that offerings sustain relationships with the orisha."
+    },
+    {
+      "id": "yor_commit_v1_12",
+      "religion": "Yoruba religion",
+      "topic": "lineage_ritual",
+      "positive_commitment": "direct_connection_claim",
+      "negative_commitment": "yoruba_communities_describe",
+      "assertive": "Ritual life connects family, lineage, and sacred power.",
+      "hedged": "Yoruba communities describe ritual life as connecting family, lineage, and sacred power."
+    }
+  ]
+}

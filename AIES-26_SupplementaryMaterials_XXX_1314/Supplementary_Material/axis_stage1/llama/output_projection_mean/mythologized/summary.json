@@ -1,0 +1,179 @@
+{
+  "model_key": "llama",
+  "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "representation_key": "output_projection_mean",
+  "rep_family": "output_projection",
+  "rep_mode": "mean",
+  "axis_key": "mythologized",
+  "pairs_file": "pares/mythologized_axis_pairs_v2.json",
+  "base_seed": 42,
+  "random_seeds": [
+    1867826,
+    419611,
+    4614227,
+    4108604,
+    3744855,
+    2341058,
+    1719584,
+    9149733,
+    1458592,
+    9906821,
+    7078674,
+    533225,
+    499915,
+    1571946,
+    3668137,
+    3903403,
+    8478455,
+    445200,
+    9416130,
+    3335943,
+    9142601,
+    7038375,
+    3698380,
+    7536478,
+    9886238,
+    4667266,
+    109032,
+    2678639,
+    7090294,
+    5708457
+  ],
+  "n_random_seeds": 30,
+  "train_fraction": 0.7,
+  "n_total_pairs": 72,
+  "hidden_size": 3072,
+  "metric_mode": "full",
+  "metric_reg": 3.314494495902226e-07,
+  "vocab_sample_size": 20000,
+  "random_baseline_pairs_per_seed": 512,
+  "bootstrap_resamples": 500,
+  "ci_level": 0.95,
+  "aggregated_across_seeds": {
+    "train_pair_score_mean_across_seeds": {
+      "n": 30,
+      "mean": 7.606490338881811,
+      "std": 0.1878904118419094,
+      "median": 7.579117372035981,
+      "min": 7.287092304229736,
+      "max": 8.006312789916992,
+      "ci_low": 7.543012662649155,
+      "ci_high": 7.677130365451177
+    },
+    "train_sign_accuracy_across_seeds": {
+      "n": 30,
+      "mean": 1.0,
+      "std": 0.0,
+      "median": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0
+    },
+    "train_loo_mean_across_seeds": {
+      "n": 30,
+      "mean": 6.535461763938268,
+      "std": 0.20788280697553999,
+      "median": 6.5182760000228885,
+      "min": 6.162757496833802,
+      "max": 6.966021728515625,
+      "ci_low": 6.462235837936402,
+      "ci_high": 6.6064600038528445
+    },
+    "validation_pair_score_mean_across_seeds": {
+      "n": 30,
+      "mean": 6.466206939924847,
+      "std": 0.3814619811341372,
+      "median": 6.466515481472015,
+      "min": 5.706110607494008,
+      "max": 7.118149757385254,
+      "ci_low": 6.3274277542576645,
+      "ci_high": 6.60517913753336
+    },
+    "validation_sign_accuracy_across_seeds": {
+      "n": 30,
+      "mean": 1.0,
+      "std": 0.0,
+      "median": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0
+    },
+    "train_effect_size_vs_baseline_across_seeds": {
+      "n": 30,
+      "mean": 3.6197314942785024,
+      "std": 0.18510226885090367,
+      "median": 3.5898038828536367,
+      "min": 3.3145721142160145,
+      "max": 4.005301887222885,
+      "ci_low": 3.558744536011261,
+      "ci_high": 3.687591252126946
+    },
+    "validation_effect_size_vs_baseline_across_seeds": {
+      "n": 30,
+      "mean": 3.133960923426148,
+      "std": 0.2512906702312567,
+      "median": 3.104204200972588,
+      "min": 2.4856244965601584,
+      "max": 3.820944153170397,
+      "ci_low": 3.048370623681749,
+      "ci_high": 3.2222444703120265
+    },
+    "baseline_mean_across_seeds": {
+      "n": 30,
+      "mean": -0.017845368855826868,
+      "std": 0.07114711568145299,
+      "median": -0.018623839670908637,
+      "min": -0.14872203595587052,
+      "max": 0.13491184379381593,
+      "ci_low": -0.04265463599731447,
+      "ci_high": 0.008359873736723481
+    }
+  },
+  "pooled_scores": {
+    "train_scores_pooled": {
+      "n": 1500,
+      "mean": 7.606490338881811,
+      "std": 2.520161986157301,
+      "median": 7.407137870788574,
+      "min": 1.8783303499221802,
+      "max": 16.710262298583984,
+      "sign_accuracy_positive": 1.0
+    },
+    "train_loo_scores_pooled": {
+      "n": 1500,
+      "mean": 6.535461763938268,
+      "std": 2.382666150885256,
+      "median": 6.271383762359619,
+      "min": 1.2522743940353394,
+      "max": 15.507143020629883,
+      "sign_accuracy_positive": 1.0
+    },
+    "validation_scores_pooled_out_of_sample": {
+      "n": 660,
+      "mean": 6.466206939924847,
+      "std": 2.489800470933194,
+      "median": 6.316117286682129,
+      "min": 0.675198495388031,
+      "max": 14.824285507202148,
+      "sign_accuracy_positive": 1.0
+    },
+    "baseline_scores_pooled": {
+      "n": 15360,
+      "mean": -0.017845368855826868,
+      "std": 1.6232171580465298,
+      "median": -0.006182685494422913,
+      "min": -20.87113380432129,
+      "max": 18.917335510253906,
+      "sign_accuracy_positive": 0.4983072876930237
+    }
+  },
+  "notes": [
+    "Each seed defines a different random 70/30 train/validation split.",
+    "The concept direction is learned only on the train split of that seed.",
+    "Validation metrics are fully out-of-sample relative to that seed's concept.",
+    "Bootstrap confidence intervals are computed over the per-seed metric distribution.",
+    "Because seeds reuse the same finite pool of pairs under different splits, the CIs reflect split variability rather than a population-level guarantee."
+  ]
+}
