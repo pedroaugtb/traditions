@@ -4,7 +4,7 @@ select_human_eval_examples_v2.py
 
 Updated selector for the user's actual stage-2 layout:
 
-resultados_religioes_reps/
+religion_replies_stage2/
   <model_key>/
     <representation_key>/
       <axis_key>/
@@ -21,7 +21,7 @@ with per-generation scores in either:
 
 What this script does
 ---------------------
-1) Reads every full.json under resultados_religioes_reps.
+1) Reads every full.json under religion_replies_stage2.
 2) Extracts one response-level row per generation.
 3) Standardizes scores within (model, representation, axis).
 4) Selects, for each axis:
@@ -41,12 +41,12 @@ What this script does
 Recommended usage
 -----------------
 python select_human_eval_examples_v2.py \
-    --input-root resultados_religioes_reps \
+    --input-root religion_replies_stage2 \
     --output-dir human_eval_pack
 
 If you want a smaller pack:
 python select_human_eval_examples_v2.py \
-    --input-root resultados_religioes_reps \
+    --input-root religion_replies_stage2 \
     --output-dir human_eval_pack_small \
     --high-per-axis 16 --low-per-axis 16 --middle-per-axis 12 \
     --disagree-contextual-per-axis 8 --disagree-output-per-axis 8
@@ -98,7 +98,7 @@ def safe_float(x) -> Optional[float]:
 def infer_metadata_from_path(path: Path) -> Dict[str, Optional[str]]:
     """
     Expected path:
-    resultados_religioes_reps/<model_key>/<representation_key>/<axis_key>/full.json
+    religion_replies_stage2/<model_key>/<representation_key>/<axis_key>/full.json
     """
     parts = list(path.parts)
     model_key = None
@@ -538,7 +538,7 @@ def build_summary(items: List[Dict[str, Any]], rows_df: pd.DataFrame, paired_df:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--input-root", type=str, default="resultados_religioes_reps")
+    ap.add_argument("--input-root", type=str, default="religion_replies_stage2")
     ap.add_argument("--output-dir", type=str, default="human_eval_pack")
     ap.add_argument("--high-per-axis", type=int, default=24)
     ap.add_argument("--low-per-axis", type=int, default=24)

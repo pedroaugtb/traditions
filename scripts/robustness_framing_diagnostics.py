@@ -28,10 +28,10 @@ construct-validity diagnostics:
      against placebo audit structure. This checks whether arbitrary directions
      also produce stable religion-level patterns.
 
-Inputs expected from your existing pipeline:
-  resultados_religioes_reps/<model>/<representation>/<axis>/full.json
-  resultados_eixos_reps/<model>/<representation>/<axis>/concepts.pt
-  pares/*.json  or pairs/*.json depending on your local folder name
+Inputs expected from this repository:
+  religion_replies_stage2/<model>/<representation>/<axis>/full.json
+  axis_stage1/<model>/<representation>/<axis>/concepts.pt
+  pairs/*.json
 
 Main outputs:
   response_level_summary.csv
@@ -94,9 +94,9 @@ except Exception:
 # DEFAULT CONFIG
 # ============================================================
 
-DEFAULT_PAIRS_DIR = Path("pares")
-DEFAULT_CONCEPTS_ROOT = Path("stage1_axes_both_reps.py")
-DEFAULT_RESULTS_ROOT = Path("stage2_religions_both_reps.py")
+DEFAULT_PAIRS_DIR = Path("pairs")
+DEFAULT_CONCEPTS_ROOT = Path("axis_stage1")
+DEFAULT_RESULTS_ROOT = Path("religion_replies_stage2")
 DEFAULT_OUTDIR = Path("robustness_diagnostics")
 
 MODELS = {

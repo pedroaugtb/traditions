@@ -1,0 +1,10 @@
+*.md text eol=lf
+*.py text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.pt binary
+
+axis_stage1/** linguist-generated=true
+religion_replies_stage2/** linguist-generated=true
+lexical_initial_ablation/** linguist-generated=true
+results_annotator/** linguist-generated=true

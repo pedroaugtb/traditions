@@ -624,7 +624,7 @@ def results_section_draft(
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--outdir", type=Path, default=Path("resultados_robustness_diagnostics"),
+    ap.add_argument("--outdir", type=Path, default=Path("robustness_diagnostics"),
                     help="Directory containing CSV outputs from robustness_framing_diagnostics.py")
     ap.add_argument("--axis-order", nargs="*", default=DEFAULT_AXIS_ORDER)
     ap.add_argument("--float-digits", type=int, default=3)
